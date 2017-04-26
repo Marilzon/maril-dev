@@ -2,11 +2,11 @@
   "name": "Marilzon Site pessoal",
   "homepage": "https://github.com/Marilzon/marilzon-projeto",
   "authors": [
-    "Marilzon <maxmaril@hotmail.com>"
+    "marilzon de sousa"
   ],
-  "description": "Site pessoal",
+  "description": "Site pessoal/Curriculo",
   "main": "",
-  "license": "publico",
+  "license": "publica",
   "private": true,
   "ignore": [
     "**/.*",
