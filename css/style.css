@@ -29,7 +29,7 @@ section {
 body {
     background: url(../images/coty.gif) no-repeat;
     background-color: rgba(0, 128, 255, 0.83);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -103,6 +103,8 @@ nav.navbar-transparente {
 
 .bg-section {
     background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -125,7 +127,7 @@ nav.navbar-transparente {
     height:80%;
     text-align: center;
     color: #fff;
-    top: 15%;
+    top: 10%;
 }
 
 
