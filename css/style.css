@@ -165,7 +165,10 @@ footer a:hover {
 #form-mensage {
     color: black;
     !important align-content: center;
-    margin-top: 60px;
+
+}
+#mail-icon{
+    color: black;
 }
 
 
