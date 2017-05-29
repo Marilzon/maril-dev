@@ -27,7 +27,7 @@ section {
 }
 
 body {
-    background: url(../images/coty.gif) no-repeat;
+    background: url(../images/page-background.png) no-repeat;
     background-color: rgba(0, 128, 255, 0.83);
     background-attachment: fixed;
     background-size: cover;
@@ -38,7 +38,6 @@ body {
 /*tipografia tamanho*/
 
 h1 {
-    
     color: #fff;
 }
 
@@ -124,7 +123,7 @@ nav.navbar-transparente {
 .hero {
     position: relative;
     width: 100%;
-    height:80%;
+    height: 80%;
     text-align: center;
     color: #fff;
     top: 10%;
@@ -134,34 +133,56 @@ nav.navbar-transparente {
 /* SKILLS SECTION */
 
 
-
 /*FOOTER*/
 
 footer {
-  background: rgba(13, 13, 13, 0.47);
-  bottom: 0;
-  left: 0;
-  /* padding: 20px 0; */
-  position: fixed;
-  right: 0;
-  text-align: center;
+    background: rgba(13, 13, 13, 0.47);
+    bottom: 0;
+    left: 0;
+    /* padding: 20px 0; */
+    position: fixed;
+    right: 0;
+    text-align: center;
 }
+
 footer a {
     color: white;
     font-size: 1em;
 }
-footer a:hover{
+
+footer a:hover {
     color: rgb(64, 70, 72);
     transition: 0.2s;
 }
 
+
+/*FORM*/
+
+#success_message {
+    display: none;
+}
+
+#form-mensage {
+    color: black;
+    !important align-content: center;
+    margin-top: 60px;
+}
+
+
 /* NOTSELECT CLASS */
+
 .naoSelecionavel {
-    -webkit-touch-callout: none;  /* iPhone OS, Safari */
-    -webkit-user-select: none;    /* Chrome, Safari 3 */
-    -khtml-user-select: none;     /* Safari 2 */
-    -moz-user-select: none;       /* Firefox */
-    -ms-user-select: none;        /* IE10+ */
-    user-select: none;            /* Possível implementação no futuro */
+    -webkit-touch-callout: none;
+    /* iPhone OS, Safari */
+    -webkit-user-select: none;
+    /* Chrome, Safari 3 */
+    -khtml-user-select: none;
+    /* Safari 2 */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    user-select: none;
+    /* Possível implementação no futuro */
     /* cursor: default; */
 }
