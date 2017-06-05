@@ -26,6 +26,7 @@ body {
 section {
     position: relative;
     width: 100%;
+    clear: both;
 }
 
 body {
@@ -56,7 +57,7 @@ h3 {
 
 p {
     color: #fff;
-    font-size: 1em;
+   
     letter-spacing: -0.04em;
 }
 
@@ -145,6 +146,7 @@ footer {
     position: fixed;
     right: 0;
     text-align: center;
+    align-content: center;
 }
 
 footer a {
@@ -153,8 +155,9 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(64, 70, 72);
+    color: rgb(193, 209, 214);
     transition: 0.2s;
+    text-decoration: none;
 }
 
 
@@ -186,4 +189,26 @@ footer a:hover {
     user-select: none;
     /* Possível implementação no futuro */
     /* cursor: default; */
+}
+
+-khtml-user-select: none;
+
+/* Safari 2 */
+
+-moz-user-select: none;
+
+/* Firefox */
+
+-ms-user-select: none;
+
+/* IE10+ */
+
+user-select: none;
+
+/* Possível implementação no futuro */
+
+
+/* cursor: default; */
+
+
 }
