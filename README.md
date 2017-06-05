@@ -1,3 +1,3 @@
 # Marilzon de Sousa, 
-//Site PORTFÓLIO E PARA ESTUDO.
+//Site pessoal/Curriculo.
 
