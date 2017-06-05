@@ -30,7 +30,7 @@ section {
 
 body {
     background: url(../images/page-background.png) no-repeat;
-    background-color: rgba(0, 128, 255, 0.83);
+    background-color: rgb(157, 173, 178);
     background-attachment: fixed;
     background-size: cover;
     font-family: Helvetica, Arial, sans-serif;
