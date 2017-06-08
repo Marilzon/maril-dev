@@ -37,6 +37,16 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+margin-md {
+    margin: 100px;
+}
+
+.centered {
+    /*centralizar div no meio*/
+    margin: 0 auto !important;
+    float: none !important;
+}
+
 
 /*tipografia tamanho*/
 
@@ -57,12 +67,15 @@ h3 {
 
 p {
     color: #fff;
-   
     letter-spacing: -0.04em;
 }
 
 ul {
     list-style: none;
+}
+
+#aboult-me {
+    text-align: justify;
 }
 
 
@@ -103,11 +116,13 @@ nav.navbar-transparente {
 
 /*TRANSPARENCY OPACITY*/
 
+
+/* 
 .bg-section {
     background-color: rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /*HERO SECTION*/
