@@ -37,10 +37,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-margin-md {
-    margin: 100px;
-}
+
 /* //Definições de link e posiciomanento */
+
 a {
     color: white;
     font-size: 1em;
@@ -51,8 +50,6 @@ a:hover {
     transition: 0.2s;
     text-decoration: none;
 }
-
-
 
 .centered {
     /*centralizar div no meio*/
@@ -127,17 +124,6 @@ nav.navbar-transparente {
 }
 
 
-/*TRANSPARENCY OPACITY*/
-
-
-/* 
-.bg-section {
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 100%;
-    height: 100%;
-} */
-
-
 /*HERO SECTION*/
 
 .about-myself .content {
@@ -161,9 +147,6 @@ nav.navbar-transparente {
 }
 
 
-/* SKILLS SECTION */
-
-
 /*FOOTER*/
 
 footer {
@@ -175,18 +158,6 @@ footer {
     right: 0;
     text-align: center;
     align-content: center;
-}
-
-
-/*FORM*/
-
-#success_message {
-    display: none;
-}
-
-#form-mensage {
-    color: black;
-    !important align-content: center;
 }
 
 
