@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html >
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +7,8 @@
     <title>Marilzon de Sousa - Front-End</title>
     <!--      JQUERY-->
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
-    <!-- Função Abrir Conteudo em div -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#menu a").click(function(e) {
-                e.preventDefault();
-                var href = $(this).attr('href');
-                $("#main-content").load(href + " #main-content");
-            });
-        });
-    </script>
-    <!-- /Função Abrir Conteudo em div -->
+    <script type="text/javascript" src="js/index.js"></script>
+
     <!-- CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -35,9 +25,10 @@
       <![endif]-->
 </head>
 
+
 <body>
-    <header>
-        <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+ <header>
+       <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
             <div class="container">
 
                 <div class="navbar-header">
@@ -54,23 +45,23 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">INICIO</a></li>
-                        <li><a href="aboult.html">SOBRE</a></li>
-                        <!-- <li><a href="contact.html">CONTATO</a></li> -->
-                        <!-- <li><a href="#">PORTFOLIO</a></li> -->
+                        <li><a href="#aboult-me">SOBRE</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="contact.html">CONTATO</a></li>
+                    
                     </ul>
                 </div>
             </div>
 
         </nav>
-    </header>
+ </header>
+  <section class="hero">
+  <div class="content">
+    <div class="header">
 
-    <!--SECTIONS-->
-
-    <section class="hero" id="main-content">
-        <div class="content">
-            <div class="header">
-                <div class="wow fadeIn data-wow-duration=" 1s " data-wow-delay="0.2s "">
-                    <br><br><br>
+       <!-- nav -->
+        <div class="wow fadeIn data-wow-duration=" 1s " data-wow-delay="0.2s "" >
+                    
                     <img class="profile img-rounded m-x-auto d-block" src="images/perfil.jpg" alt="hero-picture">
                     <h1>Marilzon de Sousa</h1>
                     <h2>Desenvolvedor Front-End</h2>
@@ -79,24 +70,55 @@
                         <a href="https://br.linkedin.com/in/marilzon-sousa-6b845260" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         <a href="https://github.com/Marilzon" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github" aria-hidden="true"></i></a>
                         <a href="https://codepen.io/Marilzon/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-                    </div><br>
+                    </div>
 
                 </div>
-            </div>
-        </div>
-    </section>
-    <br>
+    </div>
+  </div>
+</section>
+<div class="bg-section">
+ <section class="about-myself">
+                        <div class="col-sm-6 col-md-6 centered">
+                            <div class="content">
 
-    <!--FOOTER-->
-    <footer>
+                                <h2>Olá!</h2>
+                                <h3 id="aboult-me">
+                                    Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento Web.
+
+                                </h3>
+
+
+                            </div>
+                        </div><div class="row">
+                        <div class="col-md-6 centered">
+                            <ul>
+                                <h2><u>HABILIDADES</u></h2>
+                                <li><h3>HTML5 - CSS3 - JAVASCRIPT - PHP</h3></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 centered">
+                            <ul>
+                                <h2><u>CURSOS</u></h2>
+                                <li>
+                                    <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
+                                </li>
+
+
+                            </ul>
+                        </div></div>
+                    </section>
+
+
+
+    <div class="clear"></div>
+    </div>
+ <footer>
         <div>
-            <p><strong>E-MAIL:</strong><a href="mailto:maxmaril@hotmail.com"> maxmaril@hotmail.com</a><br> <strong>CELULAR:</strong> (14) 9 9837-5752 - VIVO</p>
-
             <p class="naoSelecionavel">2017 - Marilzon de Sousa</p>
         </div>
 
     </footer>
-
+ 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bower_components/wow/dist/wow.min.js"></script>
     <script>
@@ -107,5 +129,5 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
+    

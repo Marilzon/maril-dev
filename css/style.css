@@ -1,54 +1,48 @@
-/*@author Marilzon de Sousa*/
-
-
-/*LAYOUT*/
-
-* {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 *,
 *:before,
 *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-section {
-    position: relative;
-    width: 100%;
-    clear: both;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    background: url(../images/page-background.png) no-repeat;
-    background-color: rgb(157, 173, 178);
+  color: white;
+      background: url(../images/page-background.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Helvetica, Arial, sans-serif;
+
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+    
 }
+
+
+
+section {
+  position: relative;
+  width: 100%;
+}
+
 
 
 /* //Definições de link e posiciomanento */
 
 a {
-    color: white;
-    font-size: 1em;
+  color: inherit;
+  text-decoration: none;
+    list-style: none;
 }
-
-a:hover {
-    color: rgb(193, 209, 214);
-    transition: 0.2s;
-    text-decoration: none;
+a:hover{
+    color: rgba(0, 39, 255, 0.96);
+    transition: 0.5s;
 }
 
 .centered {
@@ -56,29 +50,81 @@ a:hover {
     margin: 0 auto !important;
     float: none !important;
 }
-
-
-/*tipografia tamanho*/
-
-h1 {
-    color: #fff;
+.row {text-align: center;}
+.clear{clear: both;}
+/*##### HERO SECTION #####*/
+.profile {
+    width: 15em;
+    height: 15em;
+    border-radius: 10%;
 }
 
-h2 {
-    letter-spacing: -0.04em;
-    color: #fff;
+.hero {
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+}
+.hero .content {
+
+  width: 100%;
+  height: 100%;
+}
+.hero .content .header {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+.hero .content .header h1 {
+  color: #fff;
+  font-size: 2.5em;
+  text-shadow: 0px 2px 3px #2d2d2d;
 }
 
-h3 {
-    letter-spacing: -0.04em;
-    color: #fff;
-    font-size: 1.5em;
+/*##### ABOUT MYSELF SECTION #####*/
+.about-myself {
+ /*  padding: 50px 20px; */
+    color: black;
+    
+    
+}
+.about-myself .content {
+  text-align: center;
 }
 
-p {
-    color: #fff;
-    letter-spacing: -0.04em;
+
+#aboult-me {
+    text-align: justify;
 }
+.bg-section{
+    background: rgba(255, 255, 255, 0.22);
+}
+/* FOOTER */
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer p {
+  color: white;
+  font-size: 1.1em;
+}
+footer i {
+  color: #e74c3c;
+}
+
+/* ############################
+        RESPONSIVE
+############################### */
+
+@media screen and (min-width: 640px) {
+  .about-myself {
+    padding: 100px 40px;
+  }
+/*outros*/
 
 ul {
     list-style: none;
@@ -86,117 +132,4 @@ ul {
 
 #aboult-me {
     text-align: justify;
-}
-
-
-/*NAV BAR*/
-
-nav.navbar-transparente {
-    background: rgba(13, 13, 13, 0.47);
-    border: none;
-}
-
-
-/*LOGO NAME*/
-
-.navbar-inverse .navbar-brand {
-    color: white;
-}
-
-
-/*MENU TOOGLE*/
-
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-    border-color: transparent;
-}
-
-
-/*CORES DO MENU*/
-
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-    color: #adeeff;
-    transition-duration: 0.5s;
-}
-
-
-/*HERO SECTION*/
-
-.about-myself .content {
-    padding: 50px 50px;
-    text-align: center;
-}
-
-.profile {
-    width: 15em;
-    height: 15em;
-}
-
-.hero {
-    position: relative;
-    width: 100%;
-    height: 80%;
-    text-align: center;
-    color: #fff;
-    align-content: center
-    /* top: 10%; */
-}
-
-
-/*FOOTER*/
-
-footer {
-    background: rgba(13, 13, 13, 0.47);
-    bottom: 0;
-    left: 0;
-    /* padding: 20px 0; */
-    position: fixed;
-    right: 0;
-    text-align: center;
-    align-content: center;
-}
-
-
-/* NOTSELECT CLASS */
-
-.naoSelecionavel {
-    -webkit-touch-callout: none;
-    /* iPhone OS, Safari */
-    -webkit-user-select: none;
-    /* Chrome, Safari 3 */
-    -khtml-user-select: none;
-    /* Safari 2 */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* IE10+ */
-    user-select: none;
-    /* Possível implementação no futuro */
-    /* cursor: default; */
-}
-
--khtml-user-select: none;
-
-/* Safari 2 */
-
--moz-user-select: none;
-
-/* Firefox */
-
--ms-user-select: none;
-
-/* IE10+ */
-
-user-select: none;
-
-/* Possível implementação no futuro */
-
-
-/* cursor: default; */
-
-
 }
