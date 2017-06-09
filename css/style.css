@@ -1,135 +1,136 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  color: white;
-      background: url(../images/page-background.png) no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-  font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+        @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     
-}
-
-
-
-section {
-  position: relative;
-  width: 100%;
-}
-
-
-
-/* //Definições de link e posiciomanento */
-
-a {
-  color: inherit;
-  text-decoration: none;
-    list-style: none;
-}
-a:hover{
-    color: rgba(0, 39, 255, 0.96);
-    transition: 0.5s;
-}
-
-.centered {
-    /*centralizar div no meio*/
-    margin: 0 auto !important;
-    float: none !important;
-}
-.row {text-align: center;}
-.clear{clear: both;}
-/*##### HERO SECTION #####*/
-.profile {
-    width: 15em;
-    height: 15em;
-    border-radius: 10%;
-}
-
-.hero {
-  height: 100%;
-
-  background-size: cover;
-  background-position: center;
-}
-.hero .content {
-
-  width: 100%;
-  height: 100%;
-}
-.hero .content .header {
-  position: absolute;
-  top: 55%;
-  width: 100%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-  text-align: center;
-  opacity: 0;
-}
-.hero .content .header h1 {
-  color: #fff;
-  font-size: 2.5em;
-  text-shadow: 0px 2px 3px #2d2d2d;
-}
-
-/*##### ABOUT MYSELF SECTION #####*/
-.about-myself {
- /*  padding: 50px 20px; */
-    color: black;
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
     
+    body {
+        color: white;
+        background: url(../images/page-background.png) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-size: 16px;
+        font-family: "PT Sans", sans-serif;
+    }
     
-}
-.about-myself .content {
-  text-align: center;
-}
-
-
-#aboult-me {
-    text-align: justify;
-}
-.bg-section{
-    background: rgba(255, 255, 255, 0.22);
-}
-/* FOOTER */
-footer {
-  padding: 25px 0;
-  text-align: center;
-}
-footer p {
-  color: white;
-  font-size: 1.1em;
-}
-footer i {
-  color: #e74c3c;
-}
-
-/* ############################
+    section {
+        position: relative;
+        width: 100%;
+    }
+    /* //Definições de link e posiciomanento */
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    a:hover {
+        color: rgba(0, 39, 255, 0.96);
+        transition: 0.5s;
+    }
+    
+    .centered {
+        /*centralizar div no meio*/
+        margin: 0 auto !important;
+        float: none !important;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    /*##### HERO SECTION #####*/
+    
+    .profile {
+        width: 15em;
+        height: 15em;
+        border-radius: 10%;
+    }
+    
+    .hero {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .hero .content {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero .content .header {
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        text-align: center;
+        opacity: 0;
+    }
+    
+    .hero .content .header h1 {
+        color: #fff;
+        font-size: 2.5em;
+        text-shadow: 0px 2px 3px #2d2d2d;
+    }
+    /*##### ABOUT MYSELF SECTION #####*/
+    
+    .about-myself {
+        /*  padding: 50px 20px; */
+        color: black;
+    }
+    
+    .about-myself .content {
+        text-align: center;
+    }
+    
+    #aboult-me {
+        text-align: justify;
+    }
+    
+    .bg-section {
+        background: rgba(255, 255, 255, 0.22);
+    }
+    /* FOOTER */
+    
+    footer {
+        padding: 25px 0;
+        text-align: center;
+    }
+    
+    footer p {
+        color: white;
+        font-size: 1.1em;
+    }
+    
+    footer i {
+        color: #e74c3c;
+    }
+    /* ############################
         RESPONSIVE
 ############################### */
-
-@media screen and (min-width: 640px) {
-  .about-myself {
-    padding: 100px 40px;
-  }
-/*outros*/
-
-ul {
-    list-style: none;
-}
-
-#aboult-me {
-    text-align: justify;
-}
+    
+    @media screen and (min-width: 640px) {
+        .about-myself {
+            padding: 100px 40px;
+        }
+        /*outros*/
+        ul {
+            list-style: none;
+        }
+        #aboult-me {
+            text-align: justify;
+        }
