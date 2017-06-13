@@ -15,7 +15,7 @@
     
     body {
         color: white;
-        background: url(../images/page-background.png) no-repeat;
+        background: url(../images/coty.gif) no-repeat;
         background-attachment: fixed;
         background-size: cover;
         font-size: 16px;
@@ -52,8 +52,12 @@
     .clear {
         clear: both;
     }
+
+.display-off{
+    display: none;
+}
     /*##### HERO SECTION #####*/
-    
+    /* a */
     .profile {
         width: 15em;
         height: 15em;
@@ -90,7 +94,7 @@
     
     .about-myself {
         /*  padding: 50px 20px; */
-        color: black;
+        color: white;
     }
     
     .about-myself .content {
