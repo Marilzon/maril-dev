@@ -1,149 +1,130 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Marilzon de Sousa - Front-End</title>
-    <!--      JQUERY-->
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
-    <script type="text/javascript" src="js/index.js"></script>
-
-    <!-- CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Maril - Front-End</title>
+      <!--      JQUERY-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+      <script></script>
+      <!-- CSS -->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+      <link rel="icon" href="images/favicon.png">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-</head>
-
-
-<body>
-   <h1 class="display-off">Conteudo/Corpo do SITE!</h1>
-    <header>
-        <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
-           <h1 class="display-off">Barra de navegação</h1>
+   </head>
+   <body id="start">
+      <h1 class="display-off">Conteudo/Corpo do SITE!</h1>
+      <header>
+         <nav class="navbar navbar-fixed-top navbar-inverse">
+            <h1 class="display-off">Barra de navegação</h1>
             <div class="container">
-
-                <div class="navbar-header">
-                    <!--toggle button-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-               <span class="sr-only">alternar navegação</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-                    <a class="navbar-brand" href="index.html">Marilzon de Sousa</a>
-                </div>
-                <!--NAVBAR-->
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="#aboult-me">SOBRE</a></li>
-                        <li><a href="#"><strike>PORTFOLIO</strike></a></li>
-                        <li><a href="#">CONTATO</a></li>
-
-                    </ul>
-                </div>
+               <div class="navbar-header">
+                  <!--toggle button-->
+                  <button type="button" class="navbar-toggle collapsed linkToggle" data-toggle="collapse" data-target="#menu">
+                  <span class="sr-only">alternar navegação</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand scroll" href="#start">MARIL | FRONT-END</a>
+               </div>
+               <!--NAVBAR-->
+               <div class="collapse navbar-collapse" id="menu">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a class="scroll" href="#start">INICIO</a></li>
+                     <li><a class="scroll" href="#aboult-me">SOBRE</a></li>
+                     <li><a  class="linkMenu" href="#"><strike>PORTFOLIO</strike></a></li>
+                     <li><a class="scroll" href="#contact">CONTATO</a></li>
+                  </ul>
+               </div>
             </div>
-
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="content">
+         </nav>
+      </header>
+      <section class="hero">
+         <div class="content">
             <div class="header">
-
-                <!-- nav -->
-                <div class="wow fadeIn data-wow-duration=" 1s " data-wow-delay="0.2s "">
-
-                    <img class="profile img-rounded m-x-auto d-block" src="images/perfil.jpg" alt="hero-picture">
-                    <h1>Marilzon de Sousa</h1>
-                    <h2>Desenvolvedor Front-End</h2>
-                    <h4>HTML5 - CSS3 - JavaScript</h4>
-                    <div class="social">
-                        <a href="https://br.linkedin.com/in/marilzon-sousa-6b845260" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="https://github.com/Marilzon" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="https://codepen.io/Marilzon/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-                    </div>
-
-                </div>
+               <!-- nav -->
+               <div class="wow fadeIn data-wow-duration=" 1s " data-wow-delay="0.2s "">
+               <img class="profile img-rounded m-x-auto d-block" src="images/perfil.jpg" alt="hero-picture">
+               <h1>Marilzon de Sousa</h1>
+               <h2>Desenvolvedor Front-End</h2>
+               <h4>
+                  Learn, share, evolve!
+               </h4>
             </div>
-        </div>
-    </section>
-    <div class="bg-section">
-        <section class="about-myself">
+         </div>
+         </div>
+      </section>
+      <div class="bg-section">
+         <section class="about-myself"  id="aboult-me">
             <div class="col-sm-6 col-md-6 centered">
-                <div class="content">
-
-                    
-                    <h3 id="aboult-me">
-                       <h2>Olá! </h2>
-                        Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento Web.
-
-                    </h3>
-
-
-                </div>
+               <div class="content scroll">
+                  <h3>
+                     <h2>Olá! </h2>
+                     Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento Web.
+                  </h3>
+               </div>
             </div>
             <div class="row">
-                <div class="col-md-6 centered">
-                    <ul>
-                        <h2><u>HABILIDADES</u></h2>
-                        <li>
-                            <h3>HTML5 - CSS3 - JAVASCRIPT - PHP</h3>
-                        </li>
-                        <li>
-                            <h3>PHOTOSHOP - GIT</h3>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="col-md-6 centered">
-                    <ul>
-                        <h2><u>CURSOS</u></h2>
-                        <li>
-                            <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-						<li>
-                            <h3>Criando Sites estaticos com Jekyll - <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-
-
-                    </ul>
-                </div>
+               <div class="col-md-6 centered">
+                  <ul>
+                     <h2><u>HABILIDADES</u></h2>
+                     <li>
+                        <h3>HTML5 - CSS3 - JAVASCRIPT - PHP</h3>
+                     </li>
+                     <li>
+                        <h3>PHOTOSHOP - GIT</h3>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-6 centered">
+                  <ul>
+                     <h2><u>CURSOS</u></h2>
+                     <li>
+                        <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
+                     </li>
+                     <li>
+                        <h3>Criando Sites estaticos com Jekyll - <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank"><u>UDEMY</u></a></h3>
+                     </li>
+                  </ul>
+               </div>
             </div>
-        </section>
-
-
-
-        <div class="clear"></div>
-    </div>
-    <footer>
-        <div>
+         </section>
+         <div class="clear"></div>
+      </div>
+      <section class="contact" id="contact">
+         <h1 class="post-title">Contato!</h1>
+         <p>Celular: (14) 9 9837-5752</p>
+         <p>E-mail: <u>maxmaril@hotmail.com</u></p>
+      </section>
+      <div class="clear"></div>
+      <footer>
+         <div>
             <p class="naoSelecionavel">2017 - Marilzon de Sousa</p>
-        </div>
-
-    </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="bower_components/wow/dist/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="js/index.js"></script>
-
-</body>
-
+         </div>
+         <div class="social">
+            <a href="https://br.linkedin.com/in/marilzon-sousa-6b845260" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/Marilzon" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/Marilzon/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+         </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="bower_components/wow/dist/wow.min.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
+   </body>
 </html>
