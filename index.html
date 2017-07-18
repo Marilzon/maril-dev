@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Maril - Front-End</title>
+      <title>MARIL | FRONT-END</title>
       <!--      JQUERY-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
       <script></script>
@@ -12,6 +12,7 @@
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
       <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/form.css">
       <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
       <link rel="icon" href="images/favicon.png">
@@ -25,7 +26,7 @@
    <body id="start">
       <h1 class="display-off">Conteudo/Corpo do SITE!</h1>
       <header>
-         <nav class="navbar navbar-fixed-top navbar-inverse">
+                  <nav class="navbar navbar-fixed-top navbar-inverse">
             <h1 class="display-off">Barra de navegação</h1>
             <div class="container">
                <div class="navbar-header">
@@ -58,10 +59,7 @@
                <img class="profile img-rounded m-x-auto d-block" src="images/perfil.jpg" alt="hero-picture">
                <h1>Marilzon de Sousa</h1>
                <h2>Desenvolvedor Front-End</h2>
-               <h4>
-                  Learn, share, evolve!
-               </h4>
-            </div>
+              </div>
          </div>
          </div>
       </section>
@@ -70,31 +68,42 @@
             <div class="col-sm-6 col-md-6 centered">
                <div class="content scroll">
                   <h3>
-                     <h2>Olá! </h2>
-                     Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento Web.
+                     <strong>Olá</strong>, Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento de aplicações Web.
                   </h3>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 centered">
                   <ul>
-                     <h2><u>HABILIDADES</u></h2>
+                     <h2 class="titles"><u>HABILIDADES</u></h2>
                      <li>
-                        <h3>HTML5 - CSS3 - JAVASCRIPT - PHP</h3>
+                        <h3>Densenvolvimento Web: HTML5, CSS3, Javascript (^ES6)</h3>
                      </li>
                      <li>
-                        <h3>PHOTOSHOP - GIT</h3>
+                        <h3>Ferramentas: PHOTOSHOP, GIT, NPM</h3>
+                     </li>
+                     <li>
+                         <h3>Frameworks: Angular4, Bootstrap, React</h3>
+                     </li>
+                     <li>
+                         <h3>Metodologias de Desenvolvimento: Scrum</h3>
                      </li>
                   </ul>
                </div>
                <div class="col-md-6 centered">
                   <ul>
-                     <h2><u>CURSOS</u></h2>
+                     <h2 class="titles"><u>CURSOS</u></h2>
                      <li>
                         <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
                      </li>
                      <li>
                         <h3>Criando Sites estaticos com Jekyll - <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank"><u>UDEMY</u></a></h3>
+                     </li>
+                     <li>
+                     <h3>Construindo Aplicações Web Com o Novo Angular 4 - <a href="https://www.udemy.com/angular-pt/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
+                     </li>
+                      <li>
+                     <h3>Formação Total em Scrum - <a href="https://www.udemy.com/formacao-total-em-scrum/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
                      </li>
                   </ul>
                </div>
@@ -106,6 +115,15 @@
          <h1 class="post-title">Contato!</h1>
          <p>Celular: (14) 9 9837-5752</p>
          <p>E-mail: <u>maxmaril@hotmail.com</u></p>
+         <form class="form-contact">
+			<input class="form-control"name="name" type="text" placeholder="Nome" class="form-contact--input-text"  />
+			<br>
+			<input class="form-control"name="e-mail" type="text" placeholder="E-mail" class="form-contact--input-text"  />
+			<br>
+			<textarea class="form-control" name="message" maxlength="600" cols="20" rows="8" class="form-contact--textarea" placeholder="MENSAGEM!" ></textarea>
+			<br>
+			<input class="btn btn-info" name="submit" type="submit" value="ENVIAR" class="form-contact--input-submit" />
+		</form>
       </section>
       <div class="clear"></div>
       <footer>
