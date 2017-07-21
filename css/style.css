@@ -15,7 +15,7 @@ body {
 
 body {
 	color: white;
-	background: url(../images/background-site%202.png) no-repeat;
+	background: url(../images/WZ9okXY.gif) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	font-size: 16px;
@@ -38,7 +38,7 @@ a {
 
 a:hover {
 	color: rgba(193, 200, 227, 0.96);
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 .centered {
