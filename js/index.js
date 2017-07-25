@@ -9,8 +9,6 @@ jQuery(document).ready(function($) {
              $("#nav-links").toggle('slow');
          });
 //
-
-//
 $(document).ready(function() {
     // Main variables
     var $aboutTitle = $('.about-myself .content h2');

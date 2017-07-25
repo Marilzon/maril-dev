@@ -143,7 +143,11 @@ footer p {
 /*FONTES ESPECIAIS EXTRAS */
 
 .titles {
-	color: #dedede;
+	color: #ffffff;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 10%;
 }
 
 .form-contact {
