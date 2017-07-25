@@ -8,17 +8,15 @@
 }
 
 html,
-body {
-	width: 100%;
-	height: 100%;
-}
 
 body {
+    width: 100%;
+	height: 100%;
+    line-height: 1.7em;
 	color: white;
 	background: url(../images/background-site.jpeg) no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	font-size: 16px;
 	font-family: "PT Sans", sans-serif;
 }
 
@@ -28,7 +26,7 @@ section {
 }
 
 
-/* //Definições de link e posiciomanento */
+/* //Definições de link, fonte e posiciomanento */
 
 a {
 	color: white;
@@ -59,15 +57,14 @@ a:hover {
 	display: none;
 }
 
-
 /*##### HERO SECTION #####*/
 
 
 /* a */
 
 .profile {
-	width: 13em;
-	height: 13em;
+	width: 8em;
+	height: 8em;
 	border-radius: 10%;
 }
 
@@ -76,7 +73,7 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 }
-
+.content {font-size: 1.8em;}
 .hero .content {
 	width: 100%;
 	height: 100%;
@@ -94,7 +91,6 @@ a:hover {
 
 .hero .content .header h1 {
 	color: #fff;
-	font-size: 2.5em;
 	text-shadow: 0px 2px 3px #2d2d2d;
 }
 
@@ -102,7 +98,7 @@ a:hover {
 /*##### ABOUT MYSELF SECTION #####*/
 
 .about-myself {
-	/*  padding: 50px 20px; */
+
 	color: white;
 }
 
@@ -136,12 +132,12 @@ footer {
 
 footer p {
 	color: white;
-	font-size: 1.1em;
 }
 
 
 /*FONTES ESPECIAIS EXTRAS */
-
+.navbar-brand{font-size: 1.3em;}
+.nav {font-size: 1.3em;}
 .titles {
 	color: #ffffff;
     border: 2px solid;

@@ -12,3 +12,4 @@ jQuery(document).ready(function($) {
 
 $('#slideInDown').addClass('animated slideInDown');
 $('#fadeIn').addClass('animated fadeIn');
+

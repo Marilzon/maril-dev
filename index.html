@@ -6,8 +6,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>MARIL | FRONT-END</title>
       <!--      JQUERY-->
+      <script src="//code.jquery.com/jquery-latest.min.js"></script><script></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-      <script></script>
+
       <!-- CSS -->
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
@@ -40,6 +41,7 @@
                </div>
                <!--NAVBAR-->
                <div class="collapse navbar-collapse" id="menu">
+                 
                   <ul class="nav navbar-nav navbar-right">
                      <li><a class="scroll" href="#start">INICIO</a></li>
                      <li><a class="scroll" href="#aboult-me">SOBRE</a></li>
@@ -62,14 +64,15 @@
       </section>
       <div class="bg-section">
          <section class="about-myself"  id="aboult-me">
-            <div class="col-sm-6 col-md-6 centered">
+            <div class="col-sm-9 col-md-9 centered">
                <div class="content scroll">
                   <strong>Olá</strong>, Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento de aplicações Web, e futuro especialista JavaScript.
                </div>
             </div>
+
             <div class="row">
                <div class="col-md-6 centered">
-                  <ul>
+                  <ul class="list-group" >
                      <h2 class="titles">HABILIDADES</h2>
                      <li>
                         <h3>Densenvolvimento Web: HTML5, CSS3, Javascript (^ES6)</h3>
@@ -105,9 +108,11 @@
          <div class="clear"></div>
       </div>
       <section class="contact" id="contact">
-         <h1 class="post-title">Contato!</h1>
+        <div class="content">
+         <h2 class="post-title">CONTATO!</h1>
          <p>Celular: (14) 9 9837-5752</p>
          <p>E-mail: <u>maxmaril@hotmail.com</u></p>
+         </div>
          <form class="form-contact" method="post" action="">
             <input class="form-control"name="name" type="text" placeholder="Nome" class="form-contact--input-text"  />
             <br>
@@ -129,9 +134,10 @@
             <a href="https://codepen.io/Marilzon/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen" aria-hidden="true"></i></a>
          </div>
       </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
+
    </body>
 </html>
