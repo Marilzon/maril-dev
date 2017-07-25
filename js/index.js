@@ -9,3 +9,6 @@ jQuery(document).ready(function($) {
              $("#nav-links").toggle('slow');
          });
 //
+
+$('#slideInDown').addClass('animated slideInDown');
+$('#fadeIn').addClass('animated fadeIn');
