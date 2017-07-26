@@ -135,9 +135,12 @@ footer p {
 }
 
 
-/*FONTES ESPECIAIS EXTRAS */
+/* AJUSTES */
 .navbar-brand{font-size: 1.3em;}
 .nav {font-size: 1.3em;}
+.navbar-inverse .navbar-brand {
+    color: #f1f4f5;
+}
 .titles {
 	color: #ffffff;
     border: 2px solid;
