@@ -135,15 +135,6 @@ footer p {
 }
 
 
-/* AJUSTES */
-nav.navbar{background-color: #16193B;}
-.navbar-brand{font-size: 1.2em;}
-.nav {font-size: 1.2em;}
-.navbar-inverse .navbar-brand {color: #f1f4f5;}
-.navbar-inverse .navbar-toggle {
-    border-color: none;
-}
-
 .titles {
 	color: #ffffff;
     margin-bottom: -5px;
@@ -159,7 +150,14 @@ nav.navbar{background-color: #16193B;}
 	padding: 2%;
 }
 
-/*ANIMACAO*/
+
+/* AJUSTES */
+nav.navbar{background-color: #16193B;}
+.navbar-brand{font-size: 1.2em;}
+.nav {font-size: 1.2em;}
+.navbar-inverse .navbar-brand {color: #f1f4f5;}
+.navbar-inverse .navbar-toggle {border-color: none;}
+.navbar-toggle{margin-right: 5px;margin-left: 0;}
 
 
 /* ############################
