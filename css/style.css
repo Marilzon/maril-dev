@@ -163,7 +163,7 @@ text-align: justify;
 }
 }
 @media screen and (max-width:320px) {
-/* .profile {margin-top: 20%;} */
+.profile {margin-top: 20%;} 
 .navbar-brand {
 display: block;
 align-content: center;
