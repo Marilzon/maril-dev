@@ -19,7 +19,7 @@ body {
 	background-size: cover;
 	font-family: "PT Sans", sans-serif;
 }
-
+ul {list-style: none;}
 section {
 	position: relative;
 	width: 100%;
@@ -140,15 +140,15 @@ footer p {
 nav.navbar{background-color: #16193B;}
 .navbar-brand{font-size: 1.2em;}
 .nav {font-size: 1.2em;}
-.navbar-inverse .navbar-brand {
-    color: #f1f4f5;
+.navbar-inverse .navbar-brand {color: #f1f4f5;}
+.navbar-inverse .navbar-toggle {
+    border-color: none;
 }
-
 
 .titles {
 	color: #ffffff;
-    border: 2px solid;
-    border-radius: 50px;
+    margin-bottom: -5px;
+    border-radius: 30px;
     padding: 2px;
     margin: 10%;
 }

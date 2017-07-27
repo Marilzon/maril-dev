@@ -8,10 +8,9 @@
       <!--      JQUERY-->
       <script src="//code.jquery.com/jquery-latest.min.js"></script><script></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
       <!-- CSS -->
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+      <link rel="stylesheet" href="css/normalize.css">
       <link href="css/style.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/animate.css">
@@ -30,18 +29,22 @@
             <h1 class="display-off">Bem Vindo!</h1>
             <div class="container">
                <div class="navbar-header">
-                  <!--toggle button-->
-                  <button type="button" class="navbar-toggle collapsed linkToggle" data-toggle="collapse" data-target="#menu">
-                  <span class="sr-only">alternar navegação</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand scroll" href="#start">MARIL | FRONT-END</a>
+                  <!--toggle icons-->
+                 
+                  
+                  <a class="scroll navbar-toggle collapsed"  href="#contact"><i class="fa fa-send" aria-hidden="true"></i></a>
+                  
+                  
+                  <a class="scroll navbar-toggle collapsed"  href="#aboult-me"><i class="fa fa-user" aria-hidden="true"></i></a>
+                  
+                  
+                  <a class="scroll navbar-toggle collapsed"  href="#start"><i class="fa fa-home" aria-hidden="true"></i></a>
+                
+                  <a class="navbar-brand scroll" href="#start">MARIL|FRONT-END</a>
+                 
                </div>
                <!--NAVBAR-->
                <div class="collapse navbar-collapse" id="menu">
-                 
                   <ul class="nav navbar-nav navbar-right">
                      <li><a class="scroll" href="#start">INICIO</a></li>
                      <li><a class="scroll" href="#aboult-me">SOBRE</a></li>
@@ -69,7 +72,6 @@
                   <strong>Olá</strong>, Sou <strong>Marilzon  de Sousa</strong>, de Lençóis Paulista - SP, graduado em Sistemas de Informação, Autoditada com objetivo de trabalhar com desenvolvimento de aplicações Web, e futuro especialista JavaScript.
                </div>
             </div>
-
             <div class="row">
                <div class="col-md-6 centered">
                   <ul class="list-group" >
@@ -108,13 +110,13 @@
          <div class="clear"></div>
       </div>
       <section class="contact" id="contact">
-        <div class="content">
-         <h2 class="post-title">CONTATO!</h1>
-         
-         <p>E-mail: <u>maxmaril@hotmail.com</u></p>
+         <div class="content">
+            <h2 class="post-title">
+            CONTATO!</h1>
+            <p>E-mail: <u>maxmaril@hotmail.com</u></p>
          </div>
          <form class="form-contact" method="post" action="https://formspree.io/maxmaril@hotmail.com"
-      method="POST">
+            method="POST">
             <input class="form-control"name="name" type="text" placeholder="Nome" class="form-contact--input-text"required/>
             <br>
             <input class="form-control"name="e-mail" type="email" placeholder="E-mail" class="form-contact--input-text" required/>
@@ -135,10 +137,8 @@
             <a href="https://codepen.io/Marilzon/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen" aria-hidden="true"></i></a>
          </div>
       </footer>
-      
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
-
    </body>
 </html>
