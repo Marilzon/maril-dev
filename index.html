@@ -45,7 +45,7 @@
                   <ul class="nav navbar-nav navbar-right">
                      <li><a class="scroll" href="#start">INICIO</a></li>
                      <li><a class="scroll" href="#aboult-me">SOBRE</a></li>
-                     <li><a  class="linkMenu" href="#"><strike>PORTFOLIO</strike></a></li>
+                     <!-- <li><a  class="linkMenu" href="#"><strike>PORTFOLIO</strike></a></li> -->
                      <li><a class="scroll" href="#contact">CONTATO</a></li>
                   </ul>
                </div>
@@ -113,12 +113,13 @@
          
          <p>E-mail: <u>maxmaril@hotmail.com</u></p>
          </div>
-         <form class="form-contact" method="post" action="">
-            <input class="form-control"name="name" type="text" placeholder="Nome" class="form-contact--input-text"  />
+         <form class="form-contact" method="post" action="https://formspree.io/maxmaril@hotmail.com"
+      method="POST">
+            <input class="form-control"name="name" type="text" placeholder="Nome" class="form-contact--input-text"required/>
             <br>
-            <input class="form-control"name="e-mail" type="email" placeholder="E-mail" class="form-contact--input-text"  />
+            <input class="form-control"name="e-mail" type="email" placeholder="E-mail" class="form-contact--input-text" required/>
             <br>
-            <textarea class="form-control" name="message" maxlength="600" cols="20" rows="8" class="form-contact--textarea" placeholder="MENSAGEM!" ></textarea>
+            <textarea class="form-control" name="message" maxlength="600" cols="20" rows="8" class="form-contact--textarea" placeholder="MENSAGEM!"required ></textarea>
             <br>
             <input class="btn btn-info" name="submit" type="submit" value="ENVIAR" class="form-contact--input-submit" />
          </form>
