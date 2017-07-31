@@ -28,15 +28,15 @@
 
 <body id="start">
     <h1 class="display-off">MARILZON DE SOUSA - SITE</h1>
-   <!--  <header> -->    <header>
+    <header>
         <!-- NAV DEFAULT -->
         <div class="navbar-desktop" name="barra de navegação desktop">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="index.html">MARIL /\ DEV</a>
-                      <!--   <img class="link" src="images/link.gif"> -->
-                        
+                        <!--   <img class="link" src="images/link.gif"> -->
+
                     </div>
                     <div class="" id="menu">
                         <ul class="nav navbar-nav navbar-right navbar-desktop">
@@ -55,29 +55,29 @@
         <!-- NAV MOBILE -->
         <div class="mobile navbar-fixed-top" name="barra de navegação mobile">
             <div class="mainContainer">
-                    <a class="navbar-brand" href="index.html">MARIL /\ DEV</a>
-                  <!--  <img class="link" src="images/link.gif">  -->
-                    <a href="#" class="menuBtn">
-                        <span class="lines"></span>
-                    </a>
-                    <nav class="mainMenu">
-                        <ul>
-                            <li><a class="scroll menuLink" href="#start">INICIO</a>
-                            </li>
-                                <li><a class="scroll menuLink" href="#aboult-me">SOBRE</a>
-                            </li>
+                <a class="navbar-brand" href="index.html">MARIL /\ DEV</a>
+                <!--  <img class="link" src="images/link.gif">  -->
+                <a href="#" class="menuBtn">
+                    <span class="lines"></span>
+                </a>
+                <nav class="mainMenu">
+                    <ul>
+                        <li><a class="scroll menuLink" href="#start">INICIO</a>
+                        </li>
+                        <li><a class="scroll menuLink" href="#aboult-me">SOBRE</a>
+                        </li>
 
-                            <li><a class="scroll menuLink" href="#contact">CONTATO</a>
-                            </li>
+                        <li><a class="scroll menuLink" href="#contact">CONTATO</a>
+                        </li>
 
-                        </ul>
-                    </nav>
-                
+                    </ul>
+                </nav>
+
             </div>
         </div>
         <!-- /NAV MOBILE -->
-        </header>
-  <!--   </header> -->
+    </header>
+
     <section class="hero">
         <div class="content">
             <div class="header">
@@ -88,9 +88,12 @@
             </div>
         </div>
     </section>
-    <div id="aboult-me"></div><br><br><!-- Não façam isso em casa -->
+
     <div class="bg-section">
-        <section class="about-myself">
+        <section class="about-myself" id="aboult-me">
+            <!-- Estes <br> abaixo é para o nav não ficar em cima do texto abaixo. -->
+            <br>
+            <br>
             <div class="col-sm-10 col-md-10 centered">
                 <div class="content scroll">
                     <br>
@@ -98,41 +101,45 @@
                 </div>
             </div>
             <div class="row">
-               
-                <div class="col-md-6 centered">
-                    <ul class="list-group">
-                       
-                        <h2 class="titles">HABILIDADES </h2>
-                        <li>
-                            <h3>Desenvolvimento Web: HTML5, CSS3, Javascript (^ES6)</h3>
-                        </li>
-                        <li>
-                            <h3>Frameworks JS: Angular4, React</h3>
-                        </li>
-                        <li>
-                            <h3>Metodologias de Desenvolvimento: Scrum</h3>
-                        </li>
-                        <li>
-                            <h3>Outros Frameworks: PHOTOSHOP, GIT, NPM</h3>
-                        </li>
-                        <br>
-                    </ul>
-                    <ul class="list-group">
-                        <h2 class="titles">CURSOS</h2>
-                        <li>
-                            <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-                        <li>
-                            <h3>Criando Sites estaticos com Jekyll - <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-                        <li>
-                            <h3>Construindo Aplicações Web Com o Novo Angular 4 - <a href="https://www.udemy.com/angular-pt/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-                        <li>
-                            <h3>Formação Total em Scrum - <a href="https://www.udemy.com/formacao-total-em-scrum/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
-                        </li>
-                        <br>
-                    </ul>
+
+                <div class="col-md-12 ">
+                    <div class="col-md-6">
+                        <ul class="list-group">
+
+                            <h2 class="titles">HABILIDADES </h2>
+                            <li>
+                                <h3>Desenvolvimento Web: HTML5, CSS3, Javascript (^ES6)</h3>
+                            </li>
+                            <li>
+                                <h3>Frameworks JS: Angular4, React</h3>
+                            </li>
+                            <li>
+                                <h3>Metodologias de Desenvolvimento: Scrum</h3>
+                            </li>
+                            <li>
+                                <h3>Outros Frameworks: PHOTOSHOP, GIT, NPM</h3>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <h2 class="titles">CURSOS</h2>
+                            <li>
+                                <h3>Curso completo de Desenvolvimento Web - <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/" target="_blank"><u>UDEMY</u></a></h3>
+                            </li>
+                            <li>
+                                <h3>Criando Sites estaticos com Jekyll - <a href="https://www.udemy.com/criando-sites-estaticos-com-jekyll/" target="_blank"><u>UDEMY</u></a></h3>
+                            </li>
+                            <li>
+                                <h3>Construindo Aplicações Web Com o Novo Angular 4 - <a href="https://www.udemy.com/angular-pt/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
+                            </li>
+                            <li>
+                                <h3>Formação Total em Scrum - <a href="https://www.udemy.com/formacao-total-em-scrum/learn/v4" target="_blank"><u>UDEMY</u></a></h3>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -146,20 +153,20 @@
             <p>E-mail: <u>maxmaril@hotmail.com</u>
             </p>
         </div>
-        <form class="form-contact" method="post" action="https://formspree.io/maxmaril@hotmail.com" method="POST">
+        <form class="form-contact" method="post" action="https://formspree.io/maxmaril@hotmail.com" method="POST"target="_blank">
             <input class="form-control" name="name" type="text" placeholder="Nome" class="form-contact--input-text" required/>
             <br>
             <input class="form-control" name="e-mail" type="email" placeholder="E-mail" class="form-contact--input-text" required/>
             <br>
             <textarea class="form-control" name="message" maxlength="600" cols="20" rows="8" class="form-contact--textarea" placeholder="MENSAGEM!" required></textarea>
             <br>
-            <input class="btn btn-info" name="submit" type="submit" value="ENVIAR" class="form-contact--input-submit" />
+            <input class="btn btn-info" name="submit" type="submit" value="ENVIAR" class="form-contact--input-submit"target="_blank" />
         </form>
     </section>
-   
+
     <footer>
         <div>
-           
+
             <p class="naoSelecionavel">2017 - Marilzon de Sousa </p>
             <img class="coffe centered" src="images/coffe.gif">
         </div>
@@ -171,7 +178,7 @@
     </footer>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-   
+
 
 </body>
 
