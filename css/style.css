@@ -186,14 +186,16 @@ RESPONSIVE
     font-size: 1em;
 }
     h3{font-size: 1.2em;}
+    h2.titles{font-size: 1.3em;}
+    ul.list-group{padding-left: 10%;padding-right: 10%;}
+    
 
-    }
     .navbar-desktop {
         display: none;
     }
         .profile{
         margin-top: 100px;
     }
+    }
 
 
-}
