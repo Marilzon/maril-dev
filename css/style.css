@@ -182,6 +182,10 @@ RESPONSIVE
 }
 @media screen and (max-width: 320px) {
     /* .profile {margin-top:} */
+    body{
+    width: 100%;
+    height: 100%;
+    }
     .content {
     font-size: 1em;
 }
