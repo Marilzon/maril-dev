@@ -18,9 +18,12 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     height: 30px;
     width: 30px;
     position: absolute;
-    right: 20px;
+    right: 30px;
     top: 10px;
     z-index: 101;
+    background-color: rgba(22, 25, 59, 0);
+    border-radius: 5px;
+    
 }
 .menuBtn > span {
     background-color: #fff;
