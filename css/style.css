@@ -109,6 +109,7 @@ a:hover {
 
 .about-myself {
     color: white;
+
 }
 .about-myself .content {
     text-align: center;
@@ -181,11 +182,18 @@ RESPONSIVE
 }
 @media screen and (max-width: 320px) {
     /* .profile {margin-top:} */
-    
+    .content {
+    font-size: 1em;
+}
+    h3{font-size: 1.2em;}
+
+    }
     .navbar-desktop {
         display: none;
     }
         .profile{
         margin-top: 100px;
     }
+
+
 }
