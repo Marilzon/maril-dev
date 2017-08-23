@@ -144,9 +144,9 @@ footer p {
 .titles {
     color: #ffffff;
     margin-bottom: -5px;
-    border-radius: 30px;
+    text-decoration: underline;
     padding: 2px;
-    margin: 10%;
+    margin: 2%;
 }
 .form-contact {
     width: 70%;
