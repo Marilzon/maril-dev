@@ -45,7 +45,7 @@ section {
 }
 /*Definições de link, fonte e posiciomanento */
 a {
-    color: #fff;
+    color: #fff; !important
     text-decoration: none;
     list-style: none;
 }
@@ -53,6 +53,7 @@ a:hover {
     color: rgba(193, 200, 227, 0.96);
     transition: 0.3s;
 }
+
 .centered {
     /*centralizar div no meio*/
     
@@ -120,6 +121,11 @@ a:hover {
 .bg-section {
     background: rgba(255, 255, 255, 0.22);
 }
+/* SKILLS/COURSES */
+.list-container{
+    text-align: left;
+    padding: 0 10% 0 10%;
+}
 /* CONTACT */
 
 .contact {
@@ -141,6 +147,11 @@ footer p {
     border-radius: 50px;
     
 }
+.schools{
+    float: right;
+    text-decoration: underline;
+}
+
 .titles {
     color: #ffffff;
     margin-bottom: -5px;
