@@ -121,6 +121,7 @@ a:hover {
 .bg-section {
     background: rgba(255, 255, 255, 0.22);
 }
+
 /* SKILLS/COURSES */
 .list-container{
     text-align: left;
@@ -147,10 +148,7 @@ footer p {
     border-radius: 50px;
     
 }
-.schools{
-    float: right;
-    text-decoration: underline;
-}
+
 
 .titles {
     color: #ffffff;
