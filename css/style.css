@@ -122,11 +122,35 @@ a:hover {
     background: rgba(255, 255, 255, 0.22);
 }
 
-/* SKILLS/COURSES */
+/* SKILLS/COURSES/CERTIFICATES */
 .list-container{
     text-align: left;
     padding: 0 10% 0 10%;
 }
+.list-container-img{
+    text-align: center;
+ }
+
+/* --CERTIFICATES-- */
+#work-section h2 {
+  padding-bottom: 2em;
+}
+.work-info h4 {
+  margin-bottom: 15px;
+
+}
+
+.work-buttons {
+  padding-top: 8px;
+}
+
+.work-buttons .btn {
+  border-radius: 24px;
+  padding: 4px 20px;
+  display: inline-block;
+}
+
+
 /* CONTACT */
 
 .contact {
