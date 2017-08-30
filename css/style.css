@@ -15,7 +15,7 @@ body {
     background-color: #35478C;
     background-attachment: fixed;
     background-size: cover;
-    font-family: "PT Sans", sans-serif;
+    font-family: "acumin-pro-condensed", sans-serif;
 }
 ul {
     list-style: none;
@@ -127,9 +127,6 @@ a:hover {
     text-align: left;
     padding: 0 10% 0 10%;
 }
-.list-container-img{
-    text-align: center;
- }
 
 /* --CERTIFICATES-- */
 #work-section h2 {
@@ -150,12 +147,6 @@ a:hover {
   display: inline-block;
 }
 
-
-/* CONTACT */
-
-.contact {
-    text-align: center;
-}
 /* FOOTER */
 
 footer {
@@ -166,6 +157,12 @@ footer {
 footer p {
     color: white;
 }
+/* CONTACT */
+
+.contact {
+    text-align: center;
+}
+
 /* AJUSTES */
 .list-group{
     background-color: rgba(193, 193, 191, 0.22);
@@ -187,6 +184,7 @@ footer p {
     color: black;
     padding: 2%;
 }
+
 /* ANIMATIONS */
 .link{width: 5em; padding-left: 10px;}
 .coffe{width: 5em;}
