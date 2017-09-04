@@ -43,6 +43,11 @@ section {
     color: #ADD5F7;
     transition: 0.5s;
 }
+.navbar-brand {
+    border: 2px solid #ffffff;
+    border-radius: 10px 0;
+}
+
 /*Definições de link, fonte e posiciomanento */
 a {
     color: #fff; !important
@@ -52,13 +57,6 @@ a {
 a:hover {
     color: rgba(193, 200, 227, 0.96);
     transition: 0.3s;
-}
-
-.centered {
-    /*centralizar div no meio*/
-    
-    margin: 0 auto !important;
-    float: none !important;
 }
 .row {
     text-align: center;
@@ -169,6 +167,12 @@ footer p {
     border-radius: 50px;
     
 }
+.centered {
+    /*centralizar div no meio*/
+    
+    margin: 0 auto !important;
+    float: none !important;
+}
 
 
 .titles {
@@ -189,7 +193,6 @@ footer p {
 .link{width: 5em; padding-left: 10px;}
 .coffe{width: 5em;}
 
-.navbar-brand {}
 /* ############################
 RESPONSIVE
 ############################### */
