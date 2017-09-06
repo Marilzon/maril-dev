@@ -11,6 +11,7 @@ body {
     width: 100%;
     height: 100%;
     color: white;
+    background: url('../images/2I03ZvH.jpg');
     background-color: #35478C;
     background-attachment: fixed;
     background-size: cover;
@@ -25,6 +26,7 @@ section {
 }
 /* NAVBAR DESKTOP */
 .navbar-default{
+    
     background-color: #16193B;
     color: #fff;
 }
@@ -46,6 +48,7 @@ section {
     border: 2px solid #ffffff;
     border-radius: 10px 0;
 }
+
 
 /*Definições de link, fonte e posiciomanento */
 a {
@@ -116,7 +119,7 @@ a:hover {
     text-align: justify;
 }
 .bg-section {
-    background: rgba(255, 255, 255, 0.22);
+    background: rgba(56, 95, 255, 0.08);
 }
 
 /* SKILLS/COURSES/CERTIFICATES */
@@ -124,13 +127,14 @@ a:hover {
     text-align: left;
     padding: 0 10% 0 10%;
 }
+/*PORTFOLIO*/
 
 /* FOOTER */
 
 footer {
     padding: 25px 0;
     text-align: center;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(56, 95, 255, 0.08);
 }
 footer p {
     color: white;
@@ -142,7 +146,7 @@ footer p {
 }
 
 /* AJUSTES */
-.list-group{
+.bg-group{
     background-color: rgba(193, 193, 191, 0.22);
     border-radius: 50px;
     
@@ -155,15 +159,8 @@ footer p {
 .titles {
     color: #ffffff;
     margin-bottom: -5px;
-    text-decoration: underline;
     padding: 2px;
     margin: 2%;
-}
-.form-contact {
-    width: 70%;
-    margin: auto auto 2% auto;
-    color: black;
-    padding: 2%;
 }
 
 /* ANIMATIONS */
@@ -183,7 +180,7 @@ RESPONSIVE
     }
     .mobile {
         display: none;
-    }
+            }
 }
 @media screen and (max-width: 785px) {
     .navbar-desktop {
