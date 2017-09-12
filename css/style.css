@@ -110,6 +110,7 @@ a:hover {
 
 .about-myself {
     color: white;
+    padding-top: 40px;
 
 }
 .about-myself .content {
@@ -148,7 +149,9 @@ footer p {
 /* AJUSTES */
 .bg-group{
     background-color: rgba(193, 193, 191, 0.22);
-    border-radius: 50px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 }
 .centered {
