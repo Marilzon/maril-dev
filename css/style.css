@@ -26,9 +26,7 @@ section {
 }
 /* NAVBAR DESKTOP */
 .navbar-default{
-    
     background-color: #16193B;
-    color: #fff;
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
@@ -170,9 +168,7 @@ footer p {
 .link{width: 5em; padding-left: 10px;}
 .coffe{width: 5em;}
 
-/* ############################
-RESPONSIVE
-############################### */
+/* ############################RESPONSIVE############################### */
 
 @media screen and (min-width: 786px) {
     .about-myself {
