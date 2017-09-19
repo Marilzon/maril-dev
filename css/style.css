@@ -11,7 +11,6 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    background: url('../images/grid-blue.svg');
     background-color: #35478C;
     background-attachment: fixed;
     background-size: cover;
@@ -26,7 +25,7 @@ section {
 }
 /* NAVBAR DESKTOP */
 .navbar-default{
-    background-color: #16193B;
+    background-color: rgb(73, 80, 160);
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
@@ -42,11 +41,6 @@ section {
     color: #ADD5F7;
     transition: 0.5s;
 }
-.navbar-brand {
-    border: 2px solid #ffffff;
-    border-radius: 10px 0;
-}
-
 
 /*Definições de link, fonte e posiciomanento */
 a {
