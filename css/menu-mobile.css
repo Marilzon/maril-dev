@@ -3,7 +3,7 @@ Creditos ao modelo original a Vijaya Kumar Vulchi
 https://codepen.io/vulchivijay/pen/bEWqdP
  */
 .mobile {
-    background-color: rgb(73, 80, 160);
+    background-color: #26232c;
 }
 .logo {
     color: #fff;
@@ -77,8 +77,8 @@ https://codepen.io/vulchivijay/pen/bEWqdP
 .mainMenu {
     overflow-x: hidden;
     overflow-y: hidden;
-    background: url('../images/grid-blue.svg');
-    background-color: #2e3038;
+    
+    background-color: #6B48C5;
     background-attachment: fixed;
     background-size: cover;
     position: fixed;
