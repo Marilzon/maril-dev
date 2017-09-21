@@ -1,2 +1,2 @@
 Marilzon de sousa site/portfolio 
-https://marilzon.github.io/maril-front/
+https://marilzon.github.io/maril-dev/
