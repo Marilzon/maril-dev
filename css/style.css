@@ -111,9 +111,6 @@ a:hover {
 #aboult-me {
     text-align: justify;
 }
-.bg-section {
-    background: rgba(56, 95, 255, 0.08);
-}
 
 /* SKILLS/COURSES/CERTIFICATES */
 .list-container{
@@ -121,13 +118,34 @@ a:hover {
     padding: 0 10% 0 10%;
 }
 /*PORTFOLIO*/
+.imgSkills{
+    width: 180px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.skillsThumb{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skillsThumb li{
+    margin: 10px;
+}
+.skillsThumb li a{
+    text-decoration: none;
+}
+.skillsThumb li a:hover{
+    text-decoration: none;
+}
 
 /* FOOTER */
 
 footer {
     padding: 25px 0;
     text-align: center;
-    background: rgba(56, 95, 255, 0.08);
+
 }
 footer p {
     color: white;
@@ -136,6 +154,7 @@ footer p {
 
 .contact {
     text-align: center;
+    background-color: rgb(27, 68, 142);
 }
 
 /* AJUSTES */
@@ -157,16 +176,11 @@ footer p {
     padding: 2px;
     margin: 2%;
 }
+.coffe{width: 80px;}
 
-/* ANIMATIONS */
-.link{width: 5em; padding-left: 10px;}
-.coffe{width: 5em;}
-/* ############################RESPONSIVE############################### */
+
 
 @media screen and (min-width: 786px) {
-    .about-myself {
-        padding: 100px 40px;
-    }
     ul {
         list-style: none;
     }
