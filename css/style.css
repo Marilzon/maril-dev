@@ -12,7 +12,7 @@ body {
     height: 100%;
     color: white;
     
-    background-color: #182535;
+    background-color: rgb(25, 91, 173);
     background-attachment: fixed;
     background-size: cover;
     font-family: "acumin-pro-condensed", sans-serif;
@@ -26,7 +26,7 @@ section {
 }
 /* NAVBAR DESKTOP */
 .navbar-default{
-    background-color: #182535;
+    background-color: rgb(20, 74, 142);
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
@@ -156,7 +156,7 @@ footer p {
 
 .contact {
     text-align: center;
-    background-color: rgba(14, 25, 39, 0.72);
+    background-color: rgba(14, 17, 39, 0.22);
 }
 
 /* AJUSTES */
