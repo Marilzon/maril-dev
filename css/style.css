@@ -27,20 +27,30 @@ section {
 /* NAVBAR DESKTOP */
 .navbar-default{
     background-color: rgb(20, 74, 142);
+    border-color: transparent;
 }
 .navbar-default .navbar-brand {
     color: #ffffff;
-  transition: 0.5s;}
+    transition: 0.5s;
+    text-decoration: none;
+}
 .navbar-default .navbar-brand:hover {
-    color: #ADD5F7;
-  transition: 0.5s;}
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
-      transition: 0.5s;
+    color: #fff;
+    transition: 0.5s;
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #ADD5F7;
     transition: 0.5s;
+}
+#menu li{
+    display:inline-flex;
+    margin-top: 5.4px;
 }
 
 /*Definições de link, fonte e posiciomanento */
@@ -50,7 +60,7 @@ a {
     list-style: none;
 }
 a:hover {
-    color: rgba(193, 200, 227, 0.96);
+    color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 .row {
@@ -63,7 +73,10 @@ a:hover {
 .display-off {
     display: none;
 }
-
+.list-container a:hover{
+    color: aquamarine;
+    transition: 0.3s;
+}
 
 /*##### HERO SECTION #####*/
 
@@ -118,6 +131,9 @@ a:hover {
     text-align: left;
     padding: 0 10% 0 10%;
 }
+.schools{
+    text-decoration: underline;
+}
 /*PORTFOLIO*/
 
 .imgSkills{
@@ -165,6 +181,7 @@ footer p {
     border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-bottom: 10px;
     
 }
 .centered {
