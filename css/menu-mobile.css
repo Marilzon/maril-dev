@@ -72,13 +72,13 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-/* main menu block */
+/* MENU MOBILE */
 
 .mainMenu {
     overflow-x: hidden;
     overflow-y: hidden;
     
-    background-color: #182535;
+    background-color: rgb(20, 74, 142);
     background-attachment: fixed;
     background-size: cover;
     position: fixed;
