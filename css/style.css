@@ -81,13 +81,6 @@ a:hover {
 
 /*##### HERO SECTION #####*/
 
-
-.profile {
-    width: 8em;
-    height: 8em;
-    border-radius: 10%;
-    margin-top: -100px;
-}
 .hero {
     height: 100%;
     background-size: cover;
@@ -137,7 +130,7 @@ a:hover {
     text-decoration: underline;
 }
 /*PORTFOLIO*/
-#projects{margin-top: 10px;}
+#projects{margin-top: 50px;}
 
 .imgSkills{
     width: 250px;
@@ -185,7 +178,7 @@ footer p {
     border-radius: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     
 }
 .centered {
@@ -215,9 +208,7 @@ footer p {
     .navbar-desktop {
         display: none;
     }
-    .profile{
-        margin-top: 100px;
-    }
+
 }
 @media screen and (max-width: 320px) {
  
@@ -228,7 +219,13 @@ footer p {
     ul.list-group{padding-left: 10%;padding-right: 10%;}
  
     .navbar-desktop {display: none;}
-    .profile{margin-top: 100px;}
+  
+	.imgSkills{
+    width: 220px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+}
 }
 
 
