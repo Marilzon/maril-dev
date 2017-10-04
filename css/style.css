@@ -70,7 +70,6 @@ a:hover {
     color: aquamarine;
     transition: 0.3s;
 }
-
 /*##### HERO SECTION #####*/
 
 .hero {
@@ -124,10 +123,14 @@ a:hover {
 /*PORTFOLIO*/
 #projects{margin-top: 50px;}
 
-.imgSkills{
+.imgPortfolio{
     width: 250px;
     height: 170px;
     padding: 10px;
+    transition: 0.5s;
+    opacity: 100;
+    cursor: pointer;
+    
 }
 .skillsThumb{
     display: flex;
@@ -144,6 +147,20 @@ a:hover {
 .skillsThumb li a:hover{
     text-decoration: none;
     color: #ADD5F7;
+    
+}
+.bg-group{
+    background-color: #144a8e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: 2px solid #ADD5F7;
+    transition: 0.5s;
+    
+}
+.bg-group:hover{
+    background-color: rgba(106, 144, 193, 0.42);
+    transition: 0.5s;
 }
 /* MODAL */
 .modal.modal-wide .modal-dialog {
@@ -181,14 +198,9 @@ footer p {
     background-color: 195bad;
 }
 
-.bg-group{
-    background-color: #144a8e;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 50px;
-    border: 2px solid #ADD5F7 ;
-    
-}
+
+
+
 .centered {
     margin: 0 auto !important;
     float: none !important;
