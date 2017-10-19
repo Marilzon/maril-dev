@@ -162,24 +162,7 @@ a:hover {
     background-color: rgba(106, 144, 193, 0.42);
     transition: 0.5s;
 }
-/* MODAL */
-.modal.modal-wide .modal-dialog {
-  width: 90%;
-}
-.modal-wide .modal-body {
-  overflow-y: auto;
-    
-}
-#modal-title{
-    color: #000;
-    text-align: center;
-}
-#img-modal{
-    width: 80%;
-    align-items: center;
-    border-radius: 10px;
-    
-}
+
 /* FOOTER */    
 
 footer {
