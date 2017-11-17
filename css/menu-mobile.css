@@ -2,9 +2,11 @@
 Creditos ao modelo original a Vijaya Kumar Vulchi
 https://codepen.io/vulchivijay/pen/bEWqdP
  */
+
 .mobile {
     background-color: #3542d1;
 }
+
 .logo {
     color: #fff;
     font-size: 20px;
@@ -12,8 +14,10 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     padding: 0 0 0 20px;
     text-transform: capitalize;
 }
+
 /*navbarBrand*/
-.mainContainer a{
+
+.mainContainer a {
     color: #fff;
 }
 
@@ -26,10 +30,11 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     right: 30px;
     top: 10px;
     z-index: 101;
-    background-color: rgba(22, 25, 59, 0); 
+    background-color: rgba(22, 25, 59, 0);
     border-radius: 5px;
-    
+
 }
+
 .menuBtn > span {
     background-color: #fff;
     border-radius: 1px;
@@ -42,6 +47,7 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     -webkit-transition: height 100ms;
     transition: height 100ms;
 }
+
 .menuBtn > span:after,
 .menuBtn > span:before {
     content: '';
@@ -55,34 +61,41 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     -webkit-transition: all 200ms;
     transition: all 200ms;
 }
+
 .menuBtn > span:after {
     top: -7px;
 }
+
 .menuBtn > span:before {
     bottom: -7px;
 }
+
 .menuBtn.act > span {
     height: 0;
 }
+
 .menuBtn.act > span:after,
 .menuBtn.act > span:before {
     background-color: #ffffff;
     top: 1px;
 }
+
 .menuBtn.act > span:after {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .menuBtn.act > span:before {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+
 /* MENU MOBILE */
 
 .mainMenu {
     overflow-x: hidden;
     overflow-y: hidden;
-    
+
     background-color: #3542d1;
     background-attachment: fixed;
     background-size: cover;
@@ -100,44 +113,53 @@ https://codepen.io/vulchivijay/pen/bEWqdP
     -webkit-transform: scale(0);
     transform: scale(0);
 }
+
 .mainMenu.act {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
 .mainMenu.act ul li {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
+
 .mainMenu ul {
     display: table-cell;
     vertical-align: middle;
 }
+
 .mainMenu li {
     padding: 8px 0;
     -webkit-transition: all 400ms 510ms;
     transition: all 400ms 510ms;
     opacity: 0;
 }
+
 .mainMenu li:nth-child(odd) {
     -webkit-transform: translateX(30%);
     transform: translateX(30%);
 }
+
 .mainMenu li:nth-child(even) {
     -webkit-transform: translateX(-30%);
     transform: translateX(-30%);
 }
+
 .mainMenu li:last-child {
     -webkit-transform: none;
     transform: none;
 }
+
 .mainMenu a {
     color: #ffffff;
     display: inline-block;
     font-size: 18px;
     transition: 1s;
 }
+
 .mainMenu a:hover {
     color: #7FB2F0;
     transition: 1s;
