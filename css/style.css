@@ -32,7 +32,7 @@ section {
 /* NAVBAR DESKTOP */
 
 .navbar-default {
-    background-color: #3542d1;
+    background-color: #13143f;
     border-color: transparent;
 }
 
@@ -197,13 +197,11 @@ a:hover {
 
 .skillsThumb li a:hover {
     text-decoration: none;
-
-
 }
 
 .bg-group {
     color: #fff;
-    background-color: #606ad6;
+    background-color: rgba(19, 20, 63, 0.76);
     padding-bottom: 10px;
     padding-top: 10px;
     margin-bottom: 50px;
@@ -214,7 +212,7 @@ a:hover {
 }
 
 .bg-group:hover {
-    background-color: #3542d1;
+    background-color: #13143f;
     transition: 0.5s;
     border-radius: 15px;
 }
@@ -224,7 +222,7 @@ a:hover {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #3542d1;
+    background-color: #13143f;
 
 }
 
@@ -324,7 +322,7 @@ footer p {
 }
 
 .titles {
-    color: #ffffff;
+    color: #000;
     margin-bottom: -5px;
     padding: 2px;
     margin: 2%;
@@ -333,6 +331,13 @@ footer p {
 .coffe {
     width: 80px;
 }
+.btn-custom{
+    background-color: #31134C;
+    color: #fff;
+    transition: 1s;
+}
+
+/*RESPONSIVE*/
 
 @media screen and (min-width: 786px) {
     ul {
