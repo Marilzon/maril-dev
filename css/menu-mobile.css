@@ -63,11 +63,11 @@ https://codepen.io/vulchivijay/pen/bEWqdP
 }
 
 .menuBtn > span:after {
-    top: -7px;
+    top: -9px;
 }
 
 .menuBtn > span:before {
-    bottom: -7px;
+    bottom: -9px;
 }
 
 .menuBtn.act > span {
