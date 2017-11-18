@@ -354,10 +354,12 @@ footer p {
 }
 
 .titles {
+    background: rgba(17, 17, 17, 0.19);
     color: #000;
     margin-bottom: -5px;
     padding: 2px;
     margin: 2%;
+    border-radius: 5px;
 }
 
 .coffe {
