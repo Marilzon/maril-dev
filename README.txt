@@ -1,3 +1,5 @@
-Aqui você encontrara meu site pessoal, e projetos em que estou aprendendo a Desenvolvedor WEB para futuramente entrar no mercado.
+Este é meu site onde resumo de forma rapida minhas competencias e meus objetivos,
+um site simples, leve e com uma boa experiência de navegação.
 
+MARIL | DEV
 https://marilzon.github.io/maril-dev/

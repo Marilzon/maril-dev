@@ -13,10 +13,7 @@ body {
     height: 100%;
     color: #000;
     background-color: #fff;
-    background-image: url(https://i.imgur.com/iXlyhXY.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
     font-family: 'Montserrat', sans-serif;
     
     
@@ -420,8 +417,6 @@ footer p {
         border-radius: 15px;
         padding: 10px;
     }
-
-
 
 }
 
