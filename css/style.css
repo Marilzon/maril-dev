@@ -13,10 +13,7 @@ body {
     height: 100%;
     color: #000;
     background-color: #f2f2f2;
-
     font-family: 'Montserrat', sans-serif;
-    
-    
 }
 
 ul {
@@ -101,8 +98,6 @@ a:hover {
 
 .hero {
     height: 100%;
-    background-size: cover;
-    background-position: center;
 }
 
 .content {
@@ -126,7 +121,7 @@ a:hover {
 
 .hero .content .header h1 {
     color: #000;
-    text-shadow: 0px 2px 3px #2d2d2d;
+    text-shadow: 0px 1px 1px #ffffff;
 }
 
 /*##### ABOUT MYSELF SECTION #####*/
@@ -239,33 +234,35 @@ footer p {
  * animation kenburns-top
  * ----------------------------------------
  */
+
 @-webkit-keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
 }
+
 @keyframes kenburns-top {
-  0% {
-    -webkit-transform: scale(1) translateY(0);
-            transform: scale(1) translateY(0);
-    -webkit-transform-origin: 50% 16%;
-            transform-origin: 50% 16%;
-  }
-  100% {
-    -webkit-transform: scale(1.25) translateY(-15px);
-            transform: scale(1.25) translateY(-15px);
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+    100% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
 }
 
 /* ----------------------------------------------
@@ -419,5 +416,3 @@ footer p {
     }
 
 }
-
-
