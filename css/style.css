@@ -365,6 +365,10 @@ footer p {
     color: #fff;
     transition: 1s;
 }
+.img-copy{
+    width: 15px;
+    height: 15px;
+}
 
 /*RESPONSIVE*/
 
