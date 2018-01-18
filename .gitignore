@@ -2,5 +2,4 @@ node_modules
   ._.DS_Store
   .sass-cache
 .log
-.docx
 bower_components
