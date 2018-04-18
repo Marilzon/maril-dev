@@ -1,0 +1,24 @@
+{
+  "name": "maril-dev",
+  "version": "1.0.0",
+  "description": "* DESENVOLVEDOR FRONT-END\r - [X] GITHUB-PAGES: (https://marilzon.github.io/maril-dev/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marilzon/maril-dev.git"
+  },
+  "author": "Marilzon de Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marilzon/maril-dev/issues"
+  },
+  "homepage": "https://github.com/Marilzon/maril-dev#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
