@@ -12,50 +12,70 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
-    <header>
-        <nav class="main-menu" id="menu">
-            <a class="animated fadeIn" href="index.html">
-                <span class="btn-menu0">INÍCIO</span>
-            </a>
-            <a class="animated bounceIn " href="sobre.html">
-                <span class="btn-menu1">SOBRE</span>
-            </a>
-            <a class="animated swing " href="trabalhos.html">
-                <span class="btn-menu2">TRABALHOS</span>
-            </a>
-            <a class="animated jello" href="contato.html">
-                <span class="btn-menu3">CONTATO</span>
-            </a>
-        </nav>
-    </header>
     <section class="hero animated fadeIn">
-
-        <div class="container" id="conteudocentral">
-            <div class="row">
-                <div class="col-12 text-center description">
-                    <h1 class="name-animated">
-                        <span>Marilzon de Sousa</span>
-                    </h1>
-                    <h3>Desenvolvedor FRONT-END</h3>
-                    <div class="social m-3">
-                        <a class="m-1" id="elm" href="https://www.linkedin.com/in/marilzon" target="_blank">
-                            <i class="fab fa-linkedin fa-3x"></i>
-                        </a>
-                        <a class="m-1" href="https://github.com/Marilzon" target="_blank">
-                            <i class="fab fa-github-square fa-3x"></i>
-                        </a>
+        <div class="row m-0">
+            <div class="col-md-3 main-menu">
+                <div class="card m-3">
+                    <img class="card-img-top" src="images/foto-perfil.jpg" alt="foto de perfil">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-secondary">MARIL | DEV</h5>
                     </div>
-                    <p>Olá, Sou Marilzon de Sousa, Desenvolvedor WEB Autoditada, criativo e focado em desenvolvimento Front-End.</p>
                 </div>
+                <ul class="nav flex-column d-block">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">&nbsp; INÍCIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">&nbsp; SOBRE MIM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">&nbsp; TRABALHOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">&nbsp; CONTATO</a>
+                    </li>
+
+                </ul>
+            </div>
+            
+            <ul class="nav nav-fill fixed-bottom mobile-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INÍCIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SOBRE MIM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TRABALHOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTATO</a>
+                </li>
+            </ul>
+
+            <div class="col-md-9 main-content">
+                <h1 class="name-animated">
+                    <span>Marilzon de Sousa</span>
+                </h1>
+                <h3>Desenvolvedor FRONT-END</h3>
+                <div class="social m-3">
+                    <a class="m-1" id="elm" href="https://www.linkedin.com/in/marilzon" target="_blank">
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                    <a class="m-1" href="https://github.com/Marilzon" target="_blank">
+                        <i class="fab fa-github-square fa-3x"></i>
+                    </a>
+                </div>
+                <p>Olá, Sou Marilzon de Sousa, Desenvolvedor WEB Autoditada, criativo e focado em desenvolvimento Front-End.</p>
             </div>
         </div>
-
     </section>
+
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -64,6 +84,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+    <script src="js/scrolloverflow.min.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
 </body>
 
 </html>
