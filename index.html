@@ -13,35 +13,37 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header>
-        <ul class="nav nav-pills nav-fill fixed-top main-menu">
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-home"></i> INICIO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-code"></i> PORTFÓLIO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="far fa-comments"></i> CONTATO</a>
-            </li>
-        </ul>
+        <nav class="main-menu" id="menu">
+            <a class="animated fadeIn" href="index.html">
+                <span class="btn-menu0">INÍCIO</span>
+            </a>
+            <a class="animated bounceIn " href="sobre.html">
+                <span class="btn-menu1">SOBRE</span>
+            </a>
+            <a class="animated swing " href="trabalhos.html">
+                <span class="btn-menu2">TRABALHOS</span>
+            </a>
+            <a class="animated jello" href="contato.html">
+                <span class="btn-menu3">CONTATO</span>
+            </a>
+        </nav>
     </header>
     <section class="hero animated fadeIn">
-        <div class="container">
+
+        <div class="container" id="conteudocentral">
             <div class="row">
                 <div class="col-12 text-center description">
                     <h1 class="name-animated">
                         <span>Marilzon de Sousa</span>
                     </h1>
                     <h3>Desenvolvedor FRONT-END</h3>
-                    <div class="m-3">
-                        <a class="m-1" href="https://www.linkedin.com/in/marilzon" target="_blank">
+                    <div class="social m-3">
+                        <a class="m-1" id="elm" href="https://www.linkedin.com/in/marilzon" target="_blank">
                             <i class="fab fa-linkedin fa-3x"></i>
                         </a>
                         <a class="m-1" href="https://github.com/Marilzon" target="_blank">
@@ -52,10 +54,8 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
-    <section class="portfolio"></section>
-    <section class="contact"></section>
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
