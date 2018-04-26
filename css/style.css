@@ -15,11 +15,17 @@ a:hover {
 	transition: 0.5s;
 	color: #fff;
 }
-
-.btn-custom a:hover {
-	color: #049DD9;
-	font-weight: 600;
+.btn-custom {
+	background-color: #fff;
+	color: #049dd9;
+	text-decoration: none;
 }
+.btn-custom:hover {
+	background-color: #fff;
+	color: #049dd9;
+	text-decoration: none;
+}
+
 /*MENU*/
 .main-menu {
 	height: 100vh;
