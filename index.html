@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/menu-mobile.css">
 </head>
 
-<body>
+<body class="fadeIn">
 
     <header>
         <!--Menu Padrão Desktop-->
@@ -63,10 +63,12 @@
         </nav>
 
     </header>
-
-    <section class="hero animated fadeIn" id="start">
-        <div class="row m-0">
-            <div class="col-md-12 main-content">
+    <video autoplay muted loop id="myVideo">
+        <source src="media/Spacious/WEBM/Spacious.webm" type="video/webm">
+    </video>
+    <section class="hero animated" id="start">
+        <div class="homepage-hero-module">
+            <div class="col-md-12 text-center">
                 <h1 class="name-animated">
                     <span>Marilzon de Sousa</span>
                 </h1>
@@ -89,13 +91,14 @@
                 <p>CELULAR: CLARO (14)9 9111-6844</p>
             </div>
         </div>
+
     </section>
-    <section class="skills" id="skills">
-        <div class="container justify-content-right">
-            <br>
-            <h3 class="skills-titles">
-                <strong>Habilidades</h1>
-                </strong>
+    <section class="aboult" id="aboult">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 skills">
+                <h3 class="aboult-titles">
+                    <u>Habilidades</u>
+                </h3>
                 <h4>Idiomas</h4>
                 <p>&nbsp;Inglês Nivel intermediario</p>
                 <p>&nbsp;Português nativo</p>
@@ -106,12 +109,55 @@
                 <p>&nbsp;Edição e Manipulação de Imagens</p>
                 <h4>Metodoligias de Desenvolvimento</h4>
                 <p>&nbsp;SCRUM</p>
-        </div>
+            </div>
+            <div class="col-md-6 col-sm-12 courses">
+                <h3 class="aboult-titles">
+                    <u>Cursos</u>
+                </h3>
+                <li>
+                    <h3>Inglês Básico -
+                        <a href="https://www.cna.com.br/curso-ingles" target="_blank">
+                            <span class="schools">CNA</span>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <h3>Curso de Desenvolvimento WEB -
+                        <a href="https://www.udemy.com/curso-completo-do-desenvolvedor-web/learn/v4/" target="_blank">
+                            <span class="schools">UDEMY</span>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <h3>Angular 4 -
+                        <a href="https://www.udemy.com/angular-pt/learn/v4" target="_blank">
+                            <span class="schools">UDEMY</span>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <h3>Formação Total em Scrum -
+                        <a href="https://www.udemy.com/formacao-total-em-scrum/learn/v4" target="_blank">
+                            <span class="schools">UDEMY</span>
+                        </a>
+                    </h3>
+                </li>
+                <li>
+                    <h3>Design de Interfaces -
+                        <a href="https://www.udemy.com/design-de-interface/learn/v4" target="_blank">
+                            <span class="schools">UDEMY</span>
+                        </a>
+                    </h3>
+                </li>
 
+            </div>
+        </div>
     </section>
 
     <footer>
-
+        <div class="container text-center">
+            <h5>Marilzon de Sousa &copy; - 2018</h5>
+        </div>
     </footer>
 
     <!--Scripts-->
@@ -121,6 +167,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
     <script src="js/menu.js"></script>
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo").playbackRate = 1.25;
+    </script>
 </body>
 
 </html>
