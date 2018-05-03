@@ -166,9 +166,12 @@ li {
     display: inline-block;
     font-size: 18px;
     transition: 1s;
+    padding: 0.5em;
 }
 
 .mainMenu a:hover {
     transition: 1s;
     text-decoration: wavy;
+    background-color: rgba(255, 255, 255, 0.199);
+	border-radius: 0.2em;
 }

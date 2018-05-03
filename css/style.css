@@ -72,12 +72,6 @@ footer {
 	margin: 2em 0 2em 0;
 }
 /*ANIMACOES*/
-.fadeIn {
-	animation-delay: 0.5s;
-	transition: 0.5s;
-	animation-duration: 2s;
-	animation-iteration-count: 1;
-}
 .name-animated {
 	font-size: 4em;
 	border-bottom: 4px solid #F2E205;
