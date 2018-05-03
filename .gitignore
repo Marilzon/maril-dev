@@ -1,22 +1,5 @@
-# Created by https://www.gitignore.io/api/node,microsoftoffice
 
-### MicrosoftOffice ###
-*.tmp
-
-# Word temporary
-~$*.doc*
-
-# Excel temporary
-~$*.xls*
-
-# Excel Backup File
-*.xlk
-
-# PowerPoint temporary
-~$*.ppt*
-
-# Visio autosave temporary files
-*.~vsd*
+# Created by https://www.gitignore.io/api/sass,node
 
 ### Node ###
 # Logs
@@ -79,5 +62,9 @@ typings/
 .env
 
 
+### Sass ###
+.sass-cache/
+*.css.map
 
-# End of https://www.gitignore.io/api/node,microsoftoffice
+
+# End of https://www.gitignore.io/api/sass,node
