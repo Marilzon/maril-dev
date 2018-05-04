@@ -15,10 +15,6 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
-a:hover {
-	transition: 0.5s;
-	color: #fff;
-}
 .btn-custom {
 	background-color: #fff;
 	color: #049dd9;
@@ -31,7 +27,6 @@ a:hover {
 	color: #049dd9;
 	text-decoration: none;
 }
-
 /*MENU*/
 .main-menu {
 	background-color: #070644;
@@ -40,23 +35,27 @@ a:hover {
 .main-menu a {
 	animation-delay: 0.5s;
     transition: 0.5s;
-	animation-duration: 8s;
 }
 .nav-link:hover {
 	background-color: rgba(255, 255, 255, 0.199);
 	border-radius: 0.2em;
+	color: #fff;
 }
-
 /*CONTENT*/
 .aboult {
-	margin: -1px auto;
 	background-color: #070644;
 	transform: skewY(0deg);
 }
 .aboult-titles {
 	padding: 0.5em 0 0.5em 0;
 }
+.icon-svg {
+	max-width: 2em;
+}
 /*PORTFOLIO*/
+.works {
+	color: #000;
+}
 /*BACKGROUND VIDEO*/
 #myVideo {
     position: fixed;
@@ -69,7 +68,13 @@ a:hover {
 
 /*FOOTER*/
 footer {
-	margin: 2em 0 2em 0;
+    padding: 2em 0 2em 0;
+    background-color: #070644;
+    transform: skewY(0deg);
+    bottom: 0;
+}
+#footer-text {
+	margin: 0;
 }
 /*ANIMACOES*/
 .name-animated {
