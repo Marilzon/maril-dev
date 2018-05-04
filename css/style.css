@@ -15,6 +15,9 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
+i:hover {
+	color: #fff;
+}
 .btn-custom {
 	background-color: #fff;
 	color: #049dd9;
