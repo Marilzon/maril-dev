@@ -18,6 +18,10 @@ a {
 i:hover {
 	color: #fff;
 }
+a:hover {
+    color: #fff!important;
+    text-decoration: underline;
+}
 .btn-custom {
 	background-color: #fff;
 	color: #049dd9;
