@@ -68,6 +68,18 @@ a:hover {
 	opacity: 0.8;
 	transition: 0.5s;
 }
+.bg-html {
+	background-color: #ff0000;
+	color: #fff;
+}
+.bg-css {
+	background-color: #6e076e;
+	color: #fff;
+}
+.bg-js {
+	background-color: #7e7e34;
+	color: #fff;
+}
 
 /*BACKGROUND VIDEO*/
 #myVideo {
