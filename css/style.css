@@ -67,6 +67,7 @@ a:hover {
 .work-link:hover {
 	opacity: 0.8;
 	transition: 0.5s;
+	text-decoration: none;
 }
 .bg-html {
 	background-color: #ff0000;
