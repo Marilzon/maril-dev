@@ -43,7 +43,7 @@ a:hover {
 	animation-delay: 0.5s;
     transition: 0.5s;
 }
-.nav-link:hover {
+.nav-link:hover, .col-md-6:hover {
 	background-color: rgba(255, 255, 255, 0.199);
 	border-radius: 0.2em;
 	color: #fff;
@@ -72,16 +72,6 @@ a:hover {
 .text-html {color: #ff0000;}
 .text-css {color: #6e076e;}
 .text-js {color: #cece35;}
-/*BACKGROUND VIDEO*/
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-	min-height: 100%;
-	opacity: 0.2;
-}
-
 /*FOOTER*/
 footer {
     padding: 2em 0 2em 0;
