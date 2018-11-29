@@ -10,6 +10,11 @@ body {
 section {
 	padding: 8%;
 }
+.hero {
+	height: 100vh;
+    display: flex;
+    align-items: center;
+}
 a {
 	color: #fff;
 	text-decoration: none;
@@ -56,6 +61,11 @@ a:hover, .fa {
 }
 .icon-svg {
 	max-width: 2em;
+}
+/*CONTATO*/
+#contact {
+	background-color: rgba(255, 255, 255, 0.24); 
+	border-radius: 0.2em;
 }
 /*PORTFOLIO*/
 .work-div {
