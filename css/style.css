@@ -3,7 +3,7 @@ html,
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
-	background-color: #049dd9;
+	background-color: #6D6E70;
 	background-attachment: fixed;
 	color: #fff!important;
 }
@@ -17,40 +17,39 @@ a {
 i:hover {
 	color: #fff;
 }
-a:hover {
+a:hover, .fa {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .btn-custom {
 	background-color: #fff;
-	color: #049dd9;
+	color: #000;
 	text-decoration: none;
 	animation-delay: 2s;
 	animation-duration: 2s;
 }
 .btn-custom:hover {
 	background-color: #fff;
-	color: #049dd9;
+	color: #000;
 	text-decoration: none;
 }
 /*MENU*/
 .main-menu {
-	background-color: #070644;
+	background-color: #2b2b2b;
 	border-bottom: 1px solid #fff;
 }
 .main-menu a {
 	animation-delay: 0.5s;
     transition: 0.5s;
 }
-.nav-link:hover, .col-md-6:hover {
+.nav-link:hover {
 	background-color: rgba(255, 255, 255, 0.199);
 	border-radius: 0.2em;
 	color: #fff;
 }
 /*CONTENT*/
 .aboult {
-	background-color: #070644;
-	transform: skewY(0deg);
+	background-color: #575559;
 }
 .aboult-titles {
 	padding: 0.5em 0 0.5em 0;
@@ -59,34 +58,38 @@ a:hover {
 	max-width: 2em;
 }
 /*PORTFOLIO*/
-.work-link img {
+.work-div {
 	border: 2px solid #fff;
+	border-radius: 0.2em;
+	color: #fff;
+	padding: 0.2em;
+	margin-bottom: 5px; 
+}
+.work-div img {
+	transition: all 0.2s;
 	border-radius: 0.2em;
 }
 .work-link:hover {
-	opacity: 0.8;
-	transition: 0.5s;
 	text-decoration: none;
 }
 .text-html {color: #ff0000;}
 .text-css {color: #6e076e;}
-.text-js {color: #cece35;}
+.text-js {color: #888826;}
 /*FOOTER*/
 footer {
     padding: 2em 0 2em 0;
-    background-color: #070644;
-    transform: skewY(0deg);
+    background-color: #2b2b2b;
     bottom: 0;
 }
 #footer-text {margin: 0;}
 /*ANIMACOES*/
 .name-animated {
 	font-size: 4em;
-	border-bottom: 4px solid #F2E205;
+	border-bottom: 4px solid #fff;
 	padding: 1rem;
 	border-radius: 1em 0 1em 0;
 /* Animate Background Image */
-	background: url(https://i.imgur.com/bUSET2s.png) repeat-y;
+	background: url(https://i.imgur.com/MmYZsPs.png) repeat-y;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
