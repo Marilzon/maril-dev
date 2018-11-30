@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 html,
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
 	background-color: #6D6E70;
 	background-attachment: fixed;
-	color: #fff!important;
+	color: #fff;
 }
 section {
 	padding: 8%;
@@ -18,9 +17,6 @@ section {
 a {
 	color: #fff;
 	text-decoration: none;
-}
-i:hover {
-	color: #fff;
 }
 a:hover, .fa {
     color: #fff;
@@ -48,7 +44,7 @@ a:hover, .fa {
     transition: 0.5s;
 }
 .nav-link:hover {
-	background-color: rgba(255, 255, 255, 0.199);
+	background-color: #ffffff33;
 	border-radius: 0.2em;
 	color: #fff;
 }
@@ -63,8 +59,8 @@ a:hover, .fa {
 	max-width: 2em;
 }
 /*CONTATO*/
-#contact {
-	background-color: rgba(255, 255, 255, 0.24); 
+.contact {
+	background-color: #ffffff3d; 
 	border-radius: 0.2em;
 }
 /*PORTFOLIO*/
@@ -82,16 +78,12 @@ a:hover, .fa {
 .work-link:hover {
 	text-decoration: none;
 }
-.text-html {color: #ff0000;}
-.text-css {color: #6e076e;}
-.text-js {color: #888826;}
 /*FOOTER*/
 footer {
     padding: 2em 0 2em 0;
     background-color: #2b2b2b;
     bottom: 0;
 }
-#footer-text {margin: 0;}
 /*ANIMACOES*/
 .name-animated {
 	font-size: 4em;
@@ -107,12 +99,10 @@ footer {
 	transform: translate3d(0,0,0);
 	backface-visibility: hidden;
 }
-
 @keyframes aitf {
-	0% { background-position: 0% 50%; }
+	0% { background-position: 0 50%; }
 	100% { background-position: 100% 50%; }
 }
-
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
 	.mobile-menu {
