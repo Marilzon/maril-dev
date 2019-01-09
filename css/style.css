@@ -2,7 +2,7 @@ html,
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
-	background-color: #6D6E70;
+	background-color: #1e90ff;
 	background-attachment: fixed;
 	color: #fff;
 }
@@ -36,7 +36,7 @@ a:hover, .fa {
 }
 /*MENU*/
 .main-menu {
-	background-color: #2b2b2b;
+	background-color: #2f3542;
 	border-bottom: 1px solid #fff;
 }
 .main-menu a {
@@ -50,7 +50,7 @@ a:hover, .fa {
 }
 /*CONTENT*/
 .aboult {
-	background-color: #575559;
+	background-color: #ffffff3d;
 }
 .aboult-titles {
 	padding: 0.5em 0 0.5em 0;
@@ -81,7 +81,7 @@ a:hover, .fa {
 /*FOOTER*/
 footer {
     padding: 2em 0 2em 0;
-    background-color: #2b2b2b;
+    background-color: #2f3542;
     bottom: 0;
 }
 /*ANIMACOES*/
