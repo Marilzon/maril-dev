@@ -1,25 +1,28 @@
 {
-    "profile": {
-        "name": "Marilzon de Sousa",
-        "city": "Bauru",
-        "age": 28,
-        "phone": "(14) 991-409-482",
-        "email": "maxmaril@hotmail.com",
-        "linkedin": "https://www.linkedin.com/in/marilzon",
-        "github": "https://github.com/Marilzon",
-        "courses": [
-            "Inglês Básico, CNA",
-            "GoStack – Desenvolvimento WEB e MOBILE, RocketSeat."
-        ],
-        "jobs": [
-            "06/04/2020 - Atualmente, Operador de Telesserviços, Paschoalotto Serviços Financeiros.",
-            "01/01/2018 - 03/04/2020: Técnico de Informática freelancer.",
-            "25/02/2016 - 04/07/2017: Promotor de Vendas, RTM TASSE ASSESSORIA DE MERCADO LTDA."
-        ],
-        "hard-skills": [
-            "HTML",
-            "CSS",
-            "JavaScript"            
-        ]
-    }
+  "profile": {
+    "name": "Marilzon de Sousa",
+    "city": "Bauru",
+    "age": 28,
+    "phone": "(14) 991-409-482",
+    "email": "maxmaril@hotmail.com",
+    "education": "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (Cursando)",
+    "courses": [
+      "Inglês Básico, CNA",
+      "GoStack – Desenvolvimento WEB e MOBILE, RocketSeat."
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/marilzon",
+      "github": "https://github.com/Marilzon"
+    },
+    "jobs": [
+      "06/04/2020 - Atualmente, Operador de Telesserviços, Paschoalotto Serviços Financeiros.",
+      "01/01/2018 - 03/04/2020: Técnico de Informática freelancer.",
+      "25/02/2016 - 04/07/2017: Promotor de Vendas, RTM TASSE ASSESSORIA DE MERCADO LTDA."
+    ],
+    "hard-skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
 }
