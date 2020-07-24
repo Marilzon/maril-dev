@@ -1,8 +1,12 @@
+const api_url = 'https://github.com/Marilzon/maril-dev/blob/master/js/profile.json'
+const root = document.querySelector('#root')
+
 async function getProfile() {
-  const response = await fetch('https://github.com/Marilzon/maril-dev/blob/master/js/profile.json')
+  const response = await fetch(api_url)
+  const data = await response.json()
+  console.log(data)
 }
 
-const root = document.querySelector('#root')
 
 function title(tag, content) {
     let title = `
