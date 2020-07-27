@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+/*ELEMENT STYLES*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('../images/grunge/42916.jpg')center center no-repeat fixed;
+  background-size: cover;
+}
+#root {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  color: #282828;
+  padding: 0 10%;
+}
+h1 {
+  text-align: center;
+  margin: 3% 0;
+  user-select: none;
+}
+h3 {
+  margin: 1% 0;
+  user-select: none;
+}
+strong {
+  margin: 1% 0;
+  user-select: none;
+}
+ul li {
+  padding-left:10px;
+  margin-top: 3px;
+  list-style: none;
+}
+a {
+  color: #282828;
+}
+a:visited {
+  color: #282828;
+}
+/*HOVER*/
+h3:hover, p:hover, ul li:hover, a:hover {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.5382528011204482) 0%, rgba(255,255,255,0.5382528011204482) 45%, rgba(255,255,255,0) 100%);
+  transition: 0.9ms ease-in-out;
+  border-radius: 5px;
+}
+/*MEDIA QUERIES*/
+@media screen and (min-width: 320px) {
+  #root  {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  #root  {
+    font-size: 22px;
+  }
+}
+
