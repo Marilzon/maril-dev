@@ -1,10 +1,11 @@
 const root = document.querySelector('#root')
 
+//OBJETO
 let profile = {
   name: "Marilzon de Sousa",
   city: "Bauru",
   age: 28,
-  phone: "(14) 991-409-482",
+  phone: "(14) 9 9140-9482",
   email: "maxmaril@hotmail.com",
   education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (Cursando)",
   courses: [
@@ -26,26 +27,21 @@ let profile = {
     "JavaScript"
   ]
 }
-
-function element(tag, content) {
+//FUNCOES
+function addElement(tag, content) {
   let text = `
     <${tag}>${content}</${tag}>
   `
   root.insertAdjacentHTML('beforeend', text)
 }
-
-element('h1', 'Maril - DEV')
-element('p', profile.name)
-element('p', profile.city)
-element('p', profile.age)
-element('p', profile.phone)
-element('p', profile.email)
-element('p', profile.education)
-element('div', `Cursos:
-  <li>${profile.courses[0]}</li>
-  <li>${profile.courses[1]}</li>
-`)
-element('div', `Redes sociais:
+//addElement, TAG - CONTEUDO
+addElement('h1', 'Maril - Desenvolvedor Front-end')
+addElement('p', `
+  Olá, sou <em>${profile.name}</em> moro atualmente em ${profile.city}, tenho ${profile.age} anos
+  e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>`)
+addElement('p', `Telefone - Whats: ${profile.phone}`)
+addElement('p', `E-Mail: <u>${profile.email}</u>`)
+addElement('ul', `Redes sociais:
   <li>
     <a target='_blank' href='https://www.linkedin.com/in/marilzon'>
       ${profile.social.linkedin}
@@ -57,13 +53,18 @@ element('div', `Redes sociais:
     </a>
   </li>
 `)
-element('div', `Ultimas experiências profissionais:
-  <li>${profile.jobs[0]}</li>
-  <li>${profile.jobs[1]}</li>
-  <li>${profile.jobs[2]}</li>
+addElement('p', `Formação acadêmica: ${profile.education}`)
+addElement('ul', `Cursos:
+  <li>${profile.courses[0]}</li>
+  <li>${profile.courses[1]}</li>
 `)
-element('div', `Skills:
+addElement('ul', `Skills:
   <li>${profile.skills[0]}</li>
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
+`)
+addElement('ul', `Ultimas experiências profissionais:
+  <li>${profile.jobs[0]}</li>
+  <li>${profile.jobs[1]}</li>
+  <li>${profile.jobs[2]}</li>
 `)
