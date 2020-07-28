@@ -14,7 +14,8 @@ const profile = {
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/marilzon",
-    github: "https://github.com/Marilzon"
+    github: "https://github.com/Marilzon",
+    curriculum: "https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf"
   },
   skills: [
     "HTML",
@@ -41,14 +42,18 @@ addElement('p', `<strong>Telefone - Whats</strong>: ${profile.phone}`)
 
 addElement('p', `<strong>E-Mail:</strong> <u>${profile.email}</u>`)
 
-addElement('ul', `<h3>Redes sociais:</h3>
+addElement('ul', `<h3>Currículo e Redes Profissionais</h3>
   <li>
-    <a target='_blank' href='${profile.social.linkedin}'>
-      LINKEDIN
+    <a target='_blank' href='${profile.social.curriculum}'>
+      Currículo
     </a>
       -
     <a target='_blank' href='${profile.social.github}'>
-      GITHUB
+      GitHub
+    </a>
+     -
+    <a target='_blank' href='${profile.social.linkedin}'>
+      LinkedIn
     </a>
   </li>
 `)
