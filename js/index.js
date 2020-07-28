@@ -1,7 +1,7 @@
 const root = document.querySelector('#root')
 
 //OBJETO
-let profile = {
+const profile = {
   name: "Marilzon de Sousa",
   city: "Bauru",
   age: 28,
@@ -22,14 +22,14 @@ let profile = {
     "JavaScript"
   ]
 }
-//FUNCOES
+//
 function addElement(tag, content) {
   let text = `
     <${tag}>${content}</${tag}>
   `
   root.insertAdjacentHTML('beforeend', text)
 }
-//addElement, TAG - CONTEUDO
+//
 addElement('h1', 'Maril - Desenvolvedor Front-end')
 
 addElement('h3', `
