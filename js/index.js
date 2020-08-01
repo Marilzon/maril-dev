@@ -33,7 +33,7 @@ function addElement(tag, content) {
 //
 addElement('h1', 'Maril - Desenvolvedor Front-end')
 
-addElement('h3', `
+addElement('p', `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong><hr>
 `)
