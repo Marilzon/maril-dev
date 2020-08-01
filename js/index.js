@@ -40,7 +40,7 @@ addElement('h3', `
 
 addElement('p', `<strong>Telefone - Whats</strong>: ${profile.phone}`)
 
-addElement('p', `<strong>E-Mail:</strong> <u>${profile.email}</u>`)
+addElement('p', `<strong>E-Mail:</strong> <a href='#'>${profile.email}</a>`)
 
 addElement('ul', `<h3>Currículo e Redes Profissionais</h3>
   <li>
