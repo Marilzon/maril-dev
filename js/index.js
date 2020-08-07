@@ -5,8 +5,8 @@ const profile = {
   name: "Marilzon de Sousa",
   city: "Bauru",
   age: 28,
-  phone: "(14) 9 9140-9482",
-  email: "maxmaril@hotmail.com",
+  phone: "(14) X XXXX-XXXX",
+  email: "email@hotmail.com",
   education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (Cursando)",
   courses: [
     "Inglês Básico, CNA",
@@ -42,19 +42,25 @@ addElement('p', `<strong>Telefone - Whats</strong>: ${profile.phone}`)
 
 addElement('p', `<strong>E-Mail:</strong> <a href='#'>${profile.email}</a>`)
 
-addElement('ul', `<h3>Currículo e Redes Profissionais:</h3>
+addElement('ul', `
   <li>
-    <a target='_blank' href='${profile.social.curriculum}'>
-      Currículo
-    </a>
-      -
-    <a target='_blank' href='${profile.social.github}'>
-      GitHub
-    </a>
-     -
-    <a target='_blank' href='${profile.social.linkedin}'>
-      LinkedIn
-    </a>
+    <button>
+      <a target='_blank' href='${profile.social.curriculum}'>
+        Currículo
+      </a>
+    </button>
+
+    <button>
+      <a target='_blank' href='${profile.social.github}'>
+        GitHub
+      </a>
+    </button>
+
+    <button>
+      <a target='_blank' href='${profile.social.linkedin}'>
+        LinkedIn
+      </a>
+    </button>
   </li>
 `)
 

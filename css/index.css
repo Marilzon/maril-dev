@@ -43,6 +43,7 @@ ul li {
 }
 a {
   color: #111327;
+  text-decoration: none;
 }
 a:visited {
   color: #111327;
