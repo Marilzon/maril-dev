@@ -4,22 +4,32 @@
   padding: 0;
 }
 body {
+  background-image: url('../images/abstract-blue.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #111327;
+
   display: flex;
-  background: #FFFFFF;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 #root {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  color: #282828;
-  padding: 0 10%;
+  color: #111327;
+  padding: 2% 10%;
+  margin: 0 1%;
+
+  background-color: #FFFFFF;
 }
 hr {
   margin: 3% 0;
 }
 h1 {
+  background-color: #111327 ;
+  color: #FFFFFF;
   text-align: center;
   margin: 0;
 }
@@ -32,16 +42,16 @@ ul li {
   list-style: none;
 }
 a {
-  color: #282828;
+  color: #111327;
 }
 a:visited {
-  color: #282828;
+  color: #111327;
+}
+button {
+  padding: 5px;
 }
 /*HOVER*/
-p:hover, li:hover {
-  background-color: #28282821;
-  border-radius: 3px;
-}
+
 /*MEDIA QUERIES*/
 @media screen and (min-width: 320px) {
   #root  {

@@ -68,7 +68,10 @@ addElement('ul', `<h3>Cursos:</h3>
 `)
 
 addElement('ul', `<h3>Skills:</h3>
-  <li>${profile.skills[0]}</li>
-  <li>${profile.skills[1]}</li>
-  <li>${profile.skills[2]}</li>
+  <li>
+    <button>${profile.skills[0]}</button>
+    <button>${profile.skills[1]}</button>
+    <button>${profile.skills[2]}</button>
+  </li>
+
 `)
