@@ -20,12 +20,12 @@ body {
   font-size: 18px;
   color: #111327;
   padding: 2% 10%;
-  margin: 0 1%;
+  margin: 0 3%;
 
   background-color: #FFFFFF;
 }
 hr {
-  margin: 3% 0;
+  margin: 2% 0;
 }
 h1 {
   background-color: #111327 ;
@@ -44,14 +44,43 @@ ul li {
 a {
   color: #111327;
   text-decoration: none;
+  text-align: center;
 }
 a:visited {
   color: #111327;
 }
+
 button {
   padding: 5px;
 }
+/*CLASSES*/
+.svg {
+  width: 18px;
+}
+.column-container {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  margin: 2% 0;
+  padding: 2% 0;
+}
+.evenly-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.svg-link {
+  padding: 2%;
+  margin: 2%;
+  border: 0.8px solid #111327;
+  border-radius: 5px;
+}
+.svg-link:hover {
+  border: 0.5px solid #808080;
+  border-radius: 3px;
+}
 /*HOVER*/
+
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 320px) {

@@ -1,6 +1,6 @@
 const root = document.querySelector('#root')
 
-//OBJETO
+//OBJETOS
 const profile = {
   name: "Marilzon de Sousa",
   city: "Bauru",
@@ -17,8 +17,10 @@ const profile = {
     github: "https://github.com/Marilzon",
     curriculum: "https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf"
   },
-  image: {
-    curriculumSvg: "".
+  images: {
+    curriculumSvg: "./images/curriculum.svg",
+    githubSvg: "./images/github.svg",
+    linkedInSvg: "./images/linkedin.svg"
   },
   skills: [
     "HTML",
@@ -35,49 +37,41 @@ function addElement(tag, content) {
 }
 //
 addElement('h1', 'Maril - Desenvolvedor Front-end')
-
 addElement('p', `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
-  e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong><hr>
+  e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
 `)
-
-addElement('p', `<strong>Telefone - Whats</strong>: ${profile.phone}`)
-
-addElement('p', `<strong>E-Mail:</strong> <a href='#'>${profile.email}</a>`)
-
-addElement('ul', `
-  <li>
-      <a target='_blank' href='${profile.social.curriculum}'>
-        <figure>
-        <img src='${profile.image.curriculum}'/>
-        <figcaption>Currículo</figcaption>
-        </figure>
-      </a>
-
-      <a target='_blank' href='${profile.social.github}'>
-        GitHub
-      </a>
-
-      <a target='_blank' href='${profile.social.linkedin}'>
-        LinkedIn
-      </a>
-  </li>
+addElement(`div class='column-container'`, `
+  <p>Telefone: ${profile.phone}</p>
+  <p>E-mail: <a href='#'><u>${profile.email}</u></a></p>
 `)
+addElement(`div class='evenly-container' `, `
+  <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
+    <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
+    Curriculo
+  </a>
 
+  <a class="svg-link" target='_blank' href='${profile.social.github}'>
+    <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
+    Github
+  </a>
+
+  <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
+    <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
+    LinkedIn
+  </a>
+`)
 addElement('ul', `<h3>Formação acadêmica:</h3>
   <li>${profile.education}</li>
 `)
-
 addElement('ul', `<h3>Cursos:</h3>
   <li>${profile.courses[0]}</li>
   <li>${profile.courses[1]}</li>
 `)
-
 addElement('ul', `<h3>Skills:</h3>
   <li>
     <button>${profile.skills[0]}</button>
     <button>${profile.skills[1]}</button>
     <button>${profile.skills[2]}</button>
   </li>
-
 `)
