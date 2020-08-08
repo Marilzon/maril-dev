@@ -5,8 +5,8 @@ const profile = {
   name: "Marilzon de Sousa",
   city: "Bauru",
   age: 28,
-  phone: "(14) X XXXX-XXXX",
-  email: "email@hotmail.com",
+  phone: "(14) 9 9140-9482",
+  email: "maxmaril@hotmail.com",
   education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (Cursando)",
   courses: [
     "Inglês Básico, CNA",
@@ -16,6 +16,9 @@ const profile = {
     linkedin: "https://www.linkedin.com/in/marilzon",
     github: "https://github.com/Marilzon",
     curriculum: "https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf"
+  },
+  image: {
+    curriculumSvg: "".
   },
   skills: [
     "HTML",
@@ -44,23 +47,20 @@ addElement('p', `<strong>E-Mail:</strong> <a href='#'>${profile.email}</a>`)
 
 addElement('ul', `
   <li>
-    <button>
       <a target='_blank' href='${profile.social.curriculum}'>
-        Currículo
+        <figure>
+        <img src='${profile.image.curriculum}'/>
+        <figcaption>Currículo</figcaption>
+        </figure>
       </a>
-    </button>
 
-    <button>
       <a target='_blank' href='${profile.social.github}'>
         GitHub
       </a>
-    </button>
 
-    <button>
       <a target='_blank' href='${profile.social.linkedin}'>
         LinkedIn
       </a>
-    </button>
   </li>
 `)
 
