@@ -7,10 +7,10 @@ const profile = {
   age: 28,
   phone: "(14) 9 9140-9482",
   email: "maxmaril@hotmail.com",
-  education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (Cursando)",
+  education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá",
   courses: [
     "Inglês Básico, CNA",
-    "GoStack – Desenvolvimento WEB e MOBILE, RocketSeat."
+    "GoStack – BootCamp desenvolvimento WEB e MOBILE, RocketSeat"
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/marilzon",
@@ -64,7 +64,7 @@ const socialLinks = `
 `
 const education = `
   <h3>Formação acadêmica:</h3>
-  <li>${profile.education}</li>
+  <li>${profile.education} (Cursando)</li>
 `
 const courses = `
   <h3>Cursos:</h3>
