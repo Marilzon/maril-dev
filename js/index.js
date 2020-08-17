@@ -1,4 +1,4 @@
-const root = document.querySelector('#root')
+﻿const root = document.querySelector('#root')
 
 //OBJETOS
 const profile = {
@@ -28,50 +28,61 @@ const profile = {
     "JavaScript"
   ]
 }
-//
+//Functions
 function addElement(tag, content) {
   let text = `
     <${tag}>${content}</${tag}>
   `
   root.insertAdjacentHTML('beforeend', text)
 }
-//
-addElement('h1', 'Maril - Desenvolvedor Front-end')
-addElement('p', `
+/*Textos e Marcacões*/
+const title = 'Maril - Desenvolvedor Front-end'
+
+const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
-`)
-addElement(`div class='column-container'`, `
+`
+const contacts = `
   <p>Telefone: ${profile.phone}</p>
   <p>E-mail: <a href='#'><u>${profile.email}</u></a></p>
-`)
-addElement(`div class='evenly-container' `, `
-  <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
-    <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
-    Curriculo
-  </a>
+`
+const socialLinks = `
+<a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
+  <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
+  Curriculo
+</a>
 
-  <a class="svg-link" target='_blank' href='${profile.social.github}'>
-    <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
-    Github
-  </a>
+<a class="svg-link" target='_blank' href='${profile.social.github}'>
+  <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
+  Github
+</a>
 
-  <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
-    <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
-    LinkedIn
-  </a>
-`)
-addElement('ul', `<h3>Formação acadêmica:</h3>
+<a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
+  <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
+  LinkedIn
+</a>
+`
+const education = `
+  <h3>Formação acadêmica:</h3>
   <li>${profile.education}</li>
-`)
-addElement('ul', `<h3>Cursos:</h3>
+`
+const courses = `
+  <h3>Cursos:</h3>
   <li>${profile.courses[0]}</li>
   <li>${profile.courses[1]}</li>
-`)
-addElement('ul', `<h3>Skills:</h3>
-  <li>
-    <button>${profile.skills[0]}</button>
-    <button>${profile.skills[1]}</button>
-    <button>${profile.skills[2]}</button>
-  </li>
-`)
+`
+const skills = `
+  <h3>Skills:</h3>
+  <button>${profile.skills[0]}</button>
+  <button>${profile.skills[1]}</button>
+  <button>${profile.skills[2]}</button>
+`
+// Chamando elementos pela função addElement
+
+addElement('h1', title)
+addElement(`p class='resume'`, myResume)
+addElement(`div class='column-container'`, contacts)
+addElement(`div class='evenly-container' `, socialLinks)
+addElement('ul', education)
+addElement('ul', courses)
+addElement('div', skills)

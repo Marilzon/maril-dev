@@ -16,13 +16,15 @@ body {
   height: 100vh;
 }
 #root {
+  width: 70vw;
+
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  background-color: #FFFFFF;
   color: #111327;
   padding: 2% 10%;
   margin: 0 3%;
 
-  background-color: #FFFFFF;
 }
 hr {
   margin: 2% 0;
@@ -41,6 +43,7 @@ ul li {
   margin-top: 3px;
   list-style: none;
 }
+
 a {
   color: #111327;
   text-decoration: none;
@@ -54,6 +57,11 @@ button {
   padding: 5px;
 }
 /*CLASSES*/
+.resume {
+  max-width: 700px;
+  text-align: center;
+  padding: 0 5%;
+}
 .svg {
   width: 18px;
 }
@@ -61,7 +69,6 @@ button {
   display: flex;
   flex-flow: column;
   text-align: center;
-  margin: 2% 0;
   padding: 2% 0;
 }
 .evenly-container {
@@ -70,8 +77,8 @@ button {
   justify-content: space-evenly;
 }
 .svg-link {
-  padding: 2%;
-  margin: 2%;
+  padding: 1%;
+  margin: 1%;
   border: 0.8px solid #111327;
   border-radius: 5px;
 }
