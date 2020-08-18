@@ -34,6 +34,7 @@ h1 {
   color: #FFFFFF;
   text-align: center;
   margin: 0;
+  user-select: none;
 }
 h3 {
   margin: 1% 0;
@@ -53,9 +54,6 @@ a:visited {
   color: #111327;
 }
 
-button {
-  padding: 5px;
-}
 /*CLASSES*/
 .resume {
   padding: 0 5%;
@@ -68,24 +66,25 @@ button {
   flex-flow: column;
   text-align: center;
   padding: 2% 0;
+  font-size: 16px;
 }
 .evenly-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 0 10%;
 }
+
 .svg-link {
   padding: 1%;
   margin: 1%;
   border: 0.8px solid #111327;
-  border-radius: 5px;
-}
-.svg-link:hover {
-  border: 0.5px solid #808080;
-  border-radius: 3px;
+  flex: 1;
 }
 /*HOVER*/
-
+  .svg-link:hover {
+    background-color:#80808057;
+  }
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 320px) {
@@ -93,7 +92,7 @@ button {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   #root  {
     font-size: 22px;
   }

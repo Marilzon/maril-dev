@@ -23,9 +23,9 @@ const profile = {
     linkedInSvg: "./images/linkedin.svg"
   },
   skills: [
-    "HTML",
-    "CSS",
-    "JavaScript"
+    "Marcaçães HTML5 e Manipulações DOM",
+    "CSS com foco em Styled Components",
+    "JavaScript com foco nas Stacks NodeJS, ReactJS e React-Native "
   ]
 }
 //Functions
@@ -36,7 +36,7 @@ function addElement(tag, content) {
   root.insertAdjacentHTML('beforeend', text)
 }
 /*Textos e Marcacões*/
-const title = 'Maril - Desenvolvedor Front-end'
+const title = 'Maril - Desenvolvedor Front End'
 
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
@@ -72,17 +72,17 @@ const courses = `
   <li>${profile.courses[1]}</li>
 `
 const skills = `
-  <h3>Skills:</h3>
-  <button>${profile.skills[0]}</button>
-  <button>${profile.skills[1]}</button>
-  <button>${profile.skills[2]}</button>
+  <h3>Habilidades:</h3>
+  <li>${profile.skills[0]}</li>
+  <li>${profile.skills[1]}</li>
+  <li>${profile.skills[2]}</li>
 `
 // Chamando elementos pela função addElement
 
 addElement('h1', title)
 addElement(`p class='resume'`, myResume)
-addElement(`div class='column-container'`, contacts)
 addElement(`div class='evenly-container' `, socialLinks)
 addElement('ul', education)
 addElement('ul', courses)
 addElement('div', skills)
+addElement(`div class='column-container'`, contacts)
