@@ -8,10 +8,10 @@ const profile = {
   phone: "(14) 9 9140-9482",
   whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
   email: "maxmaril@hotmail.com",
-  education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá",
+  education: " • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá",
   courses: [
-    "Inglês Básico, CNA",
-    "GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat"
+    " • Inglês Básico, CNA",
+    " • GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat"
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/marilzon",
@@ -25,9 +25,9 @@ const profile = {
     whatsappSvg: "./images/whatsapp.svg"
   },
   skills: [
-    "Marcaçôes HTML5 e Manipulações DOM",
-    "CSS com foco em Styled Components",
-    "JavaScript com foco nas Stacks NodeJS, ReactJS e React-Native "
+    " • HTML5",
+    " • CSS 3",
+    " • JavaScript: stacks NodeJS, ReactJS e React-Native "
   ]
 }
 //Functions
@@ -71,7 +71,7 @@ const socialLinks = `
 `
 const education = `
   <h3>Formação acadêmica:</h3>
-  <li>${profile.education} (Cursando)</li>
+  <span>${profile.education} (Cursando)</span>
 `
 const courses = `
   <h3>Cursos:</h3>
@@ -89,7 +89,7 @@ const skills = `
 addElement('h1', title)
 addElement(`p class='resume'`, myResume)
 addElement(`div class='evenly-container' `, socialLinks)
-addElement('ul', education)
+addElement('div', education)
 addElement('ul', courses)
-addElement('div', skills)
+addElement('ul', skills)
 addElement(`div class='column-container'`, contacts)
