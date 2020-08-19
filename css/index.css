@@ -92,6 +92,9 @@ a:visited {
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 480px) {
+  #root {
+    margin-top: 220px ;
+  }
   .resume {
     padding: 0;
     text-align: center;
