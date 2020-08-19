@@ -6,11 +6,12 @@ const profile = {
   city: "Bauru",
   age: 28,
   phone: "(14) 9 9140-9482",
+  whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
   email: "maxmaril@hotmail.com",
   education: "Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá",
   courses: [
     "Inglês Básico, CNA",
-    "GoStack – BootCamp desenvolvimento WEB e MOBILE, RocketSeat"
+    "GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat"
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/marilzon",
@@ -20,7 +21,8 @@ const profile = {
   images: {
     curriculumSvg: "./images/curriculum.svg",
     githubSvg: "./images/github.svg",
-    linkedInSvg: "./images/linkedin.svg"
+    linkedInSvg: "./images/linkedin.svg",
+    whatsappSvg: "./images/whatsapp.svg"
   },
   skills: [
     "Marcaçães HTML5 e Manipulações DOM",
@@ -43,22 +45,27 @@ const myResume = `
   e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
 `
 const contacts = `
-  <p>Telefone: ${profile.phone}</p>
+  <a class="svg-link" target='_blank' href="${profile.whatsapp}">
+    <p class="justify-container">
+      <img class="svg" src="${profile.images.whatsappSvg} " alt="Whatsapp logo">
+      Telefone: ${profile.phone}
+    </p>
+  </a>
   <p>E-mail: <a href='#'><u>${profile.email}</u></a></p>
 `
 const socialLinks = `
 <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
-  <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
+  <img class="svg" src="${profile.images.curriculumSvg} " alt="Curriculo logo">
   Curriculo
 </a>
 
 <a class="svg-link" target='_blank' href='${profile.social.github}'>
-  <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
+  <img class="svg" src="${profile.images.githubSvg} " alt="Github logo">
   Github
 </a>
 
 <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
-  <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
+  <img class="svg" src="${profile.images.linkedInSvg} " alt="Linkedin logo">
   LinkedIn
 </a>
 `
