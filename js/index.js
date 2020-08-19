@@ -25,7 +25,7 @@ const profile = {
     whatsappSvg: "./images/whatsapp.svg"
   },
   skills: [
-    "Marcaçães HTML5 e Manipulações DOM",
+    "Marcaçôes HTML5 e Manipulações DOM",
     "CSS com foco em Styled Components",
     "JavaScript com foco nas Stacks NodeJS, ReactJS e React-Native "
   ]

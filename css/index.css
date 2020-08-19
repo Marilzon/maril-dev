@@ -103,12 +103,13 @@ a:visited {
   }
   .svg-link {
     display: flex;
-    padding: 1%;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3%;
     margin: 1%;
     border: 0.8px solid #111327;
     width: 100%;
-    align-items: center;
-    justify-content: center;
   }
 }
 @media screen and (min-width: 320px) {
