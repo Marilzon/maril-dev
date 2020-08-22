@@ -44,7 +44,7 @@ const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
 `
-const contacts = `
+const contact = `
   <a class="svg-link" target='_blank' href="${profile.whatsapp}">
     <p class="justify-container">
       <img class="svg" src="${profile.images.whatsappSvg} " alt="Whatsapp logo">
@@ -84,6 +84,20 @@ const skills = `
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
 `
+const portfolio = `
+  <h3>Projetos:</h3>
+  <div class="evenly-container">
+    <a class="project-link" href='#'>
+      PROJETO
+    </a>
+    <a class="project-link" href='#'>
+      PROJETO
+    </a>
+    <a class="project-link" href='#'>
+      PROJETO
+    </a>
+  </div>
+`
 // Chamando elementos pela função addElement
 
 addElement('h1', title)
@@ -92,4 +106,5 @@ addElement(`div class='evenly-container' `, socialLinks)
 addElement('div', education)
 addElement('ul', courses)
 addElement('ul', skills)
-addElement(`div class='column-container'`, contacts)
+addElement(`div`, portfolio)
+addElement(`div class='column-container'`, contact)
