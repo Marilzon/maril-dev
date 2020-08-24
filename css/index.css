@@ -16,14 +16,12 @@ body {
   height: 100vh;
 }
 #root {
-  width: 70vw;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   background-color: #FFFFFF;
   color: #111327;
   padding: 2% 10%;
   margin: 0 3%;
-
 }
 hr {
   margin: 2% 0;
@@ -103,9 +101,7 @@ a:visited {
 }
 
 /*MEDIA QUERIES*/
-  h1 {
-    display: none;
-  }
+@media screen and (max-width: 480px) {
   .resume {
     padding: 0;
     text-align: center;
