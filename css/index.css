@@ -103,9 +103,8 @@ a:visited {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 480px) {
-  #root {
-    margin-top: 220px ;
+  h1 {
+    display: none;
   }
   .resume {
     padding: 0;
