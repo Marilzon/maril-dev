@@ -27,7 +27,7 @@ const profile = {
   skills: [
     " • HTML5",
     " • CSS 3",
-    " • JavaScript: stacks NodeJS, ReactJS e React-Native "
+    " • JavaScript: stacks Node.js, React e React-Native "
   ]
 }
 //Functions
