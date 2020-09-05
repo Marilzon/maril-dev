@@ -22,7 +22,8 @@ const profile = {
     curriculumSvg: "./images/curriculum.svg",
     githubSvg: "./images/github.svg",
     linkedInSvg: "./images/linkedin.svg",
-    whatsappSvg: "./images/whatsapp.svg"
+    whatsappSvg: "./images/whatsapp.svg",
+    emailSvg: "./images/email.svg"
   },
   skills: [
     " • HTML5",
@@ -37,6 +38,13 @@ function addElement(tag, content) {
   `
   root.insertAdjacentHTML('beforeend', text)
 }
+function copyValue() {
+  let copyText = document.querySelector("#myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Email copiado!");
+}
 /*Textos e Marcacões*/
 const title = 'Maril - Desenvolvedor Front End'
 
@@ -47,25 +55,35 @@ const myResume = `
 const contact = `
   <a class="svg-link" target='_blank' href="${profile.whatsapp}">
     <p class="justify-container">
-      <img class="svg" src="${profile.images.whatsappSvg} " alt="Whatsapp logo">
+      <img class="svg mr-custon" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
       Telefone: ${profile.phone}
     </p>
   </a>
-  <p>E-mail: <a href='#'><u>${profile.email}</u></a></p>
+  <input
+    class="inputEmail"
+    type="link"
+    value=${profile.email}
+    readonly="true"
+    id="myInput"
+  >
+  <button class="copyButton justify-container" onclick="copyValue()">
+    <img class="svg mr-custon" src="${profile.images.emailSvg}" alt="E-mail logo">
+    E-mail:<u>maxmaril@hotmail.com</u>
+  </button>
 `
 const socialLinks = `
 <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
-  <img class="svg" src="${profile.images.curriculumSvg} " alt="Curriculo logo">
+  <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
   Curriculo
 </a>
 
 <a class="svg-link" target='_blank' href='${profile.social.github}'>
-  <img class="svg" src="${profile.images.githubSvg} " alt="Github logo">
+  <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
   Github
 </a>
 
 <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
-  <img class="svg" src="${profile.images.linkedInSvg} " alt="Linkedin logo">
+  <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
   LinkedIn
 </a>
 `
@@ -98,7 +116,7 @@ const portfolio = `
     </a>
   </div>
 `
-// Chamando elementos pela função addElement
+// Chamando funções
 
 addElement('h1', title)
 addElement(`p class='resume'`, myResume)
