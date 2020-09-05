@@ -74,48 +74,18 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 .justify-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.projects-container {
-  display: flex;
-}
-.project-link {
-  width: 300px;
-  height: 260px;
-
-  background-color: #80808057;
-  margin: 5px 2px;
-  opacity: 0.8;
-}
 .inputEmail {
   display: none;
 }
-.copyButton {
-  border: 0.8px solid #111327;
-  border-radius: 0%;
-  padding: 1%;
-  background-color: #fff;
-}
-.mr-custon {
-  margin-right: 3px;
-}
 /*HOVER, ACTIVE*/
 .svg-link:hover {
-  background-color:#80808057;
-}
-.project-link:hover {
-  background-color: #80808057;
-  opacity: 1;
-}
-.copyButton:active {
-  background-color:#80808057;
-}
-.copyButton:hover {
   background-color:#80808057;
 }
 
@@ -129,12 +99,6 @@ a:visited {
     display: flex;
     flex-flow: column;
     padding: 0 10%;
-  }
-  .project-link {
-    width: 200px;
-    height: 40px;
-    background-color: #80808057;
-    margin: 5px;
   }
   .svg-link {
     display: flex;

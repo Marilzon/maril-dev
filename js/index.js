@@ -53,23 +53,25 @@ const myResume = `
   e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
 `
 const contact = `
-  <a class="svg-link" target='_blank' href="${profile.whatsapp}">
-    <p class="justify-container">
-      <img class="svg mr-custon" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
-      Telefone: ${profile.phone}
-    </p>
-  </a>
+  <h3>Contato:</h3>
   <input
     class="inputEmail"
-    type="link"
+    type="text"
     value=${profile.email}
     readonly="true"
     id="myInput"
   >
-  <button class="copyButton justify-container" onclick="copyValue()">
-    <img class="svg mr-custon" src="${profile.images.emailSvg}" alt="E-mail logo">
-    E-mail:<u>maxmaril@hotmail.com</u>
-  </button>
+  <div class="evenly-container">
+    <a class="svg-link" target='_blank' href="${profile.whatsapp}">
+        <img class="svg" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
+        ${profile.phone}
+    </a>
+
+    <a class="svg-link" onclick="copyValue()">
+      <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
+      <u>maxmaril@hotmail.com</u>
+    </a>
+  </div>
 `
 const socialLinks = `
 <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
@@ -102,20 +104,7 @@ const skills = `
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
 `
-const portfolio = `
-  <h3>Projetos:</h3>
-  <div class="evenly-container">
-    <a class="project-link" href='#'>
-      PROJETO
-    </a>
-    <a class="project-link" href='#'>
-      PROJETO
-    </a>
-    <a class="project-link" href='#'>
-      PROJETO
-    </a>
-  </div>
-`
+
 // Chamando funções
 
 addElement('h1', title)
@@ -124,4 +113,4 @@ addElement(`div class='evenly-container' `, socialLinks)
 addElement('div', education)
 addElement('ul', courses)
 addElement('ul', skills)
-addElement(`div class='column-container'`, contact)
+addElement(`div'`, contact)
