@@ -3,7 +3,7 @@
 //OBJETOS
 const profile = {
   name: "Marilzon de Sousa",
-  city: "Bauru",
+  city: "Lençóis Paulista - SP",
   age: 28,
   phone: "(14) 9 9140-9482",
   whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
