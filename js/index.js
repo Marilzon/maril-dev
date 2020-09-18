@@ -50,7 +50,7 @@ const title = 'Maril - Desenvolvedor Front End'
 
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
-  e estou em busca de oportunidades como <strong>Desenvolvedor Front-end</strong>
+  e estou em busca de oportunidades como <strong>Desenvolvedor WEB</strong>
 `
 const contact = `
   <h3>Contato:</h3>
