@@ -1,6 +1,4 @@
 ﻿const root = document.querySelector('#root')
-
-//OBJETOS
 const profile = {
   name: "Marilzon de Sousa",
   city: "Lençóis Paulista - SP",
@@ -31,7 +29,6 @@ const profile = {
     " • JavaScript: stacks Node.js, React e React-Native "
   ]
 }
-//Functions
 function addElement(tag, content) {
   let text = `
     <${tag}>${content}</${tag}>
@@ -45,9 +42,7 @@ function copyValue() {
   document.execCommand("copy");
   alert("Email copiado!");
 }
-/*Textos e Marcacões*/
 const title = 'Maril - Desenvolvedor Front End'
-
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades na area de <strong>Banco de dados ou Desenvolvedimento WEB</strong>
@@ -66,7 +61,6 @@ const contact = `
         <img class="svg" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
         ${profile.phone}
     </a>
-
     <a class="svg-link" onclick="copyValue()">
       <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
       <u>maxmaril@hotmail.com</u>
@@ -78,12 +72,10 @@ const socialLinks = `
   <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
   Curriculo
 </a>
-
 <a class="svg-link" target='_blank' href='${profile.social.github}'>
   <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
   Github
 </a>
-
 <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
   <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
   LinkedIn
@@ -104,9 +96,6 @@ const skills = `
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
 `
-
-// Chamando funções
-
 addElement('h1', title)
 addElement(`p class='resume'`, myResume)
 addElement(`div class='evenly-container' `, socialLinks)
