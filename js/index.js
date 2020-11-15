@@ -3,15 +3,16 @@ const profile = {
   name: "Marilzon de Sousa",
   city: "Lençóis Paulista - SP",
   age: 28,
-  phone: "(14) 9 9140-9482",
-  whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
-  email: "maxmaril@hotmail.com",
-  education: " • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá",
+  education: " • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)",
   courses: [
     " • Inglês Básico, CNA",
     " • GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat"
   ],
   social: {
+    phone: "(14) 9 9140-9482",
+    whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
+    email: "maxmaril@hotmail.com",
+
     linkedin: "https://www.linkedin.com/in/marilzon",
     github: "https://github.com/Marilzon",
     curriculum: "https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf"
@@ -38,34 +39,21 @@ function addElement(tag, content) {
 function copyValue() {
   let copyText = document.querySelector("#myInput");
   copyText.select();
-  copyText.setSelectionRange(0, 99999)
+  copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  alert("Email copiado!");
+  Swal.fire({
+    position: 'top-center',
+    icon: 'success',
+    title: 'Email copiado!',
+    showConfirmButton: false,
+    timer: 1500
+  });
+
 }
 const title = 'Maril - Desenvolvedor Front End'
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
-  e estou em busca de oportunidades na area de <strong>Banco de dados ou Desenvolvedimento WEB</strong>
-`
-const contact = `
-  <h3>Contato:</h3>
-  <input
-    class="inputEmail"
-    type="text"
-    value=${profile.email}
-    readonly="true"
-    id="myInput"
-  >
-  <div class="evenly-container">
-    <a class="svg-link" target='_blank' href="${profile.whatsapp}">
-        <img class="svg" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
-        ${profile.phone}
-    </a>
-    <a class="svg-link" onclick="copyValue()">
-      <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
-      <u>maxmaril@hotmail.com</u>
-    </a>
-  </div>
+  e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
 `
 const socialLinks = `
 <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
@@ -80,6 +68,25 @@ const socialLinks = `
   <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
   LinkedIn
 </a>
+`
+const contact = `
+<h3>Contato:</h3>
+  <input
+    class="inputEmail"
+    type="text"
+    value=${profile.social.email}
+    readonly="true"
+    id="myInput"
+>
+  <div class="evenly-container">
+    <a class="svg-link" target='_blank' href="${profile.social.whatsapp}">
+        <img class="svg" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
+        ${profile.social.phone}
+    </a>
+    <a class="svg-link" onclick="copyValue()">
+      <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
+      <span class="underline-text">${profile.social.email}</span>
+    </a>
 `
 const education = `
   <h3>Formação acadêmica:</h3>

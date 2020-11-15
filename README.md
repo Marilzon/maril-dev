@@ -7,3 +7,4 @@
 # Fontes
 - [X] Icones: https://www.flaticon.com/br/
 - [X] Fontes de texto: https://fonts.googleapis.com
+- [X] Sweet Alert: https://sweetalert2.github.io/
