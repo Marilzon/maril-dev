@@ -42,7 +42,7 @@ function copyValue() {
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
   Swal.fire({
-    position: 'top-center',
+    position: 'bottom',
     icon: 'success',
     title: 'Email copiado!',
     showConfirmButton: false,
