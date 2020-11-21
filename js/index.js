@@ -30,12 +30,14 @@ const profile = {
     " • JavaScript: stacks Node.js, React e React-Native "
   ]
 }
+
 function addElement(tag, content) {
   let text = `
     <${tag}>${content}</${tag}>
   `
   root.insertAdjacentHTML('beforeend', text)
 }
+
 function copyValue() {
   let copyText = document.querySelector("#myInput");
   copyText.select();
@@ -50,25 +52,26 @@ function copyValue() {
   });
 
 }
-const title = 'Maril - Desenvolvedor Front End'
+
+const title = 'Maril - Desenvolvedor Front End';
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
-`
+`;
 const socialLinks = `
-<a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
-  <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
-  Curriculo
-</a>
-<a class="svg-link" target='_blank' href='${profile.social.github}'>
-  <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
-  Github
-</a>
-<a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
-  <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
-  LinkedIn
-</a>
-`
+  <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
+    <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
+    Curriculo
+  </a>
+  <a class="svg-link" target='_blank' href='${profile.social.github}'>
+    <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
+    Github
+  </a>
+  <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
+    <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
+    LinkedIn
+  </a>
+`;
 const contact = `
 <h3>Contato:</h3>
   <input
@@ -87,26 +90,26 @@ const contact = `
       <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
       <span class="underline-text">${profile.social.email}</span>
     </a>
-`
+`;
 const education = `
   <h3>Formação acadêmica:</h3>
   <span>${profile.education} (Cursando)</span>
-`
+`;
 const courses = `
   <h3>Cursos:</h3>
   <li>${profile.courses[0]}</li>
   <li>${profile.courses[1]}</li>
-`
+`;
 const skills = `
   <h3>Habilidades:</h3>
   <li>${profile.skills[0]}</li>
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
-`
-addElement('h1', title)
-addElement(`p class='resume'`, myResume)
-addElement(`div class='evenly-container' `, socialLinks)
+`;
+addElement('h1', title);
+addElement(`p class='resume'`, myResume);
+addElement(`div class='evenly-container' `, socialLinks);
 addElement('div', education)
-addElement('ul', courses)
-addElement('ul', skills)
-addElement(`div'`, contact)
+addElement('ul', courses);
+addElement('ul', skills);
+addElement(`div'`, contact);
