@@ -1,56 +1,55 @@
-﻿const root = document.querySelector('#root')
+﻿const root = document.querySelector('#root');
 const profile = {
-  name: "Marilzon de Sousa",
-  city: "Lençóis Paulista - SP",
+  name: 'Marilzon de Sousa',
+  city: 'Lençóis Paulista - SP',
   age: 28,
-  education: " • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)",
+  education: ' • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)',
   courses: [
-    " • Inglês Básico, CNA",
-    " • GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat"
+    ' • Inglês Básico, CNA',
+    ' • GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat',
   ],
   social: {
-    phone: "(14) 9 9140-9482",
-    whatsapp: "https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!",
-    email: "maxmaril@hotmail.com",
+    phone: '(14) 9 9140-9482',
+    whatsapp: 'https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!',
+    email: 'maxmaril@hotmail.com',
 
-    linkedin: "https://www.linkedin.com/in/marilzon",
-    github: "https://github.com/Marilzon",
-    curriculum: "https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf"
+    linkedin: 'https://www.linkedin.com/in/marilzon',
+    github: 'https://github.com/Marilzon',
+    curriculum: 'https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf',
   },
   images: {
-    curriculumSvg: "./images/curriculum.svg",
-    githubSvg: "./images/github.svg",
-    linkedInSvg: "./images/linkedin.svg",
-    whatsappSvg: "./images/whatsapp.svg",
-    emailSvg: "./images/email.svg"
+    curriculumSvg: './images/curriculum.svg',
+    githubSvg: './images/github.svg',
+    linkedInSvg: './images/linkedin.svg',
+    whatsappSvg: './images/whatsapp.svg',
+    emailSvg: './images/email.svg',
   },
   skills: [
-    " • HTML5",
-    " • CSS 3",
-    " • JavaScript: stacks Node.js, React e React-Native "
-  ]
-}
+    ' • HTML5',
+    ' • CSS 3',
+    ' • JavaScript: stacks Node.js, React e React-Native ',
+  ],
+};
 
 function addElement(tag, content) {
-  let text = `
+  const text = `
     <${tag}>${content}</${tag}>
-  `
-  root.insertAdjacentHTML('beforeend', text)
+  `;
+  root.insertAdjacentHTML('beforeend', text);
 }
 
 function copyValue() {
-  let copyText = document.querySelector("#myInput");
+  const copyText = document.querySelector('#myInput');
   copyText.select();
   copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
+  document.execCommand('copy');
   Swal.fire({
     position: 'bottom',
     icon: 'success',
     title: 'Email copiado!',
     showConfirmButton: false,
-    timer: 1500
+    timer: 1500,
   });
-
 }
 
 const title = 'Maril - Desenvolvedor Front End';
@@ -107,9 +106,9 @@ const skills = `
   <li>${profile.skills[2]}</li>
 `;
 addElement('h1', title);
-addElement(`p class='resume'`, myResume);
-addElement(`div class='evenly-container' `, socialLinks);
-addElement('div', education)
+addElement('p class=\'resume\'', myResume);
+addElement('div class=\'evenly-container\' ', socialLinks);
+addElement('div', education);
 addElement('ul', courses);
 addElement('ul', skills);
-addElement(`div'`, contact);
+addElement('div\'', contact);
