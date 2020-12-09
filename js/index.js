@@ -111,9 +111,9 @@ const skills = `
 `;
 const projects = `
   <h3>Projetos:</h3>
-  <a href='${profile.portfolio[0]}' target='_blank'> • JavaScript FizzBuzz</a>
+  <a href='${profile.portfolio[0]}' target='_blank'> • Manupulando Arrays com JavaScript</a>
   <br>
-  <a href='${profile.portfolio[1]}' target='_blank'> • Manupulando Arrays com JavaScript</a>
+  <a href='${profile.portfolio[1]}' target='_blank'> • JavaScript FizzBuzz</a>
 `;
 addElement('h1', title);
 addElement('p class=resume', myResume);
