@@ -23,6 +23,7 @@ const profile = {
     linkedInSvg: './images/linkedin.svg',
     whatsappSvg: './images/whatsapp.svg',
     emailSvg: './images/email.svg',
+    javaScriptSvg: './images/js.svg',
   },
   skills: [
     ' • HTML5',
@@ -62,15 +63,15 @@ const myResume = `
   e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
 `;
 const socialLinks = `
-  <a class='svg-link' target='_blank' href='${profile.social.curriculum}'>
+  <a class='link' target='_blank' href='${profile.social.curriculum}'>
     <img class='svg' src='${profile.images.curriculumSvg}' alt='Curriculo logo'>
     Curriculo
   </a>
-  <a class='svg-link' target='_blank' href='${profile.social.github}'>
+  <a class='link' target='_blank' href='${profile.social.github}'>
     <img class='svg' src='${profile.images.githubSvg}' alt='Github logo'>
     Github
   </a>
-  <a class='svg-link' target='_blank' href='${profile.social.linkedin}'>
+  <a class='link' target='_blank' href='${profile.social.linkedin}'>
     <img class='svg' src='${profile.images.linkedInSvg}' alt='Linkedin logo'>
     LinkedIn
   </a>
@@ -85,11 +86,11 @@ const contact = `
     id='myInput'
 >
   <div class='evenly-container'>
-    <a class='svg-link' target='_blank' href='${profile.social.whatsapp}'>
+    <a class='link' target='_blank' href='${profile.social.whatsapp}'>
         <img class='svg' src='${profile.images.whatsappSvg}' alt='Whatsapp logo'>
         ${profile.social.phone}
     </a>
-    <a class='svg-link' onclick='copyValue()'>
+    <a class='link' onclick='copyValue()'>
       <img class='svg' src='${profile.images.emailSvg}' alt='E-mail logo'>
       <span class='underline-text'>${profile.social.email}</span>
     </a>
@@ -111,9 +112,16 @@ const skills = `
 `;
 const projects = `
   <h3>Projetos:</h3>
-  <a href='${profile.portfolio[0]}' target='_blank'> • Manupulando Arrays com JavaScript</a>
-  <br>
-  <a href='${profile.portfolio[1]}' target='_blank'> • JavaScript FizzBuzz</a>
+  <div class='evenly-container'>
+    <a class='link' href='${profile.portfolio[0]}' target='_blank'>
+      <img class='svg' src='${profile.images.javaScriptSvg}' alt='Curriculo logo'>
+      handlerArrays
+    </a>
+    <a class='link' href='${profile.portfolio[1]}' target='_blank'>
+      <img class='svg' src='${profile.images.javaScriptSvg}' alt='Curriculo logo'>
+      FizzBuzz
+    </a>
+  </div>
 `;
 addElement('h1', title);
 addElement('p class=resume', myResume);
