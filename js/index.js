@@ -29,6 +29,10 @@ const profile = {
     ' • CSS 3',
     ' • JavaScript: stacks Node.js, React e React-Native ',
   ],
+  portfolio: [
+    'https://marilzon.github.io/handlerArrays',
+    'https://marilzon.github.io/FizzBuzz',
+  ],
 };
 
 function addElement(tag, content) {
@@ -58,36 +62,36 @@ const myResume = `
   e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
 `;
 const socialLinks = `
-  <a class="svg-link" target='_blank' href='${profile.social.curriculum}'>
-    <img class="svg" src="${profile.images.curriculumSvg}" alt="Curriculo logo">
+  <a class='svg-link' target='_blank' href='${profile.social.curriculum}'>
+    <img class='svg' src='${profile.images.curriculumSvg}' alt='Curriculo logo'>
     Curriculo
   </a>
-  <a class="svg-link" target='_blank' href='${profile.social.github}'>
-    <img class="svg" src="${profile.images.githubSvg}" alt="Github logo">
+  <a class='svg-link' target='_blank' href='${profile.social.github}'>
+    <img class='svg' src='${profile.images.githubSvg}' alt='Github logo'>
     Github
   </a>
-  <a class="svg-link" target='_blank' href='${profile.social.linkedin}'>
-    <img class="svg" src="${profile.images.linkedInSvg}" alt="Linkedin logo">
+  <a class='svg-link' target='_blank' href='${profile.social.linkedin}'>
+    <img class='svg' src='${profile.images.linkedInSvg}' alt='Linkedin logo'>
     LinkedIn
   </a>
 `;
 const contact = `
 <h3>Contato:</h3>
   <input
-    class="inputEmail"
-    type="text"
+    class='inputEmail'
+    type='text'
     value=${profile.social.email}
-    readonly="true"
-    id="myInput"
+    readonly='true'
+    id='myInput'
 >
-  <div class="evenly-container">
-    <a class="svg-link" target='_blank' href="${profile.social.whatsapp}">
-        <img class="svg" src="${profile.images.whatsappSvg}" alt="Whatsapp logo">
+  <div class='evenly-container'>
+    <a class='svg-link' target='_blank' href='${profile.social.whatsapp}'>
+        <img class='svg' src='${profile.images.whatsappSvg}' alt='Whatsapp logo'>
         ${profile.social.phone}
     </a>
-    <a class="svg-link" onclick="copyValue()">
-      <img class="svg" src="${profile.images.emailSvg}" alt="E-mail logo">
-      <span class="underline-text">${profile.social.email}</span>
+    <a class='svg-link' onclick='copyValue()'>
+      <img class='svg' src='${profile.images.emailSvg}' alt='E-mail logo'>
+      <span class='underline-text'>${profile.social.email}</span>
     </a>
 `;
 const education = `
@@ -105,10 +109,17 @@ const skills = `
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
 `;
+const projects = `
+  <h3>Projetos:</h3>
+  <a href='${profile.portfolio[0]}' target='_blank'> • JavaScript FizzBuzz</a>
+  <br>
+  <a href='${profile.portfolio[1]}' target='_blank'> • Manupulando Arrays com JavaScript</a>
+`;
 addElement('h1', title);
-addElement('p class=\'resume\'', myResume);
-addElement('div class=\'evenly-container\' ', socialLinks);
+addElement('p class=resume', myResume);
+addElement('div class=evenly-container ', socialLinks);
 addElement('div', education);
 addElement('ul', courses);
 addElement('ul', skills);
-addElement('div\'', contact);
+addElement('div', contact);
+addElement('div', projects);
