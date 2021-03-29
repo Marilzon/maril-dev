@@ -3,27 +3,28 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url('../images/abstract-blue.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
+  height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
+
 #root {
   font-family: 'Roboto', sans-serif;
   background-color: #FFFFFF;
   color: #111327;
-  padding: 2% 10%;
-  margin: 0 5%;
+  padding: 2% 6%;
+  margin: 0 2%;
 }
-hr {
-  margin: 2% 0;
-}
+
 h1 {
   color: #111327;
   text-align: center;
@@ -31,8 +32,9 @@ h1 {
   user-select: none;
 }
 h3 {
-  margin: 1% 0;
+  margin-top: 5px;
 }
+
 ul li {
   list-style: none;
 }

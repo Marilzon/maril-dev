@@ -3,10 +3,9 @@ const profile = {
   name: 'Marilzon de Sousa',
   city: 'Lençóis Paulista - SP',
   age: 28,
-  education: ' • Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)',
+  education: '  Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)',
   courses: [
-    ' • Inglês Básico, CNA',
-    ' • GoStack – Bootcamp desenvolvimento WEB e MOBILE, RocketSeat',
+    '  Inglês Básico, CNA',
   ],
   social: {
     phone: '(14) 9 9140-9482',
@@ -26,9 +25,9 @@ const profile = {
     javaScriptSvg: './images/js.svg',
   },
   skills: [
-    ' • HTML5',
-    ' • CSS 3',
-    ' • JavaScript: stacks Node.js, React e React-Native ',
+    'HTML5',
+    'CSS 3',
+    'JavaScript: stacks Node.js, React e Angular 8+',
   ],
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
@@ -94,6 +93,7 @@ const contact = `
       <img class='svg' src='${profile.images.emailSvg}' alt='E-mail logo'>
       <span class='underline-text'>${profile.social.email}</span>
     </a>
+  </div>
 `;
 const education = `
   <h3>Formação acadêmica:</h3>
@@ -102,7 +102,6 @@ const education = `
 const courses = `
   <h3>Cursos:</h3>
   <li>${profile.courses[0]}</li>
-  <li>${profile.courses[1]}</li>
 `;
 const skills = `
   <h3>Habilidades:</h3>
