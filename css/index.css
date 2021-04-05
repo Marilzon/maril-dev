@@ -115,6 +115,7 @@ a:visited {
 /*HOVER, ACTIVE*/
 .link:hover {  
   background-color:#12c2f762;
+  cursor: pointer;
 }
 
 .project:hover {
