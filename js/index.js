@@ -27,7 +27,7 @@ const profile = {
   skills: [
     'HTML5',
     'CSS 3',
-    'JavaScript: stacks Node.js, React e Angular 8+',
+    'JavaScript: stacks Node.js e ReactJS',
   ],
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
@@ -56,7 +56,10 @@ function copyValue() {
   });
 }
 
-const title = 'Maril - Desenvolvedor Front End';
+const title = `
+  <h1>Maril</h1>
+  <small class='subtitle'>Desenvolvedor Front-End</small>
+`;
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
   e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
@@ -76,7 +79,7 @@ const socialLinks = `
   </a>
 `;
 const contact = `
-<h3>Contato:</h3>
+<h4>Contato:</h4>
   <input
     class='inputEmail'
     type='text'
@@ -96,34 +99,41 @@ const contact = `
   </div>
 `;
 const education = `
-  <h3>Formação acadêmica:</h3>
+  <h4>Formação acadêmica:</h4>
   <span>${profile.education} (Cursando)</span>
 `;
 const courses = `
-  <h3>Cursos:</h3>
+  <h4>Cursos:</h4>
   <li>${profile.courses[0]}</li>
 `;
 const skills = `
-  <h3>Habilidades:</h3>
+  <h4>Habilidades:</h4>
   <li>${profile.skills[0]}</li>
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
 `;
 const projects = `
-  <h3>Projetos:</h3>
+  <h4>Projetos:</h4>
   <div class='evenly-container'>
-    <a class='link' href='${profile.portfolio[0]}' target='_blank'>
-      <img class='svg' src='${profile.images.javaScriptSvg}' alt='Curriculo logo'>
+    <a class='project' href='${profile.portfolio[0]}' target='_blank'>
       handlerArrays
+      <hr/>
+      <small class='subtitle'>
+        Projeto que demonstra manipulaoes de Arrays com funcões JavaScript
+      </small>
     </a>
-    <a class='link' href='${profile.portfolio[1]}' target='_blank'>
-      <img class='svg' src='${profile.images.javaScriptSvg}' alt='Curriculo logo'>
+
+    <a class='project' href='${profile.portfolio[1]}' target='_blank'>
       FizzBuzz
+      <hr/>
+      <small class='subtitle'>
+        Jogo de números baseado em funções JavaScript e CSS 3
+      </small>
     </a>
   </div>
 `;
-addElement('h1', title);
-addElement('p class=resume', myResume);
+addElement(`div class='title'`, title);
+addElement('div class=resume', myResume);
 addElement('div class=evenly-container ', socialLinks);
 addElement('div', education);
 addElement('ul', courses);
