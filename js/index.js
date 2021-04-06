@@ -3,7 +3,7 @@ const profile = {
   name: 'Marilzon de Sousa',
   city: 'Lençóis Paulista - SP',
   age: 28,
-  education: '  Analise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022)',
+  education: '  Analise e Desenvolvimento de Sistemas - Estácio de Sá (2020-2022)',
   courses: [
     '  Inglês Básico, CNA',
   ],
@@ -99,8 +99,8 @@ const contact = `
   </div>
 `;
 const education = `
-  <h4>Formação acadêmica:</h4>
-  <span>${profile.education} (Cursando)</span>
+  <h4 class='text-center'>Formação acadêmica:</h4>
+  <span>${profile.education}</span>
 `;
 const courses = `
   <h4>Cursos:</h4>
@@ -134,9 +134,8 @@ const projects = `
 `;
 addElement(`div class='title'`, title);
 addElement('div class=resume', myResume);
-addElement('div class=evenly-container ', socialLinks);
-addElement('div', education);
-addElement('ul', courses);
-addElement('ul', skills);
+addElement('div class=evenly-container', socialLinks);
+addElement(`div class='justify-center'`, education);
+addElement(`ul class='justify-center'`, courses);
 addElement('div', contact);
 addElement('div', projects);
