@@ -135,7 +135,8 @@ const projects = `
 addElement(`div class='title'`, title);
 addElement('div class=resume', myResume);
 addElement('div class=evenly-container', socialLinks);
-addElement(`div class='justify-center'`, education);
-addElement(`ul class='justify-center'`, courses);
+addElement(`div`, education);
+addElement(`ul `, courses);
+addElement(`ul `, skills);
 addElement('div', contact);
 addElement('div', projects);
