@@ -27,7 +27,7 @@ const profile = {
   skills: [
     'HTML5',
     'CSS 3',
-    'JavaScript: stacks Node.js e ReactJS',
+    'JavaScript: foco em ReactJS',
   ],
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
