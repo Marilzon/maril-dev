@@ -2,7 +2,7 @@
 const profile = {
   name: 'Marilzon de Sousa',
   city: 'Lençóis Paulista - SP',
-  age: 28,
+  age: 29,
   education: '  Analise e Desenvolvimento de Sistemas - Estácio de Sá (2020-2022)',
   courses: [
     '  Inglês Básico, CNA',
