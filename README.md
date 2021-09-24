@@ -1,7 +1,7 @@
 ## MARILZON DE SOUSA
 - Este é meu repositório, onde aplico meus projetos e estudos.
 
-* DESENVOLVEDOR FRONT-END com foco nas stacks Node.js React e React-Native
+* DESENVOLVEDOR com foco nas stacks Node.js React e Blockchain
 - [X] GITHUB-PAGES: https://marilzon.github.io/maril-dev/
 
 # Fontes

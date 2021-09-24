@@ -6,6 +6,7 @@ const profile = {
   education: '  Analise e Desenvolvimento de Sistemas - Estácio de Sá (2020-2022)',
   courses: [
     '  Inglês Básico, CNA',
+    '  Blockchain com NODEJS, UDEMY'
   ],
   social: {
     phone: '(14) 9 9140-9482',
@@ -27,7 +28,8 @@ const profile = {
   skills: [
     'HTML5',
     'CSS 3',
-    'JavaScript: foco em ReactJS',
+    'JavaScript: NodeJS, ReactJS',
+    'Blockchain',
   ],
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
@@ -58,7 +60,7 @@ function copyValue() {
 
 const title = `
   <h1>Maril</h1>
-  <small class='subtitle'>Desenvolvedor Front-End</small>
+  <small class='subtitle'>Desenvolvedor JS</small>
 `;
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
@@ -105,12 +107,14 @@ const education = `
 const courses = `
   <h4>Cursos:</h4>
   <li>${profile.courses[0]}</li>
+  <li>${profile.courses[1]}</li>
 `;
 const skills = `
   <h4>Habilidades:</h4>
   <li>${profile.skills[0]}</li>
   <li>${profile.skills[1]}</li>
   <li>${profile.skills[2]}</li>
+  <li>${profile.skills[3]}</li>
 `;
 const projects = `
   <h4>Projetos:</h4>
