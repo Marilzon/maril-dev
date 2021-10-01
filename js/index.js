@@ -64,7 +64,7 @@ const title = `
 `;
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
-  e estou em busca de oportunidades na area de <strong>Desenvolvedimento WEB</strong>
+  e sou Desenvolvedor JAVASCRIPT, minhas principais stacks atualmente são nodeJS e BlockChain</strong>
 `;
 const socialLinks = `
   <a class='link' target='_blank' href='${profile.social.curriculum}'>
