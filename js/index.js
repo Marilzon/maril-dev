@@ -60,11 +60,11 @@ function copyValue() {
 
 const title = `
   <h1>Maril</h1>
-  <small class='subtitle'>Desenvolvedor JS</small>
+  <small class='subtitle'>Desenvolvedor nodeJS</small>
 `;
 const myResume = `
-  Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos
-  e sou Desenvolvedor JAVASCRIPT, minhas principais stacks atualmente são nodeJS e BlockChain</strong>
+  Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos, 
+  Desenvolvedor Javascript, minhas principais stacks atualmente são <strong>nodeJS e BlockChain</strong>
 `;
 const socialLinks = `
   <a class='link' target='_blank' href='${profile.social.curriculum}'>
