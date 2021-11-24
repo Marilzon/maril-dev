@@ -6,6 +6,7 @@ const profile = {
   education: '  Analise e Desenvolvimento de Sistemas - Estácio de Sá (2020-2022)',
   courses: [
     '  Inglês Básico, CNA',
+    '  Programação Shell Script, UDEMY',
     '  Blockchain com NODEJS, UDEMY'
   ],
   social: {
@@ -29,7 +30,7 @@ const profile = {
     'HTML5',
     'CSS 3',
     'JavaScript: NodeJS, ReactJS',
-    'Blockchain',
+    'Blockchain com node.js',
   ],
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
@@ -108,6 +109,7 @@ const courses = `
   <h4>Cursos:</h4>
   <li>${profile.courses[0]}</li>
   <li>${profile.courses[1]}</li>
+  <li>${profile.courses[2]}</li>
 `;
 const skills = `
   <h4>Habilidades:</h4>
