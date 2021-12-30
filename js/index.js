@@ -35,6 +35,7 @@ const profile = {
   portfolio: [
     'https://marilzon.github.io/handlerArrays',
     'https://marilzon.github.io/FizzBuzz',
+    'https://marilzon.github.io/airplane-game/',
   ],
 };
 
@@ -125,7 +126,7 @@ const projects = `
       handlerArrays
       <hr/>
       <small class='subtitle'>
-        Projeto que demonstra manipulaoes de Arrays com funcões JavaScript
+        Projeto que demonstra manipulaoes de Arrays com funcões JavaScript.
       </small>
     </a>
 
@@ -133,7 +134,15 @@ const projects = `
       FizzBuzz
       <hr/>
       <small class='subtitle'>
-        Jogo de números baseado em funções JavaScript e CSS 3
+        Jogo de números baseado em funções JavaScript e CSS 3.
+      </small>
+    </a>
+
+    <a class='project' href='${profile.portfolio[2]}' target='_blank'>
+      Airplane Game
+      <hr/>
+      <small class='subtitle'>
+        Jogo de combate de helicopteros e resgate de refem, feito em HTML5 CSS3 e JS com jQuery.
       </small>
     </a>
   </div>
