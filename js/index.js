@@ -7,7 +7,10 @@ const profile = {
   courses: [
     '  Inglês Básico, CNA',
     '  Programação Shell Script, UDEMY',
-    '  Blockchain com NODEJS, UDEMY'
+    '  Blockchain com NODEJS, UDEMY',
+    '  Blockchain Avançado, FIAP',
+    '  Python, FIAP',
+
   ],
   social: {
     phone: '(14) 9 9140-9482',
@@ -36,6 +39,7 @@ const profile = {
     'https://marilzon.github.io/handlerArrays',
     'https://marilzon.github.io/FizzBuzz',
     'https://marilzon.github.io/airplane-game/',
+    'https://github.com/Marilzon/coin-scraping',
   ],
 };
 
@@ -62,11 +66,11 @@ function copyValue() {
 
 const title = `
   <h1>Maril</h1>
-  <small class='subtitle'>Desenvolvedor nodeJS</small>
+  <small class='subtitle'>Desenvolvedor Backend</small>
 `;
 const myResume = `
-  Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos, 
-  Desenvolvedor Javascript, minhas principais stacks atualmente são <strong>nodeJS e BlockChain</strong>
+  Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos,
+   minhas principais stacks atualmente são <strong>Python, Javascript e BlockChain</strong>
 `;
 const socialLinks = `
   <a class='link' target='_blank' href='${profile.social.curriculum}'>
@@ -111,6 +115,8 @@ const courses = `
   <li>${profile.courses[0]}</li>
   <li>${profile.courses[1]}</li>
   <li>${profile.courses[2]}</li>
+  <li>${profile.courses[3]}</li>
+  <li>${profile.courses[4]}</li>
 `;
 const skills = `
   <h4>Habilidades:</h4>
@@ -143,6 +149,14 @@ const projects = `
       <hr/>
       <small class='subtitle'>
         Jogo de combate de helicopteros e resgate de refem, feito em HTML5 CSS3 e JS com jQuery.
+      </small>
+    </a>
+
+    <a class='project' href='${profile.portfolio[3]}' target='_blank'>
+      Coin Scrapy
+      <hr/>
+      <small class='subtitle'>
+        Script em python para listar as 40 criptomoedas com maior volume.
       </small>
     </a>
   </div>
