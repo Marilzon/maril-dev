@@ -39,7 +39,6 @@ const profile = {
     'https://marilzon.github.io/handlerArrays',
     'https://marilzon.github.io/FizzBuzz',
     'https://marilzon.github.io/airplane-game/',
-    'https://github.com/Marilzon/coin-scraping',
   ],
 };
 
@@ -66,11 +65,11 @@ function copyValue() {
 
 const title = `
   <h1>Maril</h1>
-  <small class='subtitle'>Desenvolvedor Backend</small>
+  <small class='subtitle'>SQL | Python | Javascript</small>
 `;
 const myResume = `
   Olá, sou <u>${profile.name}</u> moro atualmente em ${profile.city}, tenho ${profile.age} anos,
-   minhas principais stacks atualmente são <strong>Python, Javascript e BlockChain</strong>
+   minhas principais stacks atualmente são <strong>Python, Javascript e SQL</strong>
 `;
 const socialLinks = `
   <a class='link' target='_blank' href='${profile.social.curriculum}'>
@@ -132,7 +131,7 @@ const projects = `
       handlerArrays
       <hr/>
       <small class='subtitle'>
-        Projeto que demonstra manipulaoes de Arrays com funcões JavaScript.
+        Projeto que demonstra manipulações de Arrays com funcões JavaScript.
       </small>
     </a>
 
@@ -152,13 +151,6 @@ const projects = `
       </small>
     </a>
 
-    <a class='project' href='${profile.portfolio[3]}' target='_blank'>
-      Coin Scrapy
-      <hr/>
-      <small class='subtitle'>
-        Script em python para listar as 40 criptomoedas com maior volume.
-      </small>
-    </a>
   </div>
 `;
 addElement(`div class='title'`, title);
