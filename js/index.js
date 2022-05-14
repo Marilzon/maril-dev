@@ -2,7 +2,7 @@
 const profile = {
   name: 'Marilzon de Sousa',
   city: 'Lençóis Paulista - SP',
-  age: 29,
+  age: 30,
   education: '  Analise e Desenvolvimento de Sistemas - Estácio de Sá (2020-2022)',
   courses: [
     '  Inglês Básico, CNA',
@@ -19,7 +19,6 @@ const profile = {
 
     linkedin: 'https://www.linkedin.com/in/marilzon',
     github: 'https://github.com/Marilzon',
-    curriculum: 'https://github.com/Marilzon/maril-dev/blob/master/Marilzon%20%20de%20Sousa%20-%20CURRICULO.pdf',
   },
   images: {
     curriculumSvg: './images/curriculum.svg',
@@ -32,6 +31,7 @@ const profile = {
   skills: [
     'HTML5',
     'CSS 3',
+    'Banco de Dados',
     'JavaScript: NodeJS, ReactJS',
     'Blockchain com node.js',
   ],
