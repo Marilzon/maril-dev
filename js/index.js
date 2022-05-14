@@ -72,10 +72,6 @@ const myResume = `
    minhas principais stacks atualmente são <strong>Python, Javascript e SQL</strong>
 `;
 const socialLinks = `
-  <a class='link' target='_blank' href='${profile.social.curriculum}'>
-    <img class='svg' src='${profile.images.curriculumSvg}' alt='Curriculo logo'>
-    Curriculo
-  </a>
   <a class='link' target='_blank' href='${profile.social.github}'>
     <img class='svg' src='${profile.images.githubSvg}' alt='Github logo'>
     Github
