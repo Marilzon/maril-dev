@@ -13,7 +13,7 @@ const profile = {
 
   ],
   social: {
-    phone: '(14) 9 9140-9482',
+    phone: '(14) 9 9669-9573',
     whatsapp: 'https://api.whatsapp.com/send?phone=5514991409482&text=Ol%C3%A1%20marilzon!',
     email: 'maxmaril@hotmail.com',
 
