@@ -1,0 +1,83 @@
+:root {
+  --lightblue-50: rgb(225, 245, 254);
+  --grey-700: rgb(76, 76, 76);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  background-color: var(--lightblue-50);
+}
+
+.root {
+  width: 100vw;
+  padding: 0.8rem;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myself-image {
+  background: #fff center/cover url('../images/marilzon.png') no-repeat;
+
+  width: 160px;
+  height: 160px;
+  border-radius: 9999px;
+  transition: 0.1s ease-in-out;
+}
+
+.frontend-illustration {
+  background:  center/cover url('../images/front-end.png') no-repeat;
+  transition: 0.1s ease-in-out;
+
+  width: 16.25rem;
+  height: 16.25rem;
+}
+
+.myself:hover {
+  transform: rotate(12deg);
+  background-color: #fff;
+}
+
+.subtitle-color {
+  color: var(--grey-700);
+  animation: float 6s ease-in-out infinite;
+  margin-top: 1rem;
+}
+
+.description-paragraph {
+  color: var(--grey-700);
+  padding: 0.3rem 6rem;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
