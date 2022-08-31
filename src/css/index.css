@@ -14,9 +14,11 @@ body {
   width: 100%;
 }
 
-.subtitle-color {
+.subtitle {
+  width: 100%;
   animation: float 6s ease-in-out infinite;
   margin-top: 1rem;
+  text-align: center;
 }
 
 @keyframes float {
@@ -42,10 +44,6 @@ body {
     color: #fff;
   }
 
-  .root {
-    width: 100
-  }
-
   .myself-image {
     display: none;
   }
@@ -57,13 +55,19 @@ body {
     font-size: 1.2rem;
   }
 
+  .title {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 0;
+  }
+
   .my-skills {
     display: flex;
     flex-direction: column;
     padding: 2rem;
   }
 
-  .skills-container {
+  .skills-scope {
     display: flex;
     flex-wrap: wrap;
     gap: 0.25rem;
@@ -74,6 +78,13 @@ body {
     background-color: #86af49;
     color: #fff;
     border-radius: 6pxpx;
+  }
+
+  .before-mark::before { 
+    content: "•";
+    color: #b5e7a0;
+    font-weight: bold;
+    padding-right: 0.5rem;
   }
   
 }
