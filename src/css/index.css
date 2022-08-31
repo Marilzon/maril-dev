@@ -44,8 +44,20 @@ body {
     color: #fff;
   }
 
-  .myself-image {
-    display: none;
+  .social-scope {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .social-link {
+    padding: 0.3rem;
+    text-decoration: none;
+    color: #86af49;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 0.3rem;
   }
 
   .description-paragraph {
@@ -64,7 +76,7 @@ body {
   .my-skills {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 0.2rem 2rem;
   }
 
   .skills-scope {
