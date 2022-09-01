@@ -21,70 +21,6 @@ body {
   text-align: center;
 }
 
-@media only screen and (min-width: 721px) {
-  
-.about-me {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 1rem;
-  background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
-  color: #fff;
-}
-
-.title {
-  display: block;
-  text-align: left;
-  margin: 0.5rem 0;
-}
-
-.social-link {
-  display: flex;
-  margin: 2px;
-  padding-left: 0.25rem;
-
-  text-decoration: none;
-  border-left: 0.125rem solid #fff;
-  color: rgb(255, 255, 255);
-}
-
-.description-paragraph {
-  margin: 0.3rem 1rem;
-  padding: 3rem;
-  color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-}
-
-.myself-scope {
-  display: flex;
-  flex-direction: column;
-  padding: 0.2rem 2rem;
-}
-
-.skill-badge {
-  width: min-content;
-  padding: 0.3rem 0.8rem;
-  background-color: rgb(134, 175, 73);
-  color: #fff;
-  border-radius: 2px;
-  margin: 0.125rem;
-  float: left;
-}
-
-.project-link {
-  text-decoration: none;
-  font-weight: 600;
-  color: rgb(57, 120, 24);
-}
-
-.before-mark::before { 
-  content: "•";
-  color: #397818;
-  font-weight: bold;
-  padding-right: 0.5rem;
-  margin-left: 0.125rem;
-}
-
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -96,6 +32,81 @@ body {
 		transform: translatey(0px);
 	}
 }
+
+@media only screen and (min-width: 721px) {
+
+  .about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
+    color: #fff;
+  }
+
+  .title {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0;
+  }
+
+  .social-link {
+    display: flex;
+    margin: 2px;
+    padding-left: 0.25rem;
+
+    text-decoration: none;
+    border-left: 0.125rem solid #fff;
+    color: rgb(255, 255, 255);
+  }
+
+  .description-paragraph {
+    margin: 0.3rem 1rem;
+    padding: 3rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+  }
+
+  .grid-scope {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .myself-scope {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem 2rem;
+  }
+
+  .skill-badge {
+    width: min-content;
+    padding: 0.3rem 0.8rem;
+    background-color: rgb(134, 175, 73);
+    color: #fff;
+    border-radius: 2px;
+    margin: 0.125rem;
+    float: left;
+  }
+
+  .project-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(57, 120, 24);
+  }
+
+  .before-mark::before {
+    content: "•";
+    color: #397818;
+    font-weight: bold;
+    padding-right: 0.5rem;
+    margin-left: 0.125rem;
+  }
+
+  .frontend-illustration-img {
+    width: 80%;
+    border-radius: 2px;
+  }
+
 }
 
 @media only screen and (max-width: 720px) {
@@ -158,7 +169,7 @@ body {
     border-radius: 6px;
   }
 
-  .before-mark::before { 
+  .before-mark::before {
     content: "•";
     color: #397818;
     font-weight: bold;
@@ -170,5 +181,9 @@ body {
     font-weight: 600;
     color: rgb(57, 120, 24);
   }
-  
+
+  .frontend-illustration-img {
+    display: none;
+  }
+
 }
