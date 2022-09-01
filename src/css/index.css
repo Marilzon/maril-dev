@@ -21,6 +21,70 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 721px) {
+  
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
+  color: #fff;
+}
+
+.title {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0;
+}
+
+.social-link {
+  display: flex;
+  margin: 2px;
+  padding-left: 0.25rem;
+
+  text-decoration: none;
+  border-left: 0.125rem solid #fff;
+  color: rgb(255, 255, 255);
+}
+
+.description-paragraph {
+  margin: 0.3rem 1rem;
+  padding: 3rem;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+.myself-scope {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 2rem;
+}
+
+.skill-badge {
+  width: min-content;
+  padding: 0.3rem 0.8rem;
+  background-color: rgb(134, 175, 73);
+  color: #fff;
+  border-radius: 2px;
+  margin: 0.125rem;
+  float: left;
+}
+
+.project-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(57, 120, 24);
+}
+
+.before-mark::before { 
+  content: "•";
+  color: #397818;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  margin-left: 0.125rem;
+}
+
 @keyframes float {
 	0% {
 		transform: translatey(0px);
@@ -32,7 +96,7 @@ body {
 		transform: translatey(0px);
 	}
 }
-
+}
 
 @media only screen and (max-width: 720px) {
   html {
@@ -40,7 +104,7 @@ body {
   }
 
   .about-me {
-    background: linear-gradient(110deg, #86af49 60%, #b5e7a0 60%);
+    background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
     color: #fff;
   }
 
@@ -54,7 +118,7 @@ body {
   .social-link {
     padding: 0.3rem;
     text-decoration: none;
-    color: #86af49;
+    color: rgb(134, 175, 73);
     background-color: #fff;
     border-radius: 2px;
     margin-bottom: 0.3rem;
@@ -64,6 +128,8 @@ body {
     margin: 0.3rem 1rem;
     padding: 0 1rem;
     border-left: 0.1875rem solid rgb(134, 175, 73);
+    border-radius: 0;
+    background: transparent;
     font-size: 1.2rem;
   }
 
@@ -73,7 +139,7 @@ body {
     padding: 0.8rem 0;
   }
 
-  .my-skills {
+  .myself-scope {
     display: flex;
     flex-direction: column;
     padding: 0.2rem 2rem;
@@ -87,16 +153,22 @@ body {
 
   .skill-badge {
     padding: 0.3rem 0.8rem;
-    background-color: #86af49;
+    background-color: rgb(134, 175, 73);
     color: #fff;
-    border-radius: 6pxpx;
+    border-radius: 6px;
   }
 
   .before-mark::before { 
     content: "•";
-    color: #b5e7a0;
+    color: #397818;
     font-weight: bold;
     padding-right: 0.5rem;
+  }
+
+  .project-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(57, 120, 24);
   }
   
 }
