@@ -102,8 +102,15 @@ body {
     margin-left: 0.125rem;
   }
 
+  .illustration-scope {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .frontend-illustration-img {
-    width: 80%;
+    width: 26rem;
     border-radius: 2px;
   }
 
