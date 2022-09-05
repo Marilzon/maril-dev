@@ -53,11 +53,11 @@ body {
   .social-link {
     display: flex;
     margin: 2px;
-    padding-left: 0.25rem;
+    padding: 0.25rem;
 
     text-decoration: none;
-    border-left: 0.125rem solid #fff;
     color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.134);
   }
 
   .description-paragraph {
