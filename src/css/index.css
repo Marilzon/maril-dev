@@ -50,11 +50,15 @@ body {
     margin: 0.5rem 0;
   }
 
+  .social-scope {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
   .social-link {
     display: flex;
-    margin: 2px;
-    padding: 0.25rem;
-
+    padding: 0.25rem 4rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.134);
@@ -135,17 +139,27 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 4px;
     background-color: rgb(255, 255, 255);
 
     position: fixed;
     bottom: 0;
   }
 
+  .social-scope a:nth-child(1) {
+    background-color: rgb(134, 175, 73);
+  }
+
+  .social-scope a:nth-child(2) {
+    background-color: rgb(57, 120, 24)
+  }
+
+  .social-scope a:nth-child(3) {
+    background-color: rgb(134, 175, 73);
+  }
+
   .social-link {
     display: flex;
     flex: 1;
-    background-color: rgb(134, 175, 73);
     color: rgb(255, 255, 255);
     text-decoration: none;
     justify-content: center;
@@ -203,7 +217,8 @@ body {
 
   .project-item-scope {
     margin-top: 0.5rem;
-    border: 1px solid rgb(191, 191, 191);
+    padding: 0 0.1rem;
+    border: 2px solid rgb(134, 175, 73);
   }
 
   .frontend-illustration-img {
