@@ -96,7 +96,7 @@ body {
 
   .project-item-scope {
     margin-top: 0.5rem;
-    border-bottom: 1px solid rgb(191, 191, 191);
+    border-bottom: 5px solid rgb(134, 175, 73)
   }
 
   .before-mark::before {
@@ -203,7 +203,7 @@ body {
 
   .project-item-scope {
     margin-top: 0.5rem;
-    border-bottom: 1px solid rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
   }
 
   .frontend-illustration-img {
