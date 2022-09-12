@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .subtitle {
+    width: 100%;
+    animation: float 6s ease-in-out infinite;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  @keyframes float {
+      0% {
+          transform: translatey(0px);
+      }
+      50% {
+          transform: translatey(-20px);
+      }
+      100% {
+          transform: translatey(0px);
+      }
+  }
+  
+  @media only screen and (min-width: 721px) {
+  
+    .about-me {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0 1rem;
+      background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
+      color: rgb(255, 255, 255);
+    }
+  
+    .title {
+      display: block;
+      text-align: left;
+      margin: 0.5rem 0;
+    }
+  
+    .social-scope {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+  
+    .social-link {
+      display: flex;
+      padding: 0.25rem 4rem;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background-color: rgba(255, 255, 255, 0.134);
+      cursor: pointer;
+    }
+  
+    .description-paragraph {
+      margin: 0.3rem 1rem;
+      padding: 3rem;
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+    }
+  
+    .grid-scope {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .myself-scope {
+      display: flex;
+      flex-direction: column;
+      padding: 0.2rem 2rem;
+      background-color: rgba(255, 255, 255, 0.132);
+      margin-left: 5%;
+    }
+  
+    .skill-badge {
+      width: min-content;
+      padding: 0.3rem 0.8rem;
+      background-color: rgb(134, 175, 73);
+      color: rgb(255, 255, 255);
+      border-radius: 2px;
+      margin: 0.125rem;
+      float: left;
+    }
+  
+    .project-link {
+      text-decoration: none;
+      font-weight: 600;
+      color: rgb(57, 120, 24);
+    }
+  
+    .project-item-scope {
+      margin-top: 0.5rem;
+      border-bottom: 5px solid rgb(134, 175, 73)
+    }
+  
+    .before-mark::before {
+      content: "•";
+      color: rgb(57, 120, 24);
+      font-weight: bold;
+      padding-right: 0.125rem;
+      margin-left: 0.125rem;
+    }
+  
+    .illustration-scope {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .frontend-illustration-img {
+      width: 26rem;
+      border-radius: 2px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
+  
+    .about-me {
+      background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
+      color: #fff;
+    }
+  
+    .social-scope {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background-color: rgb(255, 255, 255);
+  
+      position: fixed;
+      bottom: 0;
+    }
+  
+    .social-scope a:nth-child(1) {
+      background-color: rgb(134, 175, 73);
+    }
+  
+    .social-scope a:nth-child(2) {
+      background-color: rgb(57, 120, 24)
+    }
+  
+    .social-scope a:nth-child(3) {
+      background-color: rgb(134, 175, 73);
+    }
+
+    .social-scope a:nth-child(4) {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+  
+    .social-link {
+      display: flex;
+      flex: 1;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      justify-content: center;
+      cursor: pointer;
+  
+      padding: 0.3rem 0;
+      margin-bottom: 0.3rem;
+    }
+  
+    .description-paragraph {
+      margin: 0.3rem 1rem;
+      padding: 0 1rem;
+      border-left: 0.1875rem solid rgb(134, 175, 73);
+      border-radius: 0;
+      background: transparent;
+      font-size: 1.2rem;
+    }
+  
+    .title {
+      width: 100%;
+      text-align: center;
+      padding: 0.8rem 0;
+    }
+  
+    .myself-scope {
+      display: flex;
+      flex-direction: column;
+      padding: 0.2rem 2rem 4rem 2rem;
+    }
+  
+    .skills-scope {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+  
+    .skill-badge {
+      padding: 0.3rem 0.8rem;
+      background-color: rgb(134, 175, 73);
+      color: #fff;
+      border-radius: 6px;
+    }
+  
+    .before-mark::before {
+      content: "•";
+      color: #397818;
+      font-weight: bold;
+      padding-right: 0.5rem;
+    }
+  
+    .project-link {
+      text-decoration: none;
+      font-weight: 600;
+      color: rgb(57, 120, 24);
+    }
+  
+    .project-item-scope {
+      margin-top: 0.5rem;
+      padding: 0 0.1rem;
+      border: 2px solid rgb(134, 175, 73);
+    }
+  
+    .frontend-illustration-img {
+      display: none;
+    }
+  
+  }

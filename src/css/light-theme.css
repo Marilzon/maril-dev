@@ -41,7 +41,7 @@ body {
     align-items: center;
     padding: 0 1rem;
     background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
 
   .title {
@@ -62,6 +62,7 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.134);
+    cursor: pointer;
   }
 
   .description-paragraph {
@@ -80,13 +81,14 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0.2rem 2rem;
+    margin-left: 5%;
   }
 
   .skill-badge {
     width: min-content;
     padding: 0.3rem 0.8rem;
     background-color: rgb(134, 175, 73);
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 2px;
     margin: 0.125rem;
     float: left;
@@ -131,7 +133,7 @@ body {
 
   .about-me {
     background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
 
   .social-scope {
@@ -157,12 +159,17 @@ body {
     background-color: rgb(134, 175, 73);
   }
 
+  .social-scope a:nth-child(4) {
+    background-color: rgb(44, 44, 44);
+  }
+
   .social-link {
     display: flex;
     flex: 1;
     color: rgb(255, 255, 255);
     text-decoration: none;
     justify-content: center;
+    cursor: pointer;
 
     padding: 0.3rem 0;
     margin-bottom: 0.3rem;
@@ -198,7 +205,7 @@ body {
   .skill-badge {
     padding: 0.3rem 0.8rem;
     background-color: rgb(134, 175, 73);
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 6px;
   }
 
