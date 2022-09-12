@@ -175,10 +175,6 @@ body {
     background-color: rgb(134, 175, 73);
   }
 
-  .social-scope a:nth-child(4) {
-    background-color: rgb(44, 44, 44);
-  }
-
   .social-link {
     display: flex;
     flex: 1;
