@@ -42,12 +42,14 @@
   }
 
   @media only screen and (min-width: 721px) {
-  
+    .root {
+      padding: 0 10%;
+    }
+    
     .about-me {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      padding: 0 1rem;
     }
   
     .title {
@@ -73,14 +75,12 @@
     }
   
     .description-paragraph {
-      padding: 3rem;
       font-size: 1.2rem;
     }
   
     .myself-scope {
       display: flex;
       flex-direction: column;
-      padding: 0.2rem 2rem;
     }
   
     .skill-badge {
