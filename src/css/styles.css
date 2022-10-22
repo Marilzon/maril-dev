@@ -117,6 +117,10 @@
       margin: 0.125rem;
       float: left;
     }
+
+    .projects-scope {
+      padding: 0.2rem 2rem 4rem 2rem;
+    }
   
     .project-link {
       text-decoration: none;
@@ -126,7 +130,7 @@
   
     .project-item-scope {
       margin-top: 0.5rem;
-      border-bottom: 5px solid rgb(134, 175, 73)
+      border-bottom: 5px solid rgb(134, 175, 73);
     }
   
     .before-mark::before {
@@ -135,17 +139,6 @@
       font-weight: bold;
       padding-right: 0.125rem;
       margin-left: 0.125rem;
-    }
-  
-    .illustration-scope {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .frontend-illustration-img {
-      width: 26rem;
-      border-radius: 2px;
     }
   
   }
@@ -235,6 +228,9 @@
       font-weight: bold;
       padding-right: 0.5rem;
     }
+    .projects-scope {
+      padding: 0.2rem 2rem 4rem 2rem;
+    }
   
     .project-link {
       text-decoration: none;
@@ -246,10 +242,6 @@
       margin-top: 0.5rem;
       padding: 0 0.1rem;
       border: 2px solid rgb(134, 175, 73);
-    }
-  
-    .frontend-illustration-img {
-      display: none;
     }
   
   }
