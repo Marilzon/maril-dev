@@ -12,6 +12,12 @@
   body {
     display: flex;
     width: 100%;
+    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
   }
@@ -21,10 +27,6 @@
     animation: float 6s ease-in-out infinite;
     margin-top: 1rem;
     text-align: center;
-  }
-
-  .theme-btn {
-    animation: backgroundHandler 6s ease-in-out infinite;
   }
   
   @keyframes float {
@@ -39,23 +41,6 @@
       }
   }
 
-  @keyframes backgroundHandler {
-    0% {
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
-    }
-  
-    50% {
-      background-color: rgb(0, 0, 0);
-      color: rgb(255, 255, 255);
-    }
-  
-    100% {
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
-    }
-  }
-  
   @media only screen and (min-width: 721px) {
   
     .about-me {
@@ -63,8 +48,6 @@
       justify-content: space-around;
       align-items: center;
       padding: 0 1rem;
-      background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
-      color: rgb(255, 255, 255);
     }
   
     .title {
@@ -84,32 +67,25 @@
       padding: 0.25rem 4rem;
       text-decoration: none;
       color: rgb(255, 255, 255);
-      background-color: rgba(255, 255, 255, 0.134);
+      background-color: rgb(134, 175, 73);
+      border-radius: 3px;
       cursor: pointer;
     }
   
     .description-paragraph {
-      margin: 0.3rem 1rem;
+      background-color: rgba(17, 17, 17, 0.552);
       padding: 3rem;
-      color: rgb(255, 255, 255);
       font-size: 1.2rem;
-    }
-  
-    .grid-scope {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
     }
   
     .myself-scope {
       display: flex;
       flex-direction: column;
       padding: 0.2rem 2rem;
-      background-color: rgba(255, 255, 255, 0.132);
-      margin-left: 5%;
     }
   
     .skill-badge {
-      width: min-content;
+      width: fit-content;
       padding: 0.3rem 0.8rem;
       background-color: rgb(134, 175, 73);
       color: rgb(255, 255, 255);
@@ -119,18 +95,22 @@
     }
 
     .projects-scope {
-      padding: 0.2rem 2rem 4rem 2rem;
+      display: flex;
+      flex-direction: column;
     }
   
     .project-link {
       text-decoration: none;
       font-weight: 600;
-      color: rgb(57, 120, 24);
+      color: rgb(80, 200, 16);
     }
   
     .project-item-scope {
       margin-top: 0.5rem;
-      border-bottom: 5px solid rgb(134, 175, 73);
+    }
+
+    .project-item-scope:hover {
+      background-color: rgba(255, 255, 255, 0.132);
     }
   
     .before-mark::before {
@@ -149,7 +129,7 @@
     }
   
     .about-me {
-      background: linear-gradient(110deg, rgb(134, 175, 73) 60%, rgb(57, 120, 24) 60%);
+      background: rgba(255, 255, 255, 0.134);
       color: #fff;
     }
   
@@ -159,21 +139,18 @@
       justify-content: space-around;
       flex-wrap: wrap;
       background-color: rgb(255, 255, 255);
-  
       position: fixed;
       bottom: 0;
     }
   
     .social-scope a:nth-child(1) {
       background-color: rgb(134, 175, 73);
+      padding: 1rem 0.5rem;
     }
   
     .social-scope a:nth-child(2) {
-      background-color: rgb(57, 120, 24)
-    }
-  
-    .social-scope a:nth-child(3) {
-      background-color: rgb(134, 175, 73);
+      background-color: rgb(57, 120, 24);
+      padding: 1rem 0.5rem;
     }
 
     .social-link {
@@ -189,18 +166,17 @@
     }
   
     .description-paragraph {
-      margin: 0.3rem 1rem;
+      margin: 0 1rem;
       padding: 0 1rem;
-      border-left: 0.1875rem solid rgb(134, 175, 73);
-      border-radius: 0;
-      background: transparent;
       font-size: 1.2rem;
+      border-left: 0.1875rem solid rgb(134, 175, 73);
+      background-color: rgba(17, 17, 17, 0.832);
     }
   
     .title {
       width: 100%;
       text-align: center;
-      padding: 0.8rem 0;
+      padding: 0.2rem 0;
     }
   
     .myself-scope {
@@ -228,20 +204,17 @@
       font-weight: bold;
       padding-right: 0.5rem;
     }
-    .projects-scope {
-      padding: 0.2rem 2rem 4rem 2rem;
-    }
-  
+
     .project-link {
       text-decoration: none;
       font-weight: 600;
-      color: rgb(57, 120, 24);
+      background-color: rgba(17, 17, 17, 0.832);
+      padding: 0.25rem;
+      border-radius: 3px;
+      color: rgb(80, 200, 16);
     }
   
     .project-item-scope {
       margin-top: 0.5rem;
-      padding: 0 0.1rem;
-      border: 2px solid rgb(134, 175, 73);
     }
-  
   }
