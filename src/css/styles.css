@@ -12,14 +12,7 @@
   body {
     display: flex;
     width: 100%;
-    background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: #ffffff;
   }
   
   .subtitle {
@@ -42,14 +35,25 @@
   }
 
   @media only screen and (min-width: 721px) {
+    body {
+      background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: #1a2431;
+    }
+
     .root {
       padding: 0 10%;
     }
     
-    .about-me {
+    .header {
       display: flex;
       justify-content: space-around;
       align-items: center;
+
+      margin-bottom: 3rem;
     }
   
     .title {
@@ -83,10 +87,20 @@
       flex-direction: column;
     }
   
-    .skill-badge {
+    .front-badge {
       width: fit-content;
       padding: 0.3rem 0.8rem;
       background-color: rgb(134, 175, 73);
+      color: rgb(255, 255, 255);
+      border-radius: 2px;
+      margin: 0.125rem;
+      float: left;
+    }
+
+    .back-badge {
+      width: fit-content;
+      padding: 0.3rem 0.8rem;
+      background-color: rgb(71, 71, 71);
       color: rgb(255, 255, 255);
       border-radius: 2px;
       margin: 0.125rem;
@@ -123,6 +137,10 @@
   }
   
   @media only screen and (max-width: 720px) {
+    body {
+      background-color: #1a2431;
+    }
+
     html {
       font-size: 87.5%;
     }
@@ -190,9 +208,16 @@
       gap: 0.25rem;
     }
   
-    .skill-badge {
+    .front-badge {
       padding: 0.3rem 0.8rem;
       background-color: rgb(134, 175, 73);
+      color: #fff;
+      border-radius: 6px;
+    }
+
+    .back-badge {
+      padding: 0.3rem 0.8rem;
+      background-color: rgb(71, 71, 71);
       color: #fff;
       border-radius: 6px;
     }
