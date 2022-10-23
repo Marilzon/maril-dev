@@ -87,7 +87,7 @@
       flex-direction: column;
     }
   
-    .front-badge {
+    .badge-green {
       width: fit-content;
       padding: 0.3rem 0.8rem;
       background-color: rgb(134, 175, 73);
@@ -97,7 +97,7 @@
       float: left;
     }
 
-    .back-badge {
+    .badge-gray {
       width: fit-content;
       padding: 0.3rem 0.8rem;
       background-color: rgb(71, 71, 71);
@@ -208,14 +208,14 @@
       gap: 0.25rem;
     }
   
-    .front-badge {
+    .badge-green {
       padding: 0.3rem 0.8rem;
       background-color: rgb(134, 175, 73);
       color: #fff;
       border-radius: 6px;
     }
 
-    .back-badge {
+    .badge-gray {
       padding: 0.3rem 0.8rem;
       background-color: rgb(71, 71, 71);
       color: #fff;
