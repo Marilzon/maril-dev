@@ -30,6 +30,13 @@ body {
   text-align: center;
 }
 
+.border-botton-light {
+  display: block;
+  padding: .5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -118,7 +125,7 @@ body {
     flex-direction: column;
   }
 
-  .badge-green {
+  .badge-brown {
     width: fit-content;
     padding: 0.3rem 0.8rem;
     background-color: rgb(151, 101, 61);
@@ -171,11 +178,13 @@ body {
   }
 
   .project-item-scope {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background-color: rgba(255, 255, 255, 0.132);
     padding: 0.75rem;
     border-radius: 0.375rem;
-    display: flex;
-    flex-direction: column;
     transition: .2s ease-in-out;
   }
 
@@ -276,7 +285,7 @@ body {
     gap: 0.25rem;
   }
 
-  .badge-green {
+  .badge-brown {
     padding: 0.3rem 0.8rem;
     background-color: rgb(151, 101, 61);
     color: rgb(255, 255, 255);
@@ -316,5 +325,10 @@ body {
     padding: 0.25rem 2rem;
     border-radius: 3px;
     color: rgb(151, 101, 61);
+  }
+  
+  .project-item-stacks {
+    display: flex;
+    gap: 4px;
   }
 }
