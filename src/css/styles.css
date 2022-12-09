@@ -10,17 +10,13 @@ html {
 }
 
 body {
-  background-image: url('../images/impala1967sn.jpg');
+  background-image: url('../images/TheRoadSoFar.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(9, 9, 9);
   color: rgb(255, 255, 255);
-}
-
-.root {
-  background-color: rgba(0, 0, 0, 0.76);
 }
 
 .subtitle {
@@ -97,8 +93,9 @@ body {
   .description-paragraph {
     font-size: 1.2rem;
     max-width: 80%;
-    padding-left: 1rem;
+    padding: 1rem;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.76);
 
     animation-name: animateBorder;
     animation-duration: 4s;
@@ -171,7 +168,10 @@ body {
   .project-link {
     text-decoration: none;
     font-weight: 600;
-    color: rgb(151, 101, 61);
+    background-color: rgb(151, 101, 61);
+    color: rgb(255, 255, 255);
+    padding: .25rem;
+    border-radius: 3px;
 
     display: flex;
     align-items: center;
@@ -190,15 +190,11 @@ body {
 
   .project-item-scope:hover {
     background-color: rgba(0, 0, 0, 0.635);
+    color: #fff;
   }
-
 }
 
 @media only screen and (max-width: 720px) {
-
-  body {
-    background-image: url('../images/TheRoadSoFar.jpg');
-  }
 
   html {
     font-size: 87.5%;
@@ -283,6 +279,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 0.25rem;
+
   }
 
   .badge-brown {
@@ -324,7 +321,7 @@ body {
     background-color: rgba(17, 17, 17, 0.87);
     padding: 0.25rem 2rem;
     border-radius: 3px;
-    color: rgb(151, 101, 61);
+    color: rgb(255, 255, 255);
   }
   
   .project-item-stacks {
