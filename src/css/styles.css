@@ -29,7 +29,6 @@ body {
 .border-botton-light {
   display: block;
   padding: .5rem;
-  text-align: center;
   font-weight: 700;
 }
 
@@ -182,7 +181,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: rgba(255, 255, 255, 0.132);
+    background-color: rgba(42, 42, 50, 255);
     padding: 0.75rem;
     border-radius: 0.375rem;
     transition: .2s ease-in-out;
