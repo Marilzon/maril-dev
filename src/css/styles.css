@@ -10,12 +10,11 @@ html {
 }
 
 body {
-  background-image: url('../images/TheRoadSoFar.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(9, 9, 9);
+  background: linear-gradient(to right, #000428, #004e92); 
   color: rgb(255, 255, 255);
 }
 
@@ -84,7 +83,7 @@ body {
     padding: 0.25rem 4rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(151, 101, 61);
+    background-color: rgb(19, 101, 61);
     border-radius: 3px;
     cursor: pointer;
   }
@@ -121,10 +120,10 @@ body {
     flex-direction: column;
   }
 
-  .badge-brown {
+  .badge-dracula {
     width: fit-content;
     padding: 0.3rem 0.8rem;
-    background-color: rgb(151, 101, 61);
+    background-color: rgb(19, 101, 61);
     color: rgb(255, 255, 255);
     border-radius: 2px;
     margin: 0.125rem;
@@ -167,7 +166,7 @@ body {
   .project-link {
     text-decoration: none;
     font-weight: 600;
-    background-color: rgb(151, 101, 61);
+    background-color: rgb(19, 101, 61);
     color: rgb(255, 255, 255);
     padding: .25rem;
     border-radius: 3px;
@@ -215,12 +214,12 @@ body {
   }
 
   .social-scope a:nth-child(1) {
-    background-color: rgb(151, 101, 61);
+    background-color: rgb(19, 101, 61);
     padding: 1rem 0.5rem;
   }
 
   .social-scope a:nth-child(2) {
-    background-color: rgb(95, 50, 13);
+    background-color: rgb(13, 174, 96);
     padding: 1rem 0.5rem;
   }
 
@@ -250,7 +249,7 @@ body {
 
   @keyframes animateMobileBorder {
     0% {
-      border-left: 0.1875rem solid rgb(151, 101, 61);
+      border-left: 0.1875rem solid rgb(19, 101, 61);
     }
 
     50% {
@@ -258,7 +257,7 @@ body {
     }
 
     100% {
-      border-left: 0.1875rem solid rgb(151, 101, 61);
+      border-left: 0.1875rem solid rgb(19, 101, 61);
     }
   }
 
@@ -281,9 +280,9 @@ body {
 
   }
 
-  .badge-brown {
+  .badge-dracula {
     padding: 0.3rem 0.8rem;
-    background-color: rgb(151, 101, 61);
+    background-color: rgb(19, 101, 61);
     color: rgb(255, 255, 255);
     border-radius: 6px;
   }
