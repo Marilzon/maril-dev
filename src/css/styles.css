@@ -231,12 +231,12 @@ body {
     background-color: rgb(19, 101, 61);
     padding: 1rem 0.5rem;
   }
-
+  
   .social-scope a:nth-child(2) {
     background-color: rgb(13, 174, 96);
     padding: 1rem 0.5rem;
   }
-
+  
   .social-link {
     display: flex;
     flex: 1;
