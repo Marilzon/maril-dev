@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background: linear-gradient(to right, rgb(52,116,211), rgba(73, 139, 224, 255));
+  background: rgb(0, 4, 40);
   color: rgb(255, 255, 255);
 }
 
