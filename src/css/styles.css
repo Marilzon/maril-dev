@@ -38,7 +38,7 @@ body {
   color: rgb(255, 255, 255);
   margin: .25rem;
   padding: .5rem;
-  border-radius: 3px;
+  border-radius: 6px;
 
   display: flex;
   align-items: center;
@@ -182,14 +182,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(255, 255, 255, 0.466);
     padding: 0.75rem;
     border-radius: 0.375rem;
     transition: .2s ease-in-out;
   }
 
   .project-item-scope:hover {
-    background-color: rgba(0, 0, 0, 0.635);
+    background-color: rgba(80, 124, 244, 0.995);
   }
 }
 
@@ -296,7 +296,7 @@ body {
   }
 
   .project-item-scope {
-    background-color: rgba(255, 255, 255, 0.34);
+    background-color: rgba(255, 255, 255, 0.466);
     padding: 0.25rem;
     margin-bottom: .5rem;
     border-radius: 0.375rem;
