@@ -10,6 +10,12 @@ html {
 }
 
 body {
+  background: url("../images/abstract-blue.png")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
   background-color: rgb(2, 57, 140);
   color: rgb(255, 255, 255);
 }
@@ -34,6 +40,7 @@ body {
 }
 
 .project-link {
+  width: 120px;
   text-decoration: none;
   font-weight: 600;
   background-color: rgb(2, 57, 140);
@@ -41,9 +48,6 @@ body {
   margin: .25rem;
   padding: .5rem;
   border-radius: 6px;
-
-  display: flex;
-  align-items: center;
 }
 
 .skills-scope {
@@ -124,19 +128,19 @@ body {
     display: flex;
     padding: 0.25rem 4rem;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    background-color: rgb(2, 57, 140);
-    border: 1px solid #fff;
     border-radius: 3px;
     cursor: pointer;
     transition: .1s ease-in-out;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid rgba(255, 255, 255, 0.643);
   }
 
-  .social-link:hover {
-    background-color: #fff;
-    color: rgb(2, 57, 140);
-    border: 1px solid #fff;
+  .social-scope a:nth-child(1) {
+    background-color: rgb(14, 118, 168);
+  }
+
+  .social-scope a:nth-child(2) {
+    background-color: rgb(23, 21, 21);
   }
 
   .description-paragraph {
@@ -206,7 +210,7 @@ body {
   }
 
   .project-item-scope:hover {
-    background-color: rgba(80, 124, 244, 0.995);
+    filter: brightness(130%);
   }
 }
 
