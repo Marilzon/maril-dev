@@ -6,4 +6,3 @@
 - [X] GITHUB-PAGES: https://marilzon.github.io/maril-dev/
 - [X] LINKEDIN: https://www.linkedin.com/in/marilzon/
 - [X] COUNTRY: BRAZIL
-- [X] REMOTE WORK AWAYS
