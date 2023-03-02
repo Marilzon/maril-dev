@@ -10,13 +10,12 @@ html {
 }
 
 body {
-  background: url("../images/abstract-blue.png")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   
-  background-color: rgb(2, 57, 140);
+  background-color: rgba(40,44,52,255);
   color: rgb(255, 255, 255);
 }
 
@@ -43,7 +42,7 @@ body {
   width: 120px;
   text-decoration: none;
   font-weight: 600;
-  background-color: rgb(2, 57, 140);
+  background-color: rgb(74, 222, 128);
   color: rgb(255, 255, 255);
   margin: .25rem;
   padding: .5rem;
@@ -54,7 +53,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: rgba(40,44,52,255);
   border-radius: 6px;
   padding: 6px;
 }
@@ -66,8 +65,8 @@ body {
   float: left;
 }
 
-.badge-blue {
-  background-color: rgb(2, 57, 140);
+.badge-light-green {
+  background-color: rgb(49, 106, 70);
   color: rgb(255, 255, 255);
 }
 
