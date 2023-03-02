@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
-  background-color: rgba(40,44,52,255);
+  background-color: rgba(55,65,81,255);
   border-radius: 6px;
   padding: 6px;
 }
@@ -202,7 +202,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: rgba(255, 255, 255, 0.466);
+    background-color: rgba(55,65,81,255);
     padding: 0.75rem;
     border-radius: 0.375rem;
     transition: .2s ease-in-out;
