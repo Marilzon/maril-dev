@@ -10,13 +10,13 @@ html {
 }
 
 body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  background-color: rgba(40,44,52,255);
-  color: rgb(255, 255, 255);
+background: url("../images/peakpx.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+
+background-color: rgba(40,44,52,255);
+color: rgb(255, 255, 255);
 }
 
 .title {
@@ -39,10 +39,9 @@ body {
 }
 
 .project-link {
-  width: 120px;
   text-decoration: none;
   font-weight: 600;
-  background-color: rgb(74, 222, 128);
+  background-color: rgb(41, 198, 99);
   color: rgb(255, 255, 255);
   margin: .25rem;
   padding: .5rem;
@@ -53,7 +52,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
-  background-color: rgba(55,65,81,255);
+  background-color: rgba(73, 62, 55, 0.19);
   border-radius: 6px;
   padding: 6px;
 }
@@ -202,14 +201,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: rgba(55,65,81,255);
+    background-color: rgba(73, 62, 55, 0.557);
     padding: 0.75rem;
     border-radius: 0.375rem;
     transition: .2s ease-in-out;
   }
 
   .project-item-scope:hover {
-    filter: brightness(130%);
+    filter: brightness(120%);
   }
 }
 
@@ -289,7 +288,7 @@ body {
   }
 
   .project-item-scope {
-    background-color: rgba(55,65,81,255);
+    background-color: rgba(0, 0, 0, 0.797);
     padding: 0.25rem;
     margin-bottom: .5rem;
     border-radius: 0.375rem;
