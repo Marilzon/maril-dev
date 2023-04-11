@@ -108,15 +108,25 @@ body {
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translateY(0);
   }
-
+  30% {
+    transform: translateY(-15px) rotateZ(-2deg);
+  }
+  45% {
+    transform: translateY(-20px) rotateZ(0deg);
+  }
   50% {
-    transform: translatey(-20px);
+    transform: translateY(-22px) rotateZ(0deg);
   }
-
+  55% {
+    transform: translateY(-20px) rotateZ(0deg);
+  }
+  70% {
+    transform: translateY(-15px) rotateZ(2deg);
+  }
   100% {
-    transform: translatey(0px);
+    transform: translateY(0);
   }
 }
 
