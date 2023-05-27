@@ -6,4 +6,3 @@
 
 - [x] GITHUB-PAGES: https://marilzon.github.io/maril-dev/
 - [x] LINKEDIN: https://www.linkedin.com/in/marilzon/
-- [x] COUNTRY: BRAZIL
