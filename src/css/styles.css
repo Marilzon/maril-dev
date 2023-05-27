@@ -39,7 +39,7 @@ li {
 
 .screen__intro {
   min-height: 320px;
-  max-height: 520px;
+  height: 520px;
 
   border-radius: 12px;
   border: 4px solid rgba(50, 51, 57, 255);
@@ -110,7 +110,36 @@ li {
 }
 
 .profile__photo {
-  width: 180px;
+  width: 150px;
   border-radius: 9999px;
   border: 4px solid rgb(255, 255, 255);
+}
+
+.vertical-heading {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #root {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .skills__container,
+  .projects__container {
+    display: none;
+  }
+
+  .screen__intro {
+    height: 95vh;
+  }
+
+  .opacity__bg {
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
 }
