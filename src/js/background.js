@@ -1,4 +1,4 @@
-const MAX_IMAGE_NUMBER = 6;
+const MAX_IMAGE_NUMBER = 9;
 const IMAGE_PATH =
   "https://cdn.jsdelivr.net/gh/Marilzon/maril-dev@master/src/assets/images/";
 
