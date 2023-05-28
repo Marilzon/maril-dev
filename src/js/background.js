@@ -1,5 +1,5 @@
 const MAX_IMAGE_NUMBER = 13;
-const IMAGE_PATH = "../../assets/images/";
+const IMAGE_PATH = "../../src/assets/images/";
 
 document.addEventListener("DOMContentLoaded", () => {
   setBackground();

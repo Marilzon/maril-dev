@@ -85,7 +85,7 @@ li {
 }
 
 .button__primary {
-  width: 180px;
+  width: 130px;
   background: hsl(120, 90%, 32%);
   color: rgb(255, 255, 255);
   font-weight: 500;
@@ -110,7 +110,7 @@ li {
 }
 
 .profile__photo {
-  width: 150px;
+  width: 130px;
   border-radius: 9999px;
   border: 4px solid rgb(255, 255, 255);
 }
