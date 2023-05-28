@@ -1,6 +1,6 @@
 const MAX_IMAGE_NUMBER = 13;
 const IMAGE_PATH =
-  "https://github.com/Marilzon/maril-dev/blob/master/src/assets/images/";
+  "https://cdn.jsdelivr.net/gh/Marilzon/maril-dev@master/src/assets/images/";
 
 document.addEventListener("DOMContentLoaded", () => {
   setBackground();
